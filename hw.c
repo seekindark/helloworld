@@ -2,5 +2,5 @@
 
 int main()
 {
-  print ("Hello Beijing !\n");
+  print ("Hello Shanghai, Bejing!--missing an enterring\n");
 }
