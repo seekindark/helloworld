@@ -2,5 +2,6 @@
 
 int main()
 {
-  print ("Hello Shanghai, Bejing!--missing an enterring\n");
+  printf ("Hello Shanghai, Bejing!--missing an enterring\n");
+  printf("insert a new line to test git\n");
 }
