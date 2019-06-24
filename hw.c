@@ -2,5 +2,5 @@
 
 int main()
 {
-  print ("Hello Beijing n\!");
+  print ("Hello Beijing !\n");
 }
