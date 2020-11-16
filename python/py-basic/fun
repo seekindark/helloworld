@@ -1,0 +1,41 @@
+#!/usr/bin/python
+# Filename: func_param
+
+def printsum(x, y):
+    print("input x=",x,"y=", y);
+    print("sum=x+y=", x+y)
+
+
+def printMax(a, b):
+    if a > b:
+        print (a, 'is maximum')
+    else:
+        print(b, "is maximum")
+        
+x= "21aa"; y="2a"
+
+printsum(x, y);
+
+
+printMax(x, y)
+print("=======================================")
+
+def func(x):
+    print( 'x is', x)
+    x = 2
+    print('Changed local x to', x)
+
+x = 50
+func(x)
+print ('x is still', x )
+print("================end of fun=======================")
+
+def func(a):
+    global x
+    print( 'a is', a)
+    x = 2
+    print('Changed local a to', a)
+
+x = 50
+func(x)
+print ('x is still', x )

@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "test_qt_1"
+		},
+		{
+			"path": "..\\Qt"
+		},
+		{
+			"path": "..\\..\\..\\Users\\feiac\\AppData\\Local\\Programs\\Python\\Python37\\Lib\\site-packages"
+		},
+		{
+			"path": "..\\matplotlib"
+		}
+	],
+	"settings": {}
+}
