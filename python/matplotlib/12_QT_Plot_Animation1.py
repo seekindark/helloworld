@@ -1,5 +1,5 @@
 '''
-  pyqt5的UI中嵌入matplotlib图形并实时刷新
+  pyqt5的UI中嵌入matplotlib图形 
 
 1) 导入模块比较简单，首先声明使用pyqt5，
 2) 通过FigureCanvasQTAgg创建画布，可以将画布的图像显示到UI，相当于pyqt5的一个控件，后面的绘图就建立在这个画布上，

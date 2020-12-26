@@ -14,31 +14,39 @@ class Ui_MainWindow(object):
     MainWindow.resize(1613, 1308)
     self.centralwidget = QtWidgets.QWidget(MainWindow)
     self.centralwidget.setObjectName("centralwidget")
+
     self.Plot_static = QtWidgets.QGroupBox(self.centralwidget)
     self.Plot_static.setGeometry(QtCore.QRect(260, 30, 861, 391))
     self.Plot_static.setObjectName("Plot_static")
+    
     self.layoutWidget = QtWidgets.QWidget(self.centralwidget)
     self.layoutWidget.setGeometry(QtCore.QRect(300, 830, 701, 91))
     self.layoutWidget.setObjectName("layoutWidget")
+    
     self.horizontalLayout = QtWidgets.QHBoxLayout(self.layoutWidget)
     self.horizontalLayout.setContentsMargins(0, 0, 0, 0)
     self.horizontalLayout.setSpacing(28)
     self.horizontalLayout.setObjectName("horizontalLayout")
+
     self.Static_plot = QtWidgets.QPushButton(self.layoutWidget)
+    
     sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.MinimumExpanding)
     sizePolicy.setHorizontalStretch(0)
     sizePolicy.setVerticalStretch(0)
     sizePolicy.setHeightForWidth(self.Static_plot.sizePolicy().hasHeightForWidth())
     self.Static_plot.setSizePolicy(sizePolicy)
+    
     font = QtGui.QFont()
     font.setFamily("楷体")
     font.setPointSize(18)
     font.setBold(False)
     font.setWeight(50)
+    
     self.Static_plot.setFont(font)
     self.Static_plot.setObjectName("Static_plot")
     self.horizontalLayout.addWidget(self.Static_plot)
     self.dynamic_plot = QtWidgets.QPushButton(self.layoutWidget)
+    
     sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.MinimumExpanding)
     sizePolicy.setHorizontalStretch(0)
     sizePolicy.setVerticalStretch(0)
@@ -58,6 +66,7 @@ class Ui_MainWindow(object):
     sizePolicy.setVerticalStretch(0)
     sizePolicy.setHeightForWidth(self.End_plot.sizePolicy().hasHeightForWidth())
     self.End_plot.setSizePolicy(sizePolicy)
+    
     font = QtGui.QFont()
     font.setFamily("楷体")
     font.setPointSize(18)
