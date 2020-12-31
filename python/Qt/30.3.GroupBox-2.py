@@ -32,7 +32,7 @@ class App(QMainWindow):
         layout.addWidget(self.createGroupBox_pushBotton(), 1, 1)
 
         #  case 1:
-        if False:
+        if True:
             widget = QWidget()
             widget.setLayout(layout)
             self.setCentralWidget(widget)       # 如果时 QMainWindow, layout 只能设置在centralWidget上, 所以是需要一个 widget 作为 centralWdiget

@@ -1,10 +1,10 @@
-from ui_diaglog import Ui_Dialog
+from ui_mainwind import Ui_MainWindow
 
-from PyQt5.QtWidgets import QApplication, QDialog
+from PyQt5.QtWidgets import QApplication, QDialog, QMainWindow
 import sys
 
 
-class Dg_code(Ui_Dialog, QDialog):     #注意：  一定要是先继承 Ui_Dialog, 否则就回出错！！
+class Dg_code(Ui_MainWindow, QMainWindow):     #注意：  一定要是先继承 Ui_Dialog, 否则就回出错！！
     def __init__(self):
         super(Dg_code, self).__init__()
         self.setupUi(self)
