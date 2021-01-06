@@ -91,7 +91,7 @@ class MyMainWind(QMainWindow):
     def createTabWidget(self):
         tab = QTabWidget()
 
-        tab.tabCloseRequested.connect(self.closeTab)
+        tab.tabCloseRequested[int].connect(self.closeTab)    # 带参数 的 pyqtsignal
 
         tab1 = QWidget()
         tab2 = QWidget()
@@ -162,7 +162,7 @@ class MyMainWind(QMainWindow):
         print('remove tab :', idx)
         self.tab.removeTab(idx)
 
-    
+
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)

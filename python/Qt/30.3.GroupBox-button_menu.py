@@ -128,7 +128,7 @@ class App(QMainWindow):
         pushButton4.setMenu(menu)
         
         subMenu = QMenu('subxxx', self)
-        subActions.setMenu(subMenu)
+        subActions.setMenu(subMenu)   #给 菜单 'sub actions' 增加 子菜单
         subMenu.addAction('sub 1')
         subMenu.addAction('sub 2')
         subMenu.addAction('sub 3')
