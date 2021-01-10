@@ -37,7 +37,7 @@ class Example(QWidget):
         if e.key() == Qt.Key_Escape:
             self.close()
         elif e.key() == Qt.Key_E:
-            self.quit()
+            self.close()
         
         
 if __name__ == '__main__':
