@@ -44,6 +44,8 @@ class MyStaticMplCanvas(MyMplCanvas):
         t=a.open
         s=[datetime.strptime(d, '%Y-%m-%d').date() for d in a.index]
 
+        print('t=', t)
+        print('s=', s)
         self.axes.plot(s,t)
 
 
@@ -95,7 +97,7 @@ class ApplicationWindow(QMainWindow):
         self.main_widget.setFocus()
         self.setCentralWidget(self.main_widget)
         # 状态条显示2秒
-        self.statusBar().showMessage("matplotlib 万岁!", 2000)
+        self.statusBar().showMessage("matplotlib 万岁!", 0)
 
     def fileQuit(self):
         self.close()

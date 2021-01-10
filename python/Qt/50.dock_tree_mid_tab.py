@@ -8,8 +8,57 @@ from PyQt5.QtWidgets import (QApplication, QMainWindow, QMenuBar, QMenu,
                              QPlainTextEdit, QFileDialog, QMessageBox,
                              QListWidget, QListWidgetItem, QStackedWidget,
                              QTabWidget, QTreeWidget, QTreeWidgetItem, QDockWidget,
-                             QStatusBar)
+                             QStatusBar, QWidget)
 # import resource_rc
+import random
+import matplotlib
+# Make sure that we are using QT5
+matplotlib.use('Qt5Agg')
+
+from numpy import arange, sin, pi
+from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
+from matplotlib.figure import Figure
+
+perfmon_x = arange(1, 20, 1)
+# define a customized QTreeWidgetItem
+class myQTreeWidgetItem(QTreeWidgetItem):
+    def __init__(self, y):
+        super(myQTreeWidgetItem, self).__init__()
+        self.y = y
+        self.x = perfmon_x
+
+class MyMplCanvas(FigureCanvas):
+    """Ultimately, this is a QWidget (as well as a FigureCanvasAgg, etc.)."""
+
+    # 宽度和长度的单位都是 inch， 英寸， DPI 的含义是 像素/每英寸
+    def __init__(self, parent=None, width=5, height=4, dpi=100, treeWidgetItem = None):
+        fig = Figure(figsize=(width, height), dpi=dpi)
+        self.axes = fig.add_subplot(111)
+
+        self.compute_initial_figure(treeWidgetItem)
+
+        FigureCanvas.__init__(self, fig)
+        self.setParent(parent)
+
+        FigureCanvas.setSizePolicy(self,
+                                   QtWidgets.QSizePolicy.Expanding,
+                                   QtWidgets.QSizePolicy.Expanding)
+        FigureCanvas.updateGeometry(self)
+
+    def compute_initial_figure(self, treeWidgetItem):
+        pass
+
+
+class MyCanvas(MyMplCanvas):
+    """Simple canvas with a sine plot."""
+    def compute_initial_figure(self, treeWidgetItem):
+
+        '''
+        t = arange(0.0, 3.0, 0.01)
+        s = sin(2*pi*t)
+        '''
+        
+        self.axes.plot(treeWidgetItem.x, treeWidgetItem.y)
 
 
 class DemoMdi(QMainWindow):
@@ -62,9 +111,10 @@ class DemoMdi(QMainWindow):
         self.tree.setIndentation(20)  # 项目的缩进
         self.tree.setHeaderHidden(True)
         #设置根节点
-        Perfmon = QTreeWidgetItem()
+
+        Perfmon = myQTreeWidgetItem(sin(pi*perfmon_x))
         Perfmon.setText(0, 'Perfmon')
-        perfmon_00 = QTreeWidgetItem()
+        perfmon_00 = myQTreeWidgetItem(sin(2*pi*perfmon_x))
         perfmon_00.setText(0, 'perfmon_00')
         Perfmon.addChild(perfmon_00)
         perfmon_01 = QTreeWidgetItem()
@@ -91,18 +141,41 @@ class DemoMdi(QMainWindow):
         # treeItem signal
         self.tree.itemClicked[QTreeWidgetItem, int].connect(self.treeItemClicked)
 
+    def treeItemWindow_open(self, item):
+        title = item.text(0)
+        subWind = QMdiSubWindow(self)
+        subWind.setAttribute(Qt.WA_DeleteOnClose)
+        subWind.setWindowTitle(title)
+        self.newDocIndex += 1
+        mainWid = QWidget()
+        l = QtWidgets.QVBoxLayout(mainWid)
+        txtWind = QPlainTextEdit(mainWid)
+        txtWind.setPlainText(f"perfmon.x = {item.x}, \n y = {item.y}")
+        figWind = MyCanvas(mainWid, width=5, height=4, dpi=100, treeWidgetItem = item)
+        l.addWidget(figWind)
+        l.addWidget(txtWind)
+        l.setStretch(0, 3)  # 设置第一列的伸展比例为 3
+        l.setStretch(1, 1)  # 设置第二列的伸展比例为 1， 这样2列的伸展比为3：1
+
+        subWind.setWidget(mainWid)
+        self.mdiArea.addSubWindow(subWind)
+        subWind.show()
+
     def treeItemClicked(self, item, column):
         tab = self.get_treeItem_tab(item.text(column))
         if tab is not None:
             tab.setFocus()
         else:
-            newDoc = QMdiSubWindow(self)
-            newDoc.setAttribute(Qt.WA_DeleteOnClose)
-            newDoc.setWindowTitle(item.text(column))
-            self.newDocIndex += 1
-            newDoc.setWidget(QPlainTextEdit(item.text(column)*10, newDoc))
-            self.mdiArea.addSubWindow(newDoc)
-            newDoc.show()
+            if item.text(column) == 'Perfmon':
+                self.treeItemWindow_open(item)
+            else:
+                newDoc = QMdiSubWindow(self)
+                newDoc.setAttribute(Qt.WA_DeleteOnClose)
+                newDoc.setWindowTitle(item.text(column))
+                self.newDocIndex += 1
+                newDoc.setWidget(QPlainTextEdit(item.text(column)*10, newDoc))
+                self.mdiArea.addSubWindow(newDoc)
+                newDoc.show()
 
 
 
@@ -268,7 +341,7 @@ class DemoMdi(QMainWindow):
         
 
     def onFileOpen(self):
-        path, _ = QFileDialog.getOpenFileName(self, '打开文件', '', '文本文件 (*.txt)')
+        path, _ = QFileDialog.getOpenFileName(self, '打开文件', '', '文本文件 (*.txt, *.prf)')
         if path:
             try:
                 with open(path, 'rU') as f:
