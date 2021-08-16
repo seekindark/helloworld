@@ -31,7 +31,8 @@ class MyMplCanvas(FigureCanvas):
     """Ultimately, this is a QWidget (as well as a FigureCanvasAgg, etc.)."""
 
     # 宽度和长度的单位都是 inch， 英寸， DPI 的含义是 像素/每英寸
-    def __init__(self, parent=None, width=5, height=4, dpi=100, treeWidgetItem = None):
+    def __init__(self, parent=None, width=5, height=4, dpi=100, treeWidgetItem=None):
+        print('MyMplCanvas.__init__() begin')
         fig = Figure(figsize=(width, height), dpi=dpi)
         self.axes = fig.add_subplot(111)
 
@@ -44,21 +45,75 @@ class MyMplCanvas(FigureCanvas):
                                    QtWidgets.QSizePolicy.Expanding,
                                    QtWidgets.QSizePolicy.Expanding)
         FigureCanvas.updateGeometry(self)
+        print('MyMplCanvas.__init__() end')
 
     def compute_initial_figure(self, treeWidgetItem):
+        print('MyMplCanvas.compute_initial_figure')
         pass
 
+'''
+# 绘图
 
+'''
 class MyCanvas(MyMplCanvas):
     """Simple canvas with a sine plot."""
     def compute_initial_figure(self, treeWidgetItem):
-
-        '''
-        t = arange(0.0, 3.0, 0.01)
-        s = sin(2*pi*t)
-        '''
+        print('MyCanvas::compute_initial_figure')
         
-        self.axes.plot(treeWidgetItem.x, treeWidgetItem.y)
+        #self.axes.plot(treeWidgetItem.x, treeWidgetItem.y)
+
+        perfmon_0 = [100,0,0,0,490,
+            11,0,0,0,0,
+            0,0,0,0,1,
+            0,110,0,0,0]
+        perfmon_1 = [201,0,0,0,1490,
+            11,0,0,0,0,
+            0,0,0,0,1000,
+            0,210,0,0,0]
+        labels = ['64c', '128c', '1u', '3 us', '6 us',
+                    '13u', '27u', '54u', '109u', '218u',
+                    '436u', '873us', '1 ms', '3m', '6m',
+                    '13m', '27m', '55m', '111m', '28s']
+
+        bar_width = 0.5
+
+        rects = self.axes.bar(arange(20), perfmon_0, label='perfmon0', color='steelblue', alpha=0.8, width=bar_width, align='center')
+        #self.axes.bar(arange(20)+bar_width/2, perfmon_1, label='perfmon1', color='magenta', alpha=0.8, width=bar_width, align='center')
+        # 添加轴标签
+        self.axes.set_xlabel('Execution Time')
+        self.axes.set_ylabel('Times')
+        # 添加标题
+        self.axes.set_title('QProfile:perfmon')
+        # 添加刻度标签, 注意： 在新3.2之后的版本里，这里需要2步设置 ticket， 先标志位置，然后给定 string Labels
+        self.axes.set_xticks(arange(20))
+        self.axes.set_xticklabels(labels)
+        # 设置Y轴的刻度范围
+        self.axes.set_ylim([0, 1500])
+        # 为每个条形图添加数值标签
+        '''
+        for x0, y0 in enumerate(perfmon_0):
+            if y0 > 0:
+                self.axes.set_text(x0, y0 + 10, '%s' % y0, ha='center')
+        for x0, y0 in enumerate(perfmon_1):
+            if y0 > 0:
+                self.axes.set_text(x0 + bar_width, y0 + 10, '%s' % y0, ha='center')
+        '''
+
+        """Attach a text label above each bar in *rects*, displaying its height."""
+        for rect in rects:
+            height = rect.get_height()
+            if height > 0:
+                self.axes.annotate('{}\n[{},{}]'.format(height, 20, 30),
+                        xy=(rect.get_x() + rect.get_width() / 2, height),
+                        xytext=(0, 3),  # 3 points vertical offset
+                        textcoords="offset points",
+                        ha='center', va='bottom')
+
+
+        # 显示图例
+        self.axes.legend()
+
+        
 
 
 class DemoMdi(QMainWindow):
