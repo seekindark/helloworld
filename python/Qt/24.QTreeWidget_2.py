@@ -52,8 +52,8 @@ class TreeWidgetDemo(QWidget):
 		self.tree.addTopLevelItem(root)
 		self.tree.clicked.connect( self.onTreeClicked )
         		
-		mainLayout = QVBoxLayout(self);
-		mainLayout.addLayout(operatorLayout);
+		mainLayout = QVBoxLayout(self)
+		mainLayout.addLayout(operatorLayout)
 		mainLayout.addWidget(self.tree);		
 		self.setLayout(mainLayout)		
 

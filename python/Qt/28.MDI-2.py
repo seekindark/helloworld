@@ -62,6 +62,7 @@ class SubWin(QMainWindow):
             sub.setWindowTitle("subWindow %d" % self.count)
             self.mdi.addSubWindow(sub)
             sub.show()
+            #sub.hide()
         elif type == "级联":
             self.mdi.cascadeSubWindows()
         elif type == "平铺":
