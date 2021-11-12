@@ -3,4 +3,18 @@
         <file>resource/user.png</file>
         <file>resource/key.png</file>
     </qresource>
+    <qresource prefix="/main">
+        <file>resource/dashboard.ico</file>
+        <file>resource/livecall.ico</file>
+        <file>resource/mic2.ico</file>
+        <file>resource/edit.ico</file>
+        <file>resource/mic1.ico</file>
+        <file>resource/wav.ico</file>
+        <file>resource/tone.ico</file>
+        <file>resource/mic-off.ico</file>
+        <file>resource/mic-on.ico</file>
+        <file>resource/reviewplay.ico</file>
+        <file>resource/reviewstop.ico</file>
+        <file>resource/trash.ico</file>
+    </qresource>
 </RCC>

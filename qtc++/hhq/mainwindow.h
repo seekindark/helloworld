@@ -3,6 +3,10 @@
 
 #include <QMainWindow>
 #include "loginwindow.h"
+#include "widdashboard.h"
+#include "widbroadcast.h"
+#include "widrecoding.h"
+#include "widedit.h"
 
 class MainWindow : public QWidget
 {
@@ -20,6 +24,10 @@ public slots:
     void on_login_closed();
     void on_login_OK(const QString &user_name);
     void on_system_clicked();
+
+    //tabWidget window
+    void on_tabBarClicked(int index);
+    void on_currentChanged(int index);
 private:
     LoginWindow *m_loginWind;
 
@@ -31,10 +39,10 @@ private:
 
     QVBoxLayout *m_vLayout_main;
     QTabWidget *m_tab;
-    QWidget *m_wid_dashboard;
-    QWidget *m_wid_livecall;
-    QWidget *m_wid_newRecord;
-    QWidget *m_wid_editRecord;
+    WidDashboard *m_wid_dashboard;
+    WidBroadCast *m_wid_livecall;
+    WidRecoding *m_wid_newRecord;
+    WidEdit *m_wid_editRecord;
     QWidget *m_wid_logs;
 
     void construct_main();

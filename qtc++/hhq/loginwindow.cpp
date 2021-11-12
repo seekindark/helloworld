@@ -26,7 +26,7 @@ LoginWindow::LoginWindow(QWidget *parent) : QDialog(parent)
     m_lab_title = new QLabel("IHSS-UDE-800", this);
     m_lab_title->setAlignment(Qt::AlignHCenter);
     QFont font = m_wm->font();
-    font.setPointSize(30);
+    font.setPointSize(26);
     font.setBold(true);
     //lab_title->setStyleSheet(QString::fromUtf8("color: white;\n"));
     m_lab_title->setFont(font);
@@ -121,8 +121,8 @@ void LoginWindow::load_img(QLabel *lab, QString filename)
 
 void LoginWindow::on_login_clicked()
 {
-    //if (true)
-    if(m_user->text() == "admin" && m_password->text() == "123")
+    if (true)
+    //if(m_user->text() == "admin" && m_password->text() == "123")
     {
         MyLog(QString("Login successfully with %1").arg(m_user->text()));
         this->close();

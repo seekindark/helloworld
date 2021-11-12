@@ -9,15 +9,27 @@ CONFIG += c++11
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    btnplay.cpp \
+    buttonedit.cpp \
     loginwindow.cpp \
     main.cpp \
     mainwindow.cpp \
-    mylog.cpp
+    mylog.cpp \
+    widbroadcast.cpp \
+    widdashboard.cpp \
+    widedit.cpp \
+    widrecoding.cpp
 
 HEADERS += \
+    btnplay.h \
+    buttonedit.h \
     loginwindow.h \
     mainwindow.h \
-    mylog.h
+    mylog.h \
+    widbroadcast.h \
+    widdashboard.h \
+    widedit.h \
+    widrecoding.h
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

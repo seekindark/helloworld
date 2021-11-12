@@ -11,7 +11,7 @@ MainWindow::MainWindow(QWidget *parent)
     : QWidget(parent)
 {
     // fix size, and disable maximize
-    resize(800, 600);
+    resize(900, 700);
     setWindowFlags(windowFlags() & ~Qt::WindowMaximizeButtonHint);
     setFixedSize(width(), height());
 
@@ -59,8 +59,10 @@ void MainWindow::construct_main()
     m_lab_title->setGeometry(QRect(0, 0, width(), 50));
     m_lab_title->setStyleSheet(QString::fromUtf8("background-color: rgb(60, 60, 160);\n"
                                         "color: white;\n"));//
-    font.setPointSize(20);
+    font.setPointSize(18);
     m_lab_title->setFont(font);
+
+    //warning tips: system is very dangeous!
 
     ///
     m_lab_user = new QLabel(QString("Hello %1").arg(m_user_name), this);
@@ -82,20 +84,35 @@ void MainWindow::construct_main()
     QVBoxLayout *m_vLayout_main = new QVBoxLayout(this);
     m_vLayout_main->setContentsMargins(50,50+20,50,0);
     m_tab = new QTabWidget(this);
+    font.setPointSize(12);
+    //m_tab->setStyleSheet(QString::fromUtf8("background-color:rgb(43, 153, 240) ;\n"
+    //                                             "color: grey;\n"));
+    //set background and other style
+    m_tab->setAttribute(Qt::WA_StyledBackground);
+    m_tab->setStyleSheet("QTabBar::tab{background-color:rgb(100, 200, 220);color:rgb(60, 60, 160);font:11pt 'Arial'}\
+                         QTabBar::tab{margin-right: 10px; margin-left: 0px; height: 35px; min-width: 100px}\
+                         QTabWidget::tab-bar{border-width:0px;}\
+                         QTabBar::tab::selected{background-color:rgb(60, 60, 160);color:white;font:12pt 'Arial'; height: 38px}");
+                         //QTabWidget::pane{border-style: outset;}  //tab and form的边界线上置
+
     m_tab->setFont(font);
     m_tab->setDocumentMode(true);
 
-    m_wid_dashboard = new QWidget(m_tab);
-    m_wid_livecall = new QWidget(m_tab);
-    m_wid_newRecord = new QWidget(m_tab);
-    m_wid_editRecord = new QWidget(m_tab);
-    m_wid_logs = new QWidget(m_tab);
+    m_wid_dashboard = new WidDashboard(m_tab);
+    m_wid_livecall = new WidBroadCast(m_tab);
+    m_wid_newRecord = new WidRecoding(m_tab);
+    m_wid_editRecord = new WidEdit(m_tab);
+    connect(m_tab, SIGNAL(tabBarClicked(int)), this, SLOT(on_tabBarClicked(int)));
+    connect(m_tab, SIGNAL(currentChanged(int)), this, SLOT(on_currentChanged(int)));
 
-    m_tab->addTab(m_wid_dashboard, "Dashboard");
-    m_tab->addTab(m_wid_livecall, "LIVE CALL");
+    m_tab->addTab(m_wid_dashboard, "DASHBOARD");
+    m_tab->addTab(m_wid_livecall, "BROADCAST");
     m_tab->addTab(m_wid_newRecord, "NEW RECORDING");
     m_tab->addTab(m_wid_editRecord, "EDIT RECORDING");
-    m_tab->addTab(m_wid_logs, "LOGS");
+    m_tab->setTabIcon(0, QPixmap(":/main/resource/dashboard.ico"));
+    m_tab->setTabIcon(1, QPixmap(":/main/resource/livecall.ico"));
+    m_tab->setTabIcon(2, QPixmap(":/main/resource/mic1.ico"));
+    m_tab->setTabIcon(3, QPixmap(":/main/resource/edit.ico"));
     m_vLayout_main->addWidget(m_tab, 10);
     setLayout(m_vLayout_main);
 
@@ -143,6 +160,17 @@ void MainWindow::on_system_clicked()
 {
     hide_main_window();
     m_loginWind->show();
+}
+
+
+void MainWindow::on_tabBarClicked(int index)
+{
+    qDebug() << "MainWindow::on_tabBarClicked, indx=" << index <<m_tab->tabText(index) ;
+
+}
+void MainWindow:: on_currentChanged(int index)
+{
+    qDebug() << "MainWindow::on_currentChanged, indx=" << index << m_tab->tabText(index);
 }
 
 void MainWindow::log(const QString &msg)
