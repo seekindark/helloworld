@@ -36,6 +36,11 @@ ButtonEdit::ButtonEdit(Edit_type type, QWidget *parent) :
 
 }
 
+ButtonEdit::~ButtonEdit()
+{
+    qDebug(__FUNCTION__);
+}
+
 void ButtonEdit::on_clicked()
 {
     if(m_type == e_edit_delete)
@@ -46,18 +51,43 @@ void ButtonEdit::on_clicked()
     {
         if(!m_is_playing)
         {
-            setIcon(QIcon(":/main/resource/reviewstop.ico"));
-            setIconSize(QSize(32,32));
-            m_pb->show();
+            start();
         }
         else
         {
-            setIcon(QIcon(":/main/resource/reviewplay.ico"));
-            setIconSize(QSize(32,32));
-            m_pb->hide();
+            stop();
         }
 
-        m_is_playing = !m_is_playing;
         emit bt_play_clicked(m_table_item, m_is_playing);
     }
 }
+
+void ButtonEdit::start()
+{
+    setIcon(QIcon(":/main/resource/reviewstop.ico"));
+    setIconSize(QSize(32,32));
+    m_pb->show();
+    m_pb->setValue(10);
+    m_is_playing = true;
+}
+
+void ButtonEdit::stop()
+{
+    setIcon(QIcon(":/main/resource/reviewplay.ico"));
+    setIconSize(QSize(32,32));
+    m_pb->setValue(0);
+    m_pb->hide();
+    m_is_playing = false;
+}
+
+ void ButtonEdit::set_progress(int val)
+ {
+    if(m_pb != NULL)
+    {
+        m_pb->setValue(val);
+        if(val == 0)
+        {
+            stop();
+        }
+    }
+ }

@@ -17,7 +17,13 @@ class ButtonEdit : public QPushButton
     Q_OBJECT
 public:
     explicit ButtonEdit(Edit_type type, QWidget *parent = nullptr);
+    ~ButtonEdit();
+
     void set_tableItem(const QTableWidgetItem *item) {m_table_item = item;}
+    void set_progress(int val);
+
+    void start();
+    void stop();
 
 
 signals:

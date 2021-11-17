@@ -11,24 +11,30 @@ CONFIG += c++11
 SOURCES += \
     btnplay.cpp \
     buttonedit.cpp \
+    hsecurity.cpp \
     loginwindow.cpp \
     main.cpp \
     mainwindow.cpp \
     mylog.cpp \
     widbroadcast.cpp \
+    widchangepwd.cpp \
     widdashboard.cpp \
     widedit.cpp \
+    widlogs.cpp \
     widrecoding.cpp
 
 HEADERS += \
     btnplay.h \
     buttonedit.h \
+    hsecurity.h \
     loginwindow.h \
     mainwindow.h \
     mylog.h \
     widbroadcast.h \
+    widchangepwd.h \
     widdashboard.h \
     widedit.h \
+    widlogs.h \
     widrecoding.h
 
 # Default rules for deployment.

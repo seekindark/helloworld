@@ -3,6 +3,8 @@
 
 WidBroadCast::WidBroadCast(QWidget *parent) : QWidget(parent)
 {
+    qDebug() << __FUNCTION__;
+
     QFont font;
     font.setFamily(QString::fromUtf8("Arial"));
     font.setPointSize(13);

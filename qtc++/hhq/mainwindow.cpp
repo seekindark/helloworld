@@ -1,3 +1,4 @@
+#include <QApplication> //used for qApp
 #include <QWidget>
 #include <QDebug>
 #include <QDateTime>
@@ -5,7 +6,12 @@
 #include <QHBoxLayout>
 #include <QVBoxLayout>
 #include <QTabWidget>
+#include <QMessageBox>
+#include <QCloseEvent>
 #include "mainwindow.h"
+#include "mylog.h"
+
+
 
 MainWindow::MainWindow(QWidget *parent)
     : QWidget(parent)
@@ -45,7 +51,7 @@ MainWindow::~MainWindow()
 
 void MainWindow::construct_main()
 {
-    qDebug() << __FUNCTION__;
+    qDebug() << ">> " <<__FUNCTION__;
 
     QFont font = this->font();
     font.setFamily("Arial");
@@ -79,7 +85,8 @@ void MainWindow::construct_main()
                                     "color: white;\n"));
     m_bt_system->setFont(font);
     m_bt_system->setGeometry(width()*3/4+50, 10, 100, 30);
-    connect(m_bt_system, SIGNAL(clicked()), this, SLOT(on_system_clicked()));
+
+    construct_system_menu();
 
     QVBoxLayout *m_vLayout_main = new QVBoxLayout(this);
     m_vLayout_main->setContentsMargins(50,50+20,50,0);
@@ -118,7 +125,10 @@ void MainWindow::construct_main()
 
     //it must be hidden right after initiation
     hide_main_window();
+
+    qDebug() << "<< " << __FUNCTION__;
 }
+
 
 void MainWindow::show_main_window()
 {
@@ -156,11 +166,6 @@ void MainWindow::on_login_closed()
     qDebug() << __FUNCTION__;
 }
 
-void MainWindow::on_system_clicked()
-{
-    hide_main_window();
-    m_loginWind->show();
-}
 
 
 void MainWindow::on_tabBarClicked(int index)
@@ -173,11 +178,108 @@ void MainWindow:: on_currentChanged(int index)
     qDebug() << "MainWindow::on_currentChanged, indx=" << index << m_tab->tabText(index);
 }
 
+
+void MainWindow::construct_system_menu()
+{
+
+    qDebug() << " >> " << __FUNCTION__;
+
+    m_sys_menu = new QMenu(m_bt_system);
+    QString style = "QMenu::item:selected { \
+                         background-color:rgb(60, 60, 160);/*选中的样式*/\
+                         }";
+    m_sys_menu->setStyleSheet(style);
+
+    QAction *action_logout = new QAction("Logout");
+    QAction *action_pwd = new QAction("Change Password");
+    QAction *action_settings = new QAction("Settings");
+    QAction *action_logs = new QAction("Logs");
+    QAction *action_exit = new QAction("Exit");
+    m_sys_menu->addActions({action_logout,
+                          action_pwd,
+                          action_settings,
+                          action_logs,
+                          action_exit});
+    m_sys_menu->insertSeparator(action_pwd);
+    m_sys_menu->insertSeparator(action_exit);
+    m_bt_system->setMenu(m_sys_menu);
+
+    connect(action_logout, SIGNAL(triggered()), this, SLOT(on_menu_logout_clicked()));
+    connect(action_pwd, SIGNAL(triggered()), this, SLOT(on_menu_pwd_clicked()));
+    connect(action_settings, SIGNAL(triggered()), this, SLOT(on_menu_setting_clicked()));
+    connect(action_logs, SIGNAL(triggered()), this, SLOT(on_menu_logs_clicked()));
+    connect(action_exit, SIGNAL(triggered()), this, SLOT(on_menu_exit_clicked()));
+
+    qDebug() << "<< " << __FUNCTION__;
+}
+
+void MainWindow::on_menu_logout_clicked()
+{
+    MyLog("Logout");
+    hide_main_window();
+
+    m_loginWind->clear_pwd();
+    m_loginWind->show();
+
+}
+void MainWindow::on_menu_pwd_clicked()
+{
+    qDebug() << __func__;
+    WidChangePwd *m_wid_chgpwd = new WidChangePwd(this);
+    int ret = m_wid_chgpwd->exec();
+    if(ret == QDialog::Accepted)
+    {
+        MyLog("login-password was changed successfully");
+    }
+    else
+    {
+        MyLog("login-password change was cancelled");
+    }
+    delete m_wid_chgpwd;
+}
+void MainWindow::on_menu_setting_clicked()
+{}
+void MainWindow::on_menu_logs_clicked()
+{
+    qDebug() << __func__;
+    MyLog("Check Logs");
+    widLogs *m_wid_logs = new widLogs(this);
+    m_wid_logs ->exec();
+
+    delete m_wid_logs;
+}
+void MainWindow::on_menu_exit_clicked()
+{
+    MyLog("Exit");
+    //qApp->closeAllWindows();
+    qApp->exit();
+}
+
+void MainWindow::closeEvent( QCloseEvent * event )
+{
+   int ret =  QMessageBox::information( this, tr("IHSS-UDE-800"),
+                         tr("Do you really want to quit IHSS-UDE-800?"),
+                         tr("Yes"), tr("No"),
+                         0, 1 );
+    switch(ret)
+    {
+       case 0:
+            event->accept();
+            MyLog("Exit by closing window");
+           break;
+       case 1:
+    default:
+           event->ignore();
+           MyLog("Close-window is cancelled");
+           break;
+    }
+}
+
 void MainWindow::log(const QString &msg)
 {
     QString current_date_time = QDateTime::currentDateTime().toString("yyyy-MM-dd hh:mm:ss ddd");
     //QString current_date = QString("(%1)").arg(current_date_time);
-    QString message = QString("[%1] %2: %3").arg(current_date_time).arg(m_user_name).arg(msg);
+    QString message = QString("[%1] %2: %3").arg(current_date_time, m_user_name, msg);
 
     QFile file("log.txt");
     file.open(QIODevice::WriteOnly | QIODevice::Append);

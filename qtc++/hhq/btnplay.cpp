@@ -6,6 +6,8 @@ BtnPlay::BtnPlay(const QString &text, BT_type type, QWidget *parent) :
     QPushButton(text, parent),
     m_type(type)
 {
+    qDebug() << __FUNCTION__ << text;
+
     static QFont font;
     font.setFamily(QString::fromUtf8("Arial"));
     font.setPointSize(9);
@@ -38,8 +40,6 @@ BtnPlay::BtnPlay(const QString &text, BT_type type, QWidget *parent) :
 
     m_pb = nullptr;
     m_is_played = false;
-
-    qDebug() << "parent=" << parent;
 }
 
 void BtnPlay::on_clicked()
@@ -68,4 +68,9 @@ void BtnPlay::on_clicked()
         m_pb->hide();
         emit stopped(this);
     }
+}
+
+BtnPlay::~BtnPlay()
+{
+    qDebug(__FUNCTION__);
 }

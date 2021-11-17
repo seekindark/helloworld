@@ -7,6 +7,8 @@
 #include "widbroadcast.h"
 #include "widrecoding.h"
 #include "widedit.h"
+#include "widchangepwd.h"
+#include "widlogs.h"
 
 class MainWindow : public QWidget
 {
@@ -19,11 +21,19 @@ public:
     void show_login_window();
 
     void log(const QString &msg);
-
+    void closeEvent( QCloseEvent * event );
 public slots:
     void on_login_closed();
     void on_login_OK(const QString &user_name);
-    void on_system_clicked();
+
+    //system button menu:
+    void on_menu_logout_clicked();
+    void on_menu_pwd_clicked();
+    void on_menu_setting_clicked();
+    void on_menu_logs_clicked();
+    void on_menu_exit_clicked();
+
+
 
     //tabWidget window
     void on_tabBarClicked(int index);
@@ -43,9 +53,12 @@ private:
     WidBroadCast *m_wid_livecall;
     WidRecoding *m_wid_newRecord;
     WidEdit *m_wid_editRecord;
-    QWidget *m_wid_logs;
+
+    QMenu *m_sys_menu;
+
 
     void construct_main();
+    void construct_system_menu();
 
     void show_main_window();
     void hide_main_window();

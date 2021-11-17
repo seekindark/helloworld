@@ -3,14 +3,15 @@
 #include "mainwindow.h"
 #include "loginwindow.h"
 #include "mylog.h"
+#include "hsecurity.h"
 
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
     MainWindow w;
-
-    MyLog("Sytem is starting...");
+    HSecurity *sec = HSecurity::get_instance();
+    MyLog(">>> Sytem is starting...");
 
     QDesktopWidget* desktop = a.desktop();
     w.move((desktop->width() - w.width())/2, (desktop->height() - w.height())/2);
@@ -19,5 +20,9 @@ int main(int argc, char *argv[])
 
     MyLog("Sytem is started successfully");
 
-    return a.exec();
+    int ret = a.exec();
+
+    delete sec;
+
+    return ret;
 }

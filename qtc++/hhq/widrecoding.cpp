@@ -3,6 +3,22 @@
 
 WidRecoding::WidRecoding(QWidget *parent) : QWidget(parent)
 {
+    qDebug() << ">> " << __FUNCTION__;
+
+
+    //members
+    m_pb_v = nullptr;
+    m_pb_h = nullptr;
+    m_lab_fileName = nullptr;
+    m_le_fileName = nullptr;
+    m_chk_repeat = nullptr;
+    m_comBox_type = nullptr;
+    m_bt_discard = nullptr;
+    m_bt_save = nullptr;
+    m_lay_review_1stline = nullptr;
+    m_lay_revaiew_2ndline = nullptr;
+
+
     QFont font;
     font.setFamily(QString::fromUtf8("Arial"));
     font.setPointSize(13);
@@ -48,7 +64,7 @@ WidRecoding::WidRecoding(QWidget *parent) : QWidget(parent)
     m_lab_prompt->setMaximumHeight(70);
     m_lab_prompt->setSizePolicy(sizePolicy);
     //tips (how to)
-    m_lable_tips = new QLabel(m_lab_prompt);
+    m_lable_tips = new QLabel();
     m_lable_tips->setText("   Press the record button and speak into the microphone.\n"
                           "   Press the butteon again to finish recording.");
     m_lable_tips->setStyleSheet(QString::fromUtf8("background-color:rgb(84, 207, 252) ;\n"
@@ -60,6 +76,7 @@ WidRecoding::WidRecoding(QWidget *parent) : QWidget(parent)
     m_lable_tips->setMaximumHeight(70);
     m_lable_tips->setSizePolicy(sizePolicy);
 
+    // create 2ndpart layout
     m_layout_2ndPart = new QVBoxLayout();
     m_layout_2ndPart->setSpacing(0);
 
@@ -70,19 +87,19 @@ WidRecoding::WidRecoding(QWidget *parent) : QWidget(parent)
     m_layout_all->setSpacing(20);
     m_layout_all->setContentsMargins(0,20,0,0);
     m_layout_all->setAlignment(Qt::AlignTop);
-    //add 1st part
+    //setup 1st part
     m_layout_all->addWidget(m_lab_recording, 1);
     m_layout_all->addLayout(hlay_mic, 4);
-    //set 2nd part stretch
+
+    //set 2nd part stretch, and it will be setup in prepare_recording() in construction phase by default
     m_layout_all->setStretch(2, 4); //     m_layout_all->addLayout(m_layout_2ndPart, 4);
-    setLayout(m_layout_all);
+    //setLayout(m_layout_all);
+
 
     //ready to recording
     prepare_recording();
 
-    //members
-    m_pb_v = nullptr;
-    m_pb_h = nullptr;
+    qDebug() << "<< " << __FUNCTION__;
 }
 
 
@@ -113,9 +130,13 @@ void WidRecoding::on_mic_clicked()
 }
 void WidRecoding::prepare_recording()
 {
+    qDebug() << ">> " << __FUNCTION__;
     m_state = e_mic_off;
     m_bt_mic->setIcon(QIcon(":/main/resource/mic-off.ico"));
     m_bt_mic->setIconSize(QSize(64,64));
+
+    qDebug() << __FUNCTION__ << "set icon";
+
     if(m_pb_v != nullptr)
     {
         m_pb_v->hide();
@@ -128,8 +149,16 @@ void WidRecoding::prepare_recording()
     //switch to review-sound page
     m_lab_recording->setText("RECORD SOUND");
 
+    qDebug() << __FUNCTION__ << "set pb hide and lable";
+
     hide_2ndPart_review();
+    qDebug() << __FUNCTION__ << "hide_2ndPart_review";
+
     show_2ndPart_record();
+
+    qDebug() << __FUNCTION__ << "show_2ndPart_record";
+
+    qDebug() << "<< " << __FUNCTION__;
 }
 void WidRecoding::start_recording()
 {
@@ -209,6 +238,8 @@ void WidRecoding::start_reviewing()
 
 void WidRecoding::show_2ndPart_record(bool show_flag)
 {
+    qDebug() <<">> " << __FUNCTION__ << "show_flag="<<show_flag;
+
     if(show_flag)  // to show it
     {
         m_layout_2ndPart->addWidget(m_lab_prompt);
@@ -226,9 +257,11 @@ void WidRecoding::show_2ndPart_record(bool show_flag)
         m_lab_prompt->hide();
         m_lable_tips->hide();
     }
+    qDebug() << "<< " << __FUNCTION__ << "show_flag="<<show_flag;
 }
 void WidRecoding::show_2ndPart_review(bool show_flag)
 {
+    qDebug() <<">> " << __FUNCTION__ << "show_flag="<<show_flag;
     if(show_flag)  // to show it
     {
         // if it's not created, then create them
@@ -334,6 +367,7 @@ void WidRecoding::show_2ndPart_review(bool show_flag)
             m_chk_repeat->hide();
         }
     }
+    qDebug() <<"<< " << __FUNCTION__ << "show_flag="<<show_flag;
 }
 
 void WidRecoding::on_bt_discard_clicked()

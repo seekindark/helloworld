@@ -22,6 +22,8 @@ class BtnPlay : public QPushButton
     Q_OBJECT
 public:
     explicit BtnPlay(const QString &text, BT_type type,  QWidget *parent = nullptr);
+    ~BtnPlay();
+
 
     void set_progress(int val){
         if(m_pb != nullptr) m_pb->setValue(val);}

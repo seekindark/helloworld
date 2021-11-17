@@ -3,9 +3,11 @@
 #include <QMessageBox>
 #include "loginwindow.h"
 #include "mylog.h"
+#include "hsecurity.h"
 
 LoginWindow::LoginWindow(QWidget *parent) : QDialog(parent)
 {
+
     m_wm = parent;
     setParent(parent);
     setModal(true);
@@ -97,6 +99,7 @@ LoginWindow::LoginWindow(QWidget *parent) : QDialog(parent)
 
     hide();
 
+    //members
 }
 
 LoginWindow::~LoginWindow()
@@ -121,8 +124,9 @@ void LoginWindow::load_img(QLabel *lab, QString filename)
 
 void LoginWindow::on_login_clicked()
 {
-    if (true)
-    //if(m_user->text() == "admin" && m_password->text() == "123")
+    //if (true)
+    if(HSecurity::get_instance()->validate_user(m_user->text()) &&
+       HSecurity::get_instance()->validate_pwd(m_password->text()))
     {
         MyLog(QString("Login successfully with %1").arg(m_user->text()));
         this->close();
@@ -135,6 +139,15 @@ void LoginWindow::on_login_clicked()
                              QMessageBox::Yes);
         MyLog(QString("Failed to login with %1").arg(m_user->text()));
 
+    }
+}
+
+void LoginWindow::clear_pwd()
+{
+    if(m_password != nullptr)
+    {
+        m_password->setText("");
+        m_password->setFocus();
     }
 }
 

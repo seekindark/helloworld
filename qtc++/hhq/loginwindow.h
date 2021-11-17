@@ -18,6 +18,7 @@ public:
     explicit LoginWindow(QWidget *parent = nullptr);
     ~LoginWindow();
     void keyPressEvent(QKeyEvent *event);
+    void clear_pwd();
 
 signals:
     void login_OK(const QString &user_name);
@@ -36,7 +37,7 @@ private:
    QLabel *m_lab_user;
 
    QHBoxLayout *m_hLayout_pwd;
-   QLineEdit *m_password;
+   QLineEdit *m_password;       //pwd input
    QLabel *m_lab_password;
 
    QPushButton *m_bt_login;

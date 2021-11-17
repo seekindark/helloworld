@@ -10,10 +10,10 @@
 
 MyLog::MyLog(const QString &msg)
 {
-    QString current_date_time = QDateTime::currentDateTime().toString("yyyy-MM-dd hh:mm:ss ddd");
+    QString current_date_time = QDateTime::currentDateTime().toString("yyyy-MM-dd hh:mm:ss");
     //QString current_date = QString("(%1)").arg(current_date_time);
     //QString message = QString("[%1] %2: %3").arg(current_date_time).arg("m_user_name").arg(msg);
-    QString message = QString("[%1] : %3").arg(current_date_time).arg(msg);
+    QString message = QString("[%1] : %3").arg(current_date_time, msg);
     QFile file("hhq.log");
     file.open(QIODevice::WriteOnly | QIODevice::Append);
     QTextStream text_stream(&file);
