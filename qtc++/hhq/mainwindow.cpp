@@ -29,17 +29,21 @@ MainWindow::MainWindow(QWidget *parent)
     font.setFamily("Arial");
     setFont(font);
     setWindowTitle("IHSS-UDE-800");
-    setWindowIcon(QIcon("resource\\D4.ico"));
+    setWindowIcon(QIcon(":/login/resource/dragon.ico"));
     //setIconSize(QSize(30, 30));
 
     //init members
     m_loginWind = new LoginWindow(this);
     QObject::connect(m_loginWind, SIGNAL(login_OK(QString)), this, SLOT(on_login_OK(QString)));
 
+     //members to be created when it's triggered
     m_user_name = "NonLogin";
     m_bt_system = nullptr;
     m_lab_user = nullptr;
     m_tab = nullptr;
+
+    m_sys_menu = nullptr;
+    m_wid_setting = nullptr;
 
     construct_main();
 }
@@ -52,7 +56,6 @@ MainWindow::~MainWindow()
 void MainWindow::construct_main()
 {
     qDebug() << ">> " <<__FUNCTION__;
-
     QFont font = this->font();
     font.setFamily("Arial");
     font.setPointSize(20);
@@ -218,8 +221,11 @@ void MainWindow::on_menu_logout_clicked()
     MyLog("Logout");
     hide_main_window();
 
+    if(m_wid_setting != nullptr)
+        m_wid_setting->close();
     m_loginWind->clear_pwd();
     m_loginWind->show();
+
 
 }
 void MainWindow::on_menu_pwd_clicked()
@@ -238,7 +244,21 @@ void MainWindow::on_menu_pwd_clicked()
     delete m_wid_chgpwd;
 }
 void MainWindow::on_menu_setting_clicked()
-{}
+{
+    qDebug() << __FUNCTION__;
+
+    if(m_wid_setting != nullptr)
+    {
+        m_wid_setting->show();
+    }
+    else
+    {
+        m_wid_setting = new WidSetting();
+         m_wid_setting->setCurrentIndex(0);
+        m_wid_setting->show();
+
+    }
+}
 void MainWindow::on_menu_logs_clicked()
 {
     qDebug() << __func__;
@@ -252,11 +272,19 @@ void MainWindow::on_menu_exit_clicked()
 {
     MyLog("Exit");
     //qApp->closeAllWindows();
+
+    if(m_wid_setting != nullptr)
+    {
+        m_wid_setting->close();
+        delete m_wid_setting;
+        m_wid_setting = nullptr;
+    }
     qApp->exit();
 }
 
 void MainWindow::closeEvent( QCloseEvent * event )
 {
+   qDebug() << "MainWindow" << __FUNCTION__;
    int ret =  QMessageBox::information( this, tr("IHSS-UDE-800"),
                          tr("Do you really want to quit IHSS-UDE-800?"),
                          tr("Yes"), tr("No"),
@@ -265,6 +293,12 @@ void MainWindow::closeEvent( QCloseEvent * event )
     {
        case 0:
             event->accept();
+            if(m_wid_setting != nullptr)
+            {
+                m_wid_setting->close();
+                delete m_wid_setting;
+                m_wid_setting = nullptr;
+            }
             MyLog("Exit by closing window");
            break;
        case 1:

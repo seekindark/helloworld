@@ -9,6 +9,7 @@
 #include "widedit.h"
 #include "widchangepwd.h"
 #include "widlogs.h"
+#include "widsetting.h"
 
 class MainWindow : public QWidget
 {
@@ -53,6 +54,8 @@ private:
     WidBroadCast *m_wid_livecall;
     WidRecoding *m_wid_newRecord;
     WidEdit *m_wid_editRecord;
+
+    WidSetting *m_wid_setting;
 
     QMenu *m_sys_menu;
 

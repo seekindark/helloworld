@@ -7,7 +7,7 @@ ButtonEdit::ButtonEdit(Edit_type type, QWidget *parent) :
     QSizePolicy sizePolicy(QSizePolicy::Preferred, QSizePolicy::Preferred);
 
     m_type = type;
-    m_table_item = nullptr;
+    m_FileItem = nullptr;
 
     if(type == e_edit_play)
     {
@@ -45,7 +45,7 @@ void ButtonEdit::on_clicked()
 {
     if(m_type == e_edit_delete)
     {
-        emit bt_delete_clicked(m_table_item);
+        emit bt_delete_clicked(m_FileItem);
     }
     else if(m_type == e_edit_play)
     {
@@ -58,7 +58,7 @@ void ButtonEdit::on_clicked()
             stop();
         }
 
-        emit bt_play_clicked(m_table_item, m_is_playing);
+        emit bt_play_clicked(m_FileItem, m_is_playing);
     }
 }
 

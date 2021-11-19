@@ -19,7 +19,7 @@ public:
     explicit ButtonEdit(Edit_type type, QWidget *parent = nullptr);
     ~ButtonEdit();
 
-    void set_tableItem(const QTableWidgetItem *item) {m_table_item = item;}
+    void set_fileItem(const QTableWidgetItem *item) {m_FileItem = item;}
     void set_progress(int val);
 
     void start();
@@ -41,7 +41,7 @@ private:
     bool m_is_playing;
     QProgressBar *m_pb;
 
-    const QTableWidgetItem *m_table_item;
+    const QTableWidgetItem *m_FileItem;
 
 };
 

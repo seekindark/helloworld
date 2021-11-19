@@ -21,7 +21,10 @@ SOURCES += \
     widdashboard.cpp \
     widedit.cpp \
     widlogs.cpp \
-    widrecoding.cpp
+    widrecoding.cpp \
+    widsetlocal.cpp \
+    widsetremote.cpp \
+    widsetting.cpp
 
 HEADERS += \
     btnplay.h \
@@ -35,7 +38,10 @@ HEADERS += \
     widdashboard.h \
     widedit.h \
     widlogs.h \
-    widrecoding.h
+    widrecoding.h \
+    widsetlocal.h \
+    widsetremote.h \
+    widsetting.h
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

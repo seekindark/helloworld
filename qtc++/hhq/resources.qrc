@@ -2,6 +2,8 @@
     <qresource prefix="/login">
         <file>resource/user.png</file>
         <file>resource/key.png</file>
+        <file>resource/dragon.ico</file>
+        <file>resource/setting.ico</file>
     </qresource>
     <qresource prefix="/main">
         <file>resource/dashboard.ico</file>
