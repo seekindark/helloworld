@@ -11,6 +11,7 @@ CONFIG += c++11
 SOURCES += \
     btnplay.cpp \
     buttonedit.cpp \
+    filetablewidgetitem.cpp \
     hsecurity.cpp \
     loginwindow.cpp \
     main.cpp \
@@ -29,6 +30,7 @@ SOURCES += \
 HEADERS += \
     btnplay.h \
     buttonedit.h \
+    filetablewidgetitem.h \
     hsecurity.h \
     loginwindow.h \
     mainwindow.h \

@@ -8,12 +8,14 @@
 #include <QVBoxLayout>
 #include <QProgressBar>
 
+
+
 class WidBroadCast : public QWidget
 {
     Q_OBJECT
 public:
     explicit WidBroadCast(QWidget *parent = nullptr);
-
+    ~WidBroadCast();
 
 signals:
 

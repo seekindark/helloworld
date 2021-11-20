@@ -11,6 +11,7 @@
 #include "widlogs.h"
 #include "widsetting.h"
 
+
 class MainWindow : public QWidget
 {
     Q_OBJECT
@@ -23,6 +24,8 @@ public:
 
     void log(const QString &msg);
     void closeEvent( QCloseEvent * event );
+
+
 public slots:
     void on_login_closed();
     void on_login_OK(const QString &user_name);

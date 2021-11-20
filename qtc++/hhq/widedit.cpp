@@ -10,6 +10,7 @@
 #include <QFileDialog>
 #include "mylog.h"
 #include "widedit.h"
+#include <QList>
 
 
 
@@ -171,7 +172,7 @@ int WidEdit::soundGroup_index(const QString &str)
 }
 int WidEdit::toneAlias_index(const QString &str)
 {
-    int idx = m_soundGroup.indexOf(str);
+    int idx = m_ToneAlias.indexOf(str);
     if(idx == -1)
     {
         return toneAlias_NA_index(); // Warning group
@@ -572,7 +573,16 @@ void WidEdit::on_GroupChanged(int index)
 
 void WidEdit::on_SoundAliasChanged(int index)
 {
-    qDebug() << __FUNCTION__ << "index " << m_WarningAlias[index];
+    if(index >= 0 )
+    {
+        qDebug() << __FUNCTION__ << "index " << index ;
+    }
+    else
+    {
+        //ignore clear acion
+        qDebug() << __FUNCTION__ << "index " << index << "Skipped clear-actions !";
+        return;
+    }
     /*
      * 4 kinds of warning types: {"English", "Local", "Siren", "NA"}
      * and only 'NA', i.e. index last can be multiple existing, and the others must be unique.
@@ -580,8 +590,9 @@ void WidEdit::on_SoundAliasChanged(int index)
 
     int currentRow = m_table->currentRow();
     FileTableWidgetItem *fileItem_wr = fileWidItem(m_table->item(currentRow, 0));
+
     qDebug() << __FUNCTION__ << fileItem_wr->text() << ": sound alias is changed to index  "
-             <<index << m_WarningAlias[index];
+             <<index << soundAlias(fileItem_wr->groupIdx(), index);
 
     if(is_NA_alias(fileItem_wr->groupIdx(), index))
     {
@@ -858,18 +869,19 @@ void WidEdit::clear_comboBox(QComboBox *cb, int itemCount)
         cb->removeItem(0);
     }
 }
-FileTableWidgetItem::FileTableWidgetItem(const QString &text, int type):QTableWidgetItem(text, type)
-{
-    m_soundFile = nullptr;
-    qDebug() << __FUNCTION__;
 
-    m_group = 0;
-    m_repeat = false;
-    m_alias = -1;       // means NA, for both Warning Alias and tone Alias
-}
-
-FileTableWidgetItem::~FileTableWidgetItem()
+FileTableWidgetItemList_R WidEdit::read_fileTabel_List()
 {
-    delete m_soundFile; m_soundFile = nullptr;
-    qDebug() << __FUNCTION__;
+    FileTableWidgetItemList_R list;
+    if(m_table == nullptr)
+    {
+        return list;
+    }
+    for (int i=0; i<m_table->rowCount(); i++)
+    {
+        FileTableWidgetItem * fileItem_wr = fileWidItem(m_table->item(i, 0));
+        list.append(fileItem_wr);
+    }
+
+    return list;
 }

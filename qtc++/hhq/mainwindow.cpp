@@ -10,7 +10,7 @@
 #include <QCloseEvent>
 #include "mainwindow.h"
 #include "mylog.h"
-
+#include "filetablewidgetitem.h"
 
 
 MainWindow::MainWindow(QWidget *parent)
@@ -175,10 +175,22 @@ void MainWindow::on_tabBarClicked(int index)
 {
     qDebug() << "MainWindow::on_tabBarClicked, indx=" << index <<m_tab->tabText(index) ;
 
+
 }
 void MainWindow:: on_currentChanged(int index)
 {
     qDebug() << "MainWindow::on_currentChanged, indx=" << index << m_tab->tabText(index);
+    if(index == 0)
+    {
+        //switch to Dashboard
+        //load the sound files for each short-cut buttons
+        Q_ASSERT(m_wid_dashboard != nullptr);
+        Q_ASSERT(m_wid_editRecord!= nullptr);
+
+        FileTableWidgetItemList_R fileList = m_wid_editRecord->read_fileTabel_List();
+        m_wid_dashboard->load_fileList(fileList);
+
+    }
 }
 
 
@@ -254,7 +266,7 @@ void MainWindow::on_menu_setting_clicked()
     else
     {
         m_wid_setting = new WidSetting();
-         m_wid_setting->setCurrentIndex(0);
+        m_wid_setting->setCurrentIndex(0);
         m_wid_setting->show();
 
     }
@@ -308,6 +320,7 @@ void MainWindow::closeEvent( QCloseEvent * event )
            break;
     }
 }
+
 
 void MainWindow::log(const QString &msg)
 {

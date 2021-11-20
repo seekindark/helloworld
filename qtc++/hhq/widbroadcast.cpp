@@ -149,3 +149,8 @@ void WidBroadCast::on_mic_clicked()
         }
     }
 }
+
+WidBroadCast::~WidBroadCast()
+{
+    qDebug(__FUNCTION__);
+}

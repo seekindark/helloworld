@@ -6246,3 +6246,1565 @@
 [2021-11-19 08:44:28] : 223 - 副本.pcm is removed
 [2021-11-19 08:44:31] : 4 - 副本 (2) - 副本.wav is removed
 [2021-11-19 08:44:32] : 68 - 副本 (2) - 副本.wav is removed
+[2021-11-19 08:57:28] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 08:57:28] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 08:57:28] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 08:57:28] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 08:57:28] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 08:57:28] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 08:57:28] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 08:57:28] : Read config file:config\sound.ini successfully!
+[2021-11-19 08:57:28] : >>> Sytem is starting...
+[2021-11-19 08:57:28] : Sytem is started successfully
+[2021-11-19 08:57:29] : Login successfully with 
+[2021-11-19 09:00:08] : Exit by closing window
+[2021-11-19 09:00:23] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 09:00:23] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 09:00:23] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 09:00:23] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 09:00:23] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 09:00:23] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 09:00:23] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 09:00:23] : Read config file:config\sound.ini successfully!
+[2021-11-19 09:00:23] : >>> Sytem is starting...
+[2021-11-19 09:00:23] : Sytem is started successfully
+[2021-11-19 09:00:25] : Login successfully with 
+[2021-11-19 09:01:23] : Exit by closing window
+[2021-11-19 09:01:46] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 09:01:46] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 09:01:46] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 09:01:46] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 09:01:46] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 09:01:46] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 09:01:46] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 09:01:46] : Read config file:config\sound.ini successfully!
+[2021-11-19 09:01:46] : >>> Sytem is starting...
+[2021-11-19 09:01:46] : Sytem is started successfully
+[2021-11-19 09:01:47] : Login successfully with 
+[2021-11-19 09:03:07] : Exit by closing window
+[2021-11-19 09:03:19] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 09:03:19] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 09:03:19] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 09:03:19] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 09:03:19] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 09:03:19] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 09:03:19] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 09:03:19] : Read config file:config\sound.ini successfully!
+[2021-11-19 09:03:19] : >>> Sytem is starting...
+[2021-11-19 09:03:19] : Sytem is started successfully
+[2021-11-19 09:03:20] : Login successfully with 
+[2021-11-19 09:09:23] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 09:09:23] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 09:09:23] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 09:09:23] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 09:09:23] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 09:09:23] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 09:09:23] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 09:09:23] : Read config file:config\sound.ini successfully!
+[2021-11-19 09:09:23] : >>> Sytem is starting...
+[2021-11-19 09:09:23] : Sytem is started successfully
+[2021-11-19 09:09:24] : Login successfully with 
+[2021-11-19 09:09:49] : Exit by closing window
+[2021-11-19 09:10:31] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 09:10:31] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 09:10:31] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 09:10:31] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 09:10:31] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 09:10:31] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 09:10:31] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 09:10:31] : Read config file:config\sound.ini successfully!
+[2021-11-19 09:10:31] : >>> Sytem is starting...
+[2021-11-19 09:10:31] : Sytem is started successfully
+[2021-11-19 09:10:33] : Login successfully with 
+[2021-11-19 09:10:56] : Exit by closing window
+[2021-11-19 09:12:12] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 09:12:12] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 09:12:12] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 09:12:12] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 09:12:12] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 09:12:12] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 09:12:12] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 09:12:12] : Read config file:config\sound.ini successfully!
+[2021-11-19 09:12:12] : >>> Sytem is starting...
+[2021-11-19 09:12:12] : Sytem is started successfully
+[2021-11-19 09:12:12] : Login successfully with 
+[2021-11-19 09:12:28] : Exit by closing window
+[2021-11-19 09:12:42] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 09:12:42] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 09:12:42] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 09:12:42] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 09:12:42] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 09:12:42] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 09:12:42] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 09:12:42] : Read config file:config\sound.ini successfully!
+[2021-11-19 09:12:42] : >>> Sytem is starting...
+[2021-11-19 09:12:42] : Sytem is started successfully
+[2021-11-19 09:12:43] : Login successfully with 
+[2021-11-19 09:13:07] : Exit by closing window
+[2021-11-19 09:14:22] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 09:14:22] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 09:14:22] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 09:14:22] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 09:14:22] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 09:14:22] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 09:14:22] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 09:14:22] : Read config file:config\sound.ini successfully!
+[2021-11-19 09:14:22] : >>> Sytem is starting...
+[2021-11-19 09:14:22] : Sytem is started successfully
+[2021-11-19 09:14:23] : Login successfully with 
+[2021-11-19 09:15:29] : Exit by closing window
+[2021-11-19 09:16:09] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 09:16:09] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 09:16:09] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 09:16:09] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 09:16:09] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 09:16:09] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 09:16:09] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 09:16:09] : Read config file:config\sound.ini successfully!
+[2021-11-19 09:16:09] : >>> Sytem is starting...
+[2021-11-19 09:16:09] : Sytem is started successfully
+[2021-11-19 09:16:10] : Login successfully with 
+[2021-11-19 09:16:45] : Exit by closing window
+[2021-11-19 09:17:09] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 09:17:09] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 09:17:09] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 09:17:09] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 09:17:09] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 09:17:09] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 09:17:09] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 09:17:09] : Read config file:config\sound.ini successfully!
+[2021-11-19 09:17:09] : >>> Sytem is starting...
+[2021-11-19 09:17:09] : Sytem is started successfully
+[2021-11-19 09:17:10] : Login successfully with 
+[2021-11-19 09:20:46] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 09:20:46] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 09:20:46] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 09:20:46] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 09:20:46] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 09:20:46] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 09:20:46] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 09:20:46] : Read config file:config\sound.ini successfully!
+[2021-11-19 09:20:46] : >>> Sytem is starting...
+[2021-11-19 09:20:46] : Sytem is started successfully
+[2021-11-19 09:20:47] : Login successfully with 
+[2021-11-19 09:20:55] : Exit by closing window
+[2021-11-19 09:21:09] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 09:21:09] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 09:21:09] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 09:21:09] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 09:21:09] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 09:21:09] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 09:21:09] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 09:21:09] : Read config file:config\sound.ini successfully!
+[2021-11-19 09:21:09] : >>> Sytem is starting...
+[2021-11-19 09:21:09] : Sytem is started successfully
+[2021-11-19 09:21:10] : Login successfully with 
+[2021-11-19 09:22:21] : Close-window is cancelled
+[2021-11-19 09:34:26] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 09:34:26] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 09:34:26] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 09:34:26] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 09:34:26] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 09:34:26] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 09:34:26] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 09:34:26] : Read config file:config\sound.ini successfully!
+[2021-11-19 09:34:26] : >>> Sytem is starting...
+[2021-11-19 09:34:26] : Sytem is started successfully
+[2021-11-19 09:34:27] : Login successfully with 
+[2021-11-19 09:34:35] : Exit by closing window
+[2021-11-19 09:35:09] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 09:35:09] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 09:35:09] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 09:35:09] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 09:35:09] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 09:35:09] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 09:35:09] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 09:35:09] : Read config file:config\sound.ini successfully!
+[2021-11-19 09:35:09] : >>> Sytem is starting...
+[2021-11-19 09:35:10] : Sytem is started successfully
+[2021-11-19 09:35:10] : Login successfully with 
+[2021-11-19 09:35:15] : Exit by closing window
+[2021-11-19 09:36:13] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 09:36:13] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 09:36:13] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 09:36:13] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 09:36:13] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 09:36:13] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 09:36:13] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 09:36:13] : Read config file:config\sound.ini successfully!
+[2021-11-19 09:36:13] : >>> Sytem is starting...
+[2021-11-19 09:36:14] : Sytem is started successfully
+[2021-11-19 09:36:15] : Login successfully with 
+[2021-11-19 09:36:33] : Exit by closing window
+[2021-11-19 09:38:56] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 09:38:56] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 09:38:56] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 09:38:56] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 09:38:56] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 09:38:56] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 09:38:56] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 09:38:56] : Read config file:config\sound.ini successfully!
+[2021-11-19 09:38:56] : >>> Sytem is starting...
+[2021-11-19 09:38:56] : Sytem is started successfully
+[2021-11-19 09:38:58] : Login successfully with 
+[2021-11-19 09:47:50] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 09:47:50] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 09:47:50] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 09:47:50] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 09:47:50] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 09:47:50] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 09:47:50] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 09:47:50] : Read config file:config\sound.ini successfully!
+[2021-11-19 09:47:50] : >>> Sytem is starting...
+[2021-11-19 09:47:51] : Sytem is started successfully
+[2021-11-19 09:47:52] : Login successfully with 
+[2021-11-19 09:47:58] : Exit by closing window
+[2021-11-19 09:48:24] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 09:48:24] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 09:48:24] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 09:48:24] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 09:48:24] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 09:48:24] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 09:48:24] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 09:48:24] : Read config file:config\sound.ini successfully!
+[2021-11-19 09:48:24] : >>> Sytem is starting...
+[2021-11-19 09:48:24] : Sytem is started successfully
+[2021-11-19 09:48:25] : Login successfully with 
+[2021-11-19 10:02:43] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 10:02:43] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 10:02:43] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 10:02:43] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 10:02:43] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 10:02:43] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 10:02:43] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 10:02:43] : Read config file:config\sound.ini successfully!
+[2021-11-19 10:02:43] : >>> Sytem is starting...
+[2021-11-19 10:02:43] : Sytem is started successfully
+[2021-11-19 10:02:44] : Login successfully with 
+[2021-11-19 12:05:40] : Exit by closing window
+[2021-11-19 12:06:25] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 12:06:25] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 12:06:25] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 12:06:25] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 12:06:25] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 12:06:25] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 12:06:25] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 12:06:25] : Read config file:config\sound.ini successfully!
+[2021-11-19 12:06:25] : >>> Sytem is starting...
+[2021-11-19 12:06:25] : Sytem is started successfully
+[2021-11-19 12:06:26] : Login successfully with 
+[2021-11-19 12:06:50] : Close-window is cancelled
+[2021-11-19 12:08:29] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 12:08:29] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 12:08:29] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 12:08:29] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 12:08:29] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 12:08:29] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 12:08:29] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 12:08:29] : Read config file:config\sound.ini successfully!
+[2021-11-19 12:08:29] : >>> Sytem is starting...
+[2021-11-19 12:08:29] : Sytem is started successfully
+[2021-11-19 12:08:31] : Login successfully with 
+[2021-11-19 12:08:42] : Exit by closing window
+[2021-11-19 12:09:46] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 12:09:46] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 12:09:46] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 12:09:46] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 12:09:46] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 12:09:46] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 12:09:46] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 12:09:46] : Read config file:config\sound.ini successfully!
+[2021-11-19 12:09:46] : >>> Sytem is starting...
+[2021-11-19 12:09:46] : Sytem is started successfully
+[2021-11-19 12:09:47] : Login successfully with 
+[2021-11-19 12:09:51] : Exit by closing window
+[2021-11-19 12:10:15] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 12:10:15] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 12:10:15] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 12:10:16] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 12:10:16] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 12:10:16] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 12:10:16] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 12:10:16] : Read config file:config\sound.ini successfully!
+[2021-11-19 12:10:16] : >>> Sytem is starting...
+[2021-11-19 12:10:16] : Sytem is started successfully
+[2021-11-19 12:10:16] : Login successfully with 
+[2021-11-19 12:10:31] : Exit by closing window
+[2021-11-19 12:13:04] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 12:13:04] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 12:13:04] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 12:13:04] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 12:13:04] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 12:13:04] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 12:13:04] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 12:13:04] : Read config file:config\sound.ini successfully!
+[2021-11-19 12:13:04] : >>> Sytem is starting...
+[2021-11-19 12:13:04] : Sytem is started successfully
+[2021-11-19 12:13:06] : Login successfully with 
+[2021-11-19 12:13:18] : Exit by closing window
+[2021-11-19 12:16:57] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 12:16:57] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 12:16:57] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 12:16:57] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 12:16:57] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 12:16:57] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 12:16:57] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 12:16:57] : Read config file:config\sound.ini successfully!
+[2021-11-19 12:16:57] : >>> Sytem is starting...
+[2021-11-19 12:16:57] : Sytem is started successfully
+[2021-11-19 12:16:58] : Login successfully with 
+[2021-11-19 12:17:08] : Exit by closing window
+[2021-11-19 12:17:29] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 12:17:29] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 12:17:29] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 12:17:29] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 12:17:29] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 12:17:29] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 12:17:29] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 12:17:29] : Read config file:config\sound.ini successfully!
+[2021-11-19 12:17:29] : >>> Sytem is starting...
+[2021-11-19 12:17:29] : Sytem is started successfully
+[2021-11-19 12:17:30] : Login successfully with 
+[2021-11-19 12:17:56] : Exit by closing window
+[2021-11-19 12:19:52] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 12:19:52] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 12:19:52] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 12:19:52] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 12:19:52] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 12:19:52] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 12:19:52] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 12:19:52] : Read config file:config\sound.ini successfully!
+[2021-11-19 12:19:52] : >>> Sytem is starting...
+[2021-11-19 12:19:52] : Sytem is started successfully
+[2021-11-19 12:19:53] : Login successfully with 
+[2021-11-19 12:19:59] : Exit by closing window
+[2021-11-19 12:22:21] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 12:22:21] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 12:22:21] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 12:22:21] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 12:22:21] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 12:22:21] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 12:22:21] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 12:22:21] : Read config file:config\sound.ini successfully!
+[2021-11-19 12:22:21] : >>> Sytem is starting...
+[2021-11-19 12:22:21] : Sytem is started successfully
+[2021-11-19 12:22:22] : Login successfully with 
+[2021-11-19 12:22:32] : Exit by closing window
+[2021-11-19 12:23:35] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 12:23:35] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 12:23:35] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 12:23:35] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 12:23:35] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 12:23:35] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 12:23:35] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 12:23:35] : Read config file:config\sound.ini successfully!
+[2021-11-19 12:23:35] : >>> Sytem is starting...
+[2021-11-19 12:23:35] : Sytem is started successfully
+[2021-11-19 12:23:36] : Login successfully with 
+[2021-11-19 12:23:57] : Exit by closing window
+[2021-11-19 12:24:14] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 12:24:14] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 12:24:14] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 12:24:14] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 12:24:14] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 12:24:14] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 12:24:14] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 12:24:14] : Read config file:config\sound.ini successfully!
+[2021-11-19 12:24:14] : >>> Sytem is starting...
+[2021-11-19 12:24:14] : Sytem is started successfully
+[2021-11-19 12:24:15] : Login successfully with 
+[2021-11-19 12:24:27] : Exit by closing window
+[2021-11-19 12:24:39] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 12:24:39] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 12:24:39] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 12:24:39] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 12:24:39] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 12:24:39] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 12:24:39] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 12:24:39] : Read config file:config\sound.ini successfully!
+[2021-11-19 12:24:39] : >>> Sytem is starting...
+[2021-11-19 12:24:39] : Sytem is started successfully
+[2021-11-19 12:24:41] : Login successfully with 
+[2021-11-19 12:25:08] : Exit by closing window
+[2021-11-19 12:25:20] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 12:25:20] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 12:25:20] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 12:25:20] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 12:25:20] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 12:25:20] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 12:25:20] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 12:25:20] : Read config file:config\sound.ini successfully!
+[2021-11-19 12:25:20] : >>> Sytem is starting...
+[2021-11-19 12:25:20] : Sytem is started successfully
+[2021-11-19 12:25:21] : Login successfully with 
+[2021-11-19 12:25:24] : Exit by closing window
+[2021-11-19 12:26:55] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 12:26:55] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 12:26:55] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 12:26:55] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 12:26:55] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 12:26:55] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 12:26:55] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 12:26:55] : Read config file:config\sound.ini successfully!
+[2021-11-19 12:26:55] : >>> Sytem is starting...
+[2021-11-19 12:26:56] : Sytem is started successfully
+[2021-11-19 12:26:56] : Login successfully with 
+[2021-11-19 12:27:00] : Exit by closing window
+[2021-11-19 12:27:12] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 12:27:12] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 12:27:12] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 12:27:12] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 12:27:12] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 12:27:12] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 12:27:12] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 12:27:12] : Read config file:config\sound.ini successfully!
+[2021-11-19 12:27:12] : >>> Sytem is starting...
+[2021-11-19 12:27:12] : Sytem is started successfully
+[2021-11-19 12:27:13] : Login successfully with 
+[2021-11-19 12:27:16] : Exit by closing window
+[2021-11-19 12:36:33] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 12:36:33] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 12:36:33] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 12:36:33] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 12:36:33] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 12:36:33] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 12:36:33] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 12:36:33] : Read config file:config\sound.ini successfully!
+[2021-11-19 12:36:33] : >>> Sytem is starting...
+[2021-11-19 12:36:33] : Sytem is started successfully
+[2021-11-19 12:36:34] : Login successfully with 
+[2021-11-19 12:36:45] : Exit by closing window
+[2021-11-19 12:37:38] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 12:37:38] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 12:37:38] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 12:37:38] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 12:37:38] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 12:37:38] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 12:37:38] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 12:37:38] : Read config file:config\sound.ini successfully!
+[2021-11-19 12:37:38] : >>> Sytem is starting...
+[2021-11-19 12:37:38] : Sytem is started successfully
+[2021-11-19 12:37:39] : Login successfully with 
+[2021-11-19 12:39:29] : Exit by closing window
+[2021-11-19 12:39:55] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 12:39:55] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 12:39:55] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 12:39:55] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 12:39:55] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 12:39:55] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 12:39:55] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 12:39:55] : Read config file:config\sound.ini successfully!
+[2021-11-19 12:39:55] : >>> Sytem is starting...
+[2021-11-19 12:39:55] : Sytem is started successfully
+[2021-11-19 12:39:56] : Login successfully with 
+[2021-11-19 12:40:09] : Exit by closing window
+[2021-11-19 12:41:04] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 12:41:04] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 12:41:04] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 12:41:04] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 12:41:04] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 12:41:04] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 12:41:04] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 12:41:04] : Read config file:config\sound.ini successfully!
+[2021-11-19 12:41:04] : >>> Sytem is starting...
+[2021-11-19 12:41:04] : Sytem is started successfully
+[2021-11-19 12:41:05] : Login successfully with 
+[2021-11-19 12:43:46] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 12:43:46] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 12:43:46] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 12:43:46] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 12:43:46] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 12:43:46] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 12:43:46] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 12:43:46] : Read config file:config\sound.ini successfully!
+[2021-11-19 12:43:46] : >>> Sytem is starting...
+[2021-11-19 12:43:46] : Sytem is started successfully
+[2021-11-19 12:43:47] : Login successfully with 
+[2021-11-19 12:43:51] : Exit by closing window
+[2021-11-19 12:44:04] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 12:44:04] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 12:44:04] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 12:44:04] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 12:44:04] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 12:44:04] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 12:44:04] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 12:44:04] : Read config file:config\sound.ini successfully!
+[2021-11-19 12:44:04] : >>> Sytem is starting...
+[2021-11-19 12:44:04] : Sytem is started successfully
+[2021-11-19 12:44:05] : Login successfully with 
+[2021-11-19 12:44:15] : Exit by closing window
+[2021-11-19 12:45:10] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 12:45:10] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 12:45:10] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 12:45:10] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 12:45:10] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 12:45:10] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 12:45:10] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 12:45:10] : Read config file:config\sound.ini successfully!
+[2021-11-19 12:45:10] : >>> Sytem is starting...
+[2021-11-19 12:45:10] : Sytem is started successfully
+[2021-11-19 12:45:11] : Login successfully with 
+[2021-11-19 12:45:20] : Exit by closing window
+[2021-11-19 12:46:07] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 12:46:07] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 12:46:07] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 12:46:07] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 12:46:07] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 12:46:07] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 12:46:07] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 12:46:07] : Read config file:config\sound.ini successfully!
+[2021-11-19 12:46:07] : >>> Sytem is starting...
+[2021-11-19 12:46:07] : Sytem is started successfully
+[2021-11-19 12:46:08] : Login successfully with 
+[2021-11-19 12:46:10] : Exit by closing window
+[2021-11-19 12:46:34] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 12:46:34] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 12:46:34] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 12:46:34] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 12:46:34] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 12:46:34] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 12:46:34] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 12:46:34] : Read config file:config\sound.ini successfully!
+[2021-11-19 12:46:34] : >>> Sytem is starting...
+[2021-11-19 12:46:34] : Sytem is started successfully
+[2021-11-19 12:46:35] : Login successfully with 
+[2021-11-19 12:46:45] : Exit by closing window
+[2021-11-19 12:48:12] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 12:48:12] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 12:48:12] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 12:48:12] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 12:48:12] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 12:48:12] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 12:48:12] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 12:48:12] : Read config file:config\sound.ini successfully!
+[2021-11-19 12:48:12] : >>> Sytem is starting...
+[2021-11-19 12:48:12] : Sytem is started successfully
+[2021-11-19 12:48:13] : Login successfully with 
+[2021-11-19 12:48:18] : Exit by closing window
+[2021-11-19 12:49:46] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 12:49:46] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 12:49:46] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 12:49:46] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 12:49:46] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 12:49:46] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 12:49:46] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 12:49:46] : Read config file:config\sound.ini successfully!
+[2021-11-19 12:49:46] : >>> Sytem is starting...
+[2021-11-19 12:49:46] : Sytem is started successfully
+[2021-11-19 12:49:47] : Login successfully with 
+[2021-11-19 12:50:29] : Exit by closing window
+[2021-11-19 12:51:16] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 12:51:16] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 12:51:16] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 12:51:16] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 12:51:16] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 12:51:16] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 12:51:16] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 12:51:16] : Read config file:config\sound.ini successfully!
+[2021-11-19 12:51:16] : >>> Sytem is starting...
+[2021-11-19 12:51:16] : Sytem is started successfully
+[2021-11-19 12:51:17] : Login successfully with 
+[2021-11-19 12:51:45] : Exit by closing window
+[2021-11-19 12:52:11] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 12:52:11] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 12:52:11] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 12:52:11] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 12:52:11] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 12:52:11] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 12:52:11] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 12:52:11] : Read config file:config\sound.ini successfully!
+[2021-11-19 12:52:11] : >>> Sytem is starting...
+[2021-11-19 12:52:11] : Sytem is started successfully
+[2021-11-19 12:52:13] : Login successfully with 
+[2021-11-19 12:52:54] : Exit by closing window
+[2021-11-19 12:54:03] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 12:54:03] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 12:54:03] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 12:54:03] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 12:54:03] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 12:54:03] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 12:54:03] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 12:54:03] : Read config file:config\sound.ini successfully!
+[2021-11-19 12:54:03] : >>> Sytem is starting...
+[2021-11-19 12:54:03] : Sytem is started successfully
+[2021-11-19 12:54:04] : Login successfully with 
+[2021-11-19 12:54:47] : Exit by closing window
+[2021-11-19 12:55:32] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 12:55:32] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 12:55:32] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 12:55:32] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 12:55:32] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 12:55:32] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 12:55:32] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 12:55:32] : Read config file:config\sound.ini successfully!
+[2021-11-19 12:55:32] : >>> Sytem is starting...
+[2021-11-19 12:55:32] : Sytem is started successfully
+[2021-11-19 12:55:33] : Login successfully with 
+[2021-11-19 12:56:29] : Exit by closing window
+[2021-11-19 12:56:39] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 12:56:39] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 12:56:39] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 12:56:39] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 12:56:39] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 12:56:39] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 12:56:39] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 12:56:39] : Read config file:config\sound.ini successfully!
+[2021-11-19 12:56:39] : >>> Sytem is starting...
+[2021-11-19 12:56:39] : Sytem is started successfully
+[2021-11-19 12:56:40] : Login successfully with 
+[2021-11-19 12:57:01] : Exit by closing window
+[2021-11-19 12:57:17] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 12:57:17] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 12:57:17] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 12:57:17] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 12:57:17] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 12:57:17] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 12:57:17] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 12:57:17] : Read config file:config\sound.ini successfully!
+[2021-11-19 12:57:17] : >>> Sytem is starting...
+[2021-11-19 12:57:17] : Sytem is started successfully
+[2021-11-19 12:57:18] : Login successfully with 
+[2021-11-19 12:58:27] : Exit by closing window
+[2021-11-19 13:03:52] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 13:03:52] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 13:03:52] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 13:03:52] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 13:03:52] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 13:03:52] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 13:03:52] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 13:03:52] : Read config file:config\sound.ini successfully!
+[2021-11-19 13:03:52] : >>> Sytem is starting...
+[2021-11-19 13:03:52] : Sytem is started successfully
+[2021-11-19 13:03:53] : Login successfully with 
+[2021-11-19 13:04:27] : Exit by closing window
+[2021-11-19 13:32:28] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 13:32:28] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 13:32:28] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 13:32:28] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 13:32:28] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 13:32:28] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 13:32:28] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 13:32:28] : Read config file:config\sound.ini successfully!
+[2021-11-19 13:32:28] : >>> Sytem is starting...
+[2021-11-19 13:32:28] : Sytem is started successfully
+[2021-11-19 13:32:29] : Login successfully with 
+[2021-11-19 13:42:43] : Exit by closing window
+[2021-11-19 13:42:50] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 13:42:50] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 13:42:50] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 13:42:50] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 13:42:50] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 13:42:50] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 13:42:50] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 13:42:50] : Read config file:config\sound.ini successfully!
+[2021-11-19 13:42:50] : >>> Sytem is starting...
+[2021-11-19 13:42:50] : Sytem is started successfully
+[2021-11-19 13:42:51] : Login successfully with 
+[2021-11-19 13:45:04] : Exit by closing window
+[2021-11-19 13:45:30] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 13:45:30] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 13:45:30] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 13:45:30] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 13:45:30] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 13:45:30] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 13:45:30] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 13:45:30] : Read config file:config\sound.ini successfully!
+[2021-11-19 13:45:30] : >>> Sytem is starting...
+[2021-11-19 13:45:30] : Sytem is started successfully
+[2021-11-19 13:45:31] : Login successfully with 
+[2021-11-19 13:45:36] : Exit by closing window
+[2021-11-19 13:45:46] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 13:45:46] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 13:45:46] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 13:45:46] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 13:45:46] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 13:45:46] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 13:45:46] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 13:45:46] : Read config file:config\sound.ini successfully!
+[2021-11-19 13:45:46] : >>> Sytem is starting...
+[2021-11-19 13:45:46] : Sytem is started successfully
+[2021-11-19 13:45:47] : Login successfully with 
+[2021-11-19 13:45:49] : Exit by closing window
+[2021-11-19 13:46:07] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 13:46:07] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 13:46:07] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 13:46:07] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 13:46:07] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 13:46:07] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 13:46:07] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 13:46:07] : Read config file:config\sound.ini successfully!
+[2021-11-19 13:46:07] : >>> Sytem is starting...
+[2021-11-19 13:46:08] : Sytem is started successfully
+[2021-11-19 13:46:09] : Login successfully with 
+[2021-11-19 13:46:13] : Close-window is cancelled
+[2021-11-19 13:47:20] : Exit by closing window
+[2021-11-19 13:47:55] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 13:47:56] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 13:47:56] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 13:47:56] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 13:47:56] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 13:47:56] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 13:47:56] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 13:47:56] : Read config file:config\sound.ini successfully!
+[2021-11-19 13:47:56] : >>> Sytem is starting...
+[2021-11-19 13:47:56] : Sytem is started successfully
+[2021-11-19 13:47:57] : Login successfully with 
+[2021-11-19 13:48:06] : Exit by closing window
+[2021-11-19 13:48:27] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 13:48:27] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 13:48:27] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 13:48:27] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 13:48:27] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 13:48:27] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 13:48:27] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 13:48:27] : Read config file:config\sound.ini successfully!
+[2021-11-19 13:48:28] : >>> Sytem is starting...
+[2021-11-19 13:48:28] : Sytem is started successfully
+[2021-11-19 13:48:29] : Login successfully with 
+[2021-11-19 13:48:47] : Exit by closing window
+[2021-11-19 13:49:13] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 13:49:13] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 13:49:13] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 13:49:13] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 13:49:13] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 13:49:13] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 13:49:13] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 13:49:13] : Read config file:config\sound.ini successfully!
+[2021-11-19 13:49:13] : >>> Sytem is starting...
+[2021-11-19 13:49:13] : Sytem is started successfully
+[2021-11-19 13:49:14] : Login successfully with 
+[2021-11-19 13:49:26] : Exit by closing window
+[2021-11-19 13:49:45] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 13:49:45] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 13:49:45] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 13:49:45] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 13:49:45] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 13:49:45] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 13:49:45] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 13:49:45] : Read config file:config\sound.ini successfully!
+[2021-11-19 13:49:45] : >>> Sytem is starting...
+[2021-11-19 13:49:45] : Sytem is started successfully
+[2021-11-19 13:49:46] : Login successfully with 
+[2021-11-19 13:51:20] : Exit by closing window
+[2021-11-19 13:52:23] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 13:52:23] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 13:52:23] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 13:52:23] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 13:52:23] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 13:52:23] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 13:52:23] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 13:52:23] : Read config file:config\sound.ini successfully!
+[2021-11-19 13:52:23] : >>> Sytem is starting...
+[2021-11-19 13:52:23] : Sytem is started successfully
+[2021-11-19 13:52:24] : Login successfully with 
+[2021-11-19 13:52:30] : Exit by closing window
+[2021-11-19 13:52:37] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 13:52:37] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 13:52:37] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 13:52:37] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 13:52:37] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 13:52:37] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 13:52:37] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 13:52:37] : Read config file:config\sound.ini successfully!
+[2021-11-19 13:52:37] : >>> Sytem is starting...
+[2021-11-19 13:52:37] : Sytem is started successfully
+[2021-11-19 13:52:38] : Login successfully with 
+[2021-11-19 13:53:17] : Close-window is cancelled
+[2021-11-19 13:53:20] : Exit by closing window
+[2021-11-19 13:53:45] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 13:53:45] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 13:53:45] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 13:53:45] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 13:53:45] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 13:53:45] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 13:53:45] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 13:53:45] : Read config file:config\sound.ini successfully!
+[2021-11-19 13:53:45] : >>> Sytem is starting...
+[2021-11-19 13:53:45] : Sytem is started successfully
+[2021-11-19 13:53:46] : Login successfully with 
+[2021-11-19 14:24:13] : Exit by closing window
+[2021-11-19 14:24:17] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 14:24:17] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 14:24:17] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 14:24:17] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 14:24:17] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 14:24:17] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 14:24:17] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 14:24:17] : Read config file:config\sound.ini successfully!
+[2021-11-19 14:24:17] : >>> Sytem is starting...
+[2021-11-19 14:24:17] : Sytem is started successfully
+[2021-11-19 14:24:18] : Login successfully with 
+[2021-11-19 14:43:56] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 14:43:56] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 14:43:56] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 14:43:56] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 14:43:56] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 14:43:56] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 14:43:56] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 14:43:56] : Read config file:config\sound.ini successfully!
+[2021-11-19 14:43:56] : >>> Sytem is starting...
+[2021-11-19 14:43:56] : Sytem is started successfully
+[2021-11-19 14:43:58] : Login successfully with 
+[2021-11-19 14:44:07] : Skip file D:/projects/helloworld/qtc++/hhq/config/locadd.wav as it's already in
+[2021-11-19 14:44:19] : Sound file 3344.wav, alias is changed to English
+[2021-11-19 14:44:20] : Sound file 68.wav, alias is changed to English
+[2021-11-19 14:44:21] : Sound file 3344.wav, alias is changed to NA
+[2021-11-19 14:44:46] : Exit by closing window
+[2021-11-19 14:46:38] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 14:46:38] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 14:46:38] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 14:46:38] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 14:46:38] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 14:46:38] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 14:46:38] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 14:46:38] : Read config file:config\sound.ini successfully!
+[2021-11-19 14:46:38] : >>> Sytem is starting...
+[2021-11-19 14:46:38] : Sytem is started successfully
+[2021-11-19 14:46:42] : Exit by closing window
+[2021-11-19 15:05:14] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 15:05:14] : Read D:/projects/helloworld/qtc++/hhq/config/68.wav OK
+[2021-11-19 15:05:14] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 15:05:14] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 15:05:14] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 15:05:14] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 15:05:14] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 15:05:14] : Read config file:config\sound.ini successfully!
+[2021-11-19 15:05:14] : >>> Sytem is starting...
+[2021-11-19 15:05:14] : Sytem is started successfully
+[2021-11-19 15:05:20] : Login successfully with 
+[2021-11-19 15:05:29] : Skip file D:/projects/helloworld/qtc++/hhq/config/68.wav as it's already in
+[2021-11-19 15:05:34] : 68.wav is removed
+[2021-11-19 15:05:49] : Read D:/projects/helloworld/qtc++/hhq/config/locadd - 副本.wav OK
+[2021-11-19 15:05:49] : Added file D:/projects/helloworld/qtc++/hhq/config/locadd - 副本.wav
+[2021-11-19 15:06:43] : Read config file:config\sound.ini successfully!
+[2021-11-19 15:06:43] : >>> Sytem is starting...
+[2021-11-19 15:06:43] : Sytem is started successfully
+[2021-11-19 15:06:58] : Login successfully with 
+[2021-11-19 15:07:19] : Read D:/projects/helloworld/qtc++/hhq/config/4 - 副本 (2).wav OK
+[2021-11-19 15:07:19] : Added file D:/projects/helloworld/qtc++/hhq/config/4 - 副本 (2).wav
+[2021-11-19 15:07:19] : Read D:/projects/helloworld/qtc++/hhq/config/4 - 副本 (3).wav OK
+[2021-11-19 15:07:19] : Added file D:/projects/helloworld/qtc++/hhq/config/4 - 副本 (3).wav
+[2021-11-19 15:07:19] : Read D:/projects/helloworld/qtc++/hhq/config/4 - 副本.wav OK
+[2021-11-19 15:07:19] : Added file D:/projects/helloworld/qtc++/hhq/config/4 - 副本.wav
+[2021-11-19 15:07:19] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 15:07:19] : Added file D:/projects/helloworld/qtc++/hhq/config/4.wav
+[2021-11-19 15:07:19] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 15:07:19] : Added file D:/projects/helloworld/qtc++/hhq/config/78.wav
+[2021-11-19 15:07:19] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 15:07:19] : Added file D:/projects/helloworld/qtc++/hhq/config/223.pcm
+[2021-11-19 15:07:19] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 15:07:19] : Added file D:/projects/helloworld/qtc++/hhq/config/3344.wav
+[2021-11-19 15:07:19] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 15:07:19] : Added file D:/projects/helloworld/qtc++/hhq/config/8112.pcm
+[2021-11-19 15:07:19] : Read D:/projects/helloworld/qtc++/hhq/config/locadd - 副本.wav OK
+[2021-11-19 15:07:19] : Added file D:/projects/helloworld/qtc++/hhq/config/locadd - 副本.wav
+[2021-11-19 15:07:19] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 15:07:19] : Added file D:/projects/helloworld/qtc++/hhq/config/locadd.wav
+[2021-11-19 15:07:31] : 4 - 副本 (2).wav is removed
+[2021-11-19 15:07:37] : 4 - 副本 (3).wav is removed
+[2021-11-19 15:07:43] : Sound file 4.wav, alias is changed to English
+[2021-11-19 15:07:45] : Sound file 4 - 副本.wav, alias is changed to Local
+[2021-11-19 15:07:46] : Sound file 78.wav, alias is changed to Siren
+[2021-11-19 15:07:50] : Sound file 8112.pcm, alias is changed to NA
+[2021-11-19 15:07:50] : 8112.pcm is set to repeat Tone
+[2021-11-19 15:07:51] : Sound file locadd - 副本.wav, alias is changed to NA
+[2021-11-19 15:07:51] : locadd - 副本.wav is set to repeat Tone
+[2021-11-19 15:07:52] : Sound file locadd.wav, alias is changed to NA
+[2021-11-19 15:07:52] : locadd.wav is set to repeat Tone
+[2021-11-19 15:07:54] : Sound file locadd - 副本.wav, alias is changed to Tone-1
+[2021-11-19 15:07:55] : Sound file locadd.wav, alias is changed to Tone-1
+[2021-11-19 15:07:56] : Sound file locadd - 副本.wav, alias is changed to NA
+[2021-11-19 15:07:58] : Sound file locadd.wav, alias is changed to Tone-2
+[2021-11-19 15:24:45] : Read D:/projects/helloworld/qtc++/hhq/config/4 - 副本.wav OK
+[2021-11-19 15:24:45] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 15:24:45] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 15:24:45] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 15:24:45] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 15:24:45] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 15:24:45] : Read D:/projects/helloworld/qtc++/hhq/config/locadd - 副本.wav OK
+[2021-11-19 15:24:45] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 15:24:45] : Read config file:config\sound.ini successfully!
+[2021-11-19 15:24:45] : >>> Sytem is starting...
+[2021-11-19 15:24:46] : Sytem is started successfully
+[2021-11-19 15:24:47] : Login successfully with 
+[2021-11-19 15:24:53] : Skip file D:/projects/helloworld/qtc++/hhq/config/locadd.wav as it's already in
+[2021-11-19 15:24:57] : Exit by closing window
+[2021-11-19 15:46:37] : Read D:/projects/helloworld/qtc++/hhq/config/4 - 副本.wav OK
+[2021-11-19 15:46:37] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 15:46:37] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 15:46:37] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 15:46:37] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 15:46:37] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 15:46:37] : Read D:/projects/helloworld/qtc++/hhq/config/locadd - 副本.wav OK
+[2021-11-19 15:46:37] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 15:46:37] : Read config file:config\sound.ini successfully!
+[2021-11-19 15:46:37] : >>> Sytem is starting...
+[2021-11-19 15:46:37] : Sytem is started successfully
+[2021-11-19 15:46:38] : Login successfully with 
+[2021-11-19 15:48:27] : Sound file 4 - 副本.wav, alias is changed to NA
+[2021-11-19 15:48:27] : 4 - 副本.wav is set to repeat Tone
+[2021-11-19 15:48:43] : Sound file 4 - 副本.wav, alias is changed to Tone-1
+[2021-11-19 15:49:02] : 3344.wav is set to repeat True
+[2021-11-19 15:49:10] : 3344.wav is set to repeat False
+[2021-11-19 15:49:19] : locadd.wav is set to repeat True
+[2021-11-19 15:50:16] : Exit by closing window
+[2021-11-19 15:50:22] : Read D:/projects/helloworld/qtc++/hhq/config/4 - 副本.wav OK
+[2021-11-19 15:50:22] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 15:50:22] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 15:50:22] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 15:50:22] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 15:50:22] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 15:50:22] : Read D:/projects/helloworld/qtc++/hhq/config/locadd - 副本.wav OK
+[2021-11-19 15:50:22] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 15:50:22] : Read config file:config\sound.ini successfully!
+[2021-11-19 15:50:22] : >>> Sytem is starting...
+[2021-11-19 15:50:22] : Sytem is started successfully
+[2021-11-19 15:50:45] : Login successfully with 
+[2021-11-19 16:15:41] : Read D:/projects/helloworld/qtc++/hhq/config/4 - 副本.wav OK
+[2021-11-19 16:15:41] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 16:15:41] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 16:15:41] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 16:15:41] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 16:15:41] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 16:15:41] : Read D:/projects/helloworld/qtc++/hhq/config/locadd - 副本.wav OK
+[2021-11-19 16:15:41] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 16:15:41] : Read config file:config\sound.ini successfully!
+[2021-11-19 16:15:41] : >>> Sytem is starting...
+[2021-11-19 16:15:41] : Sytem is started successfully
+[2021-11-19 16:15:43] : Login successfully with 
+[2021-11-19 16:16:26] : Exit by closing window
+[2021-11-19 16:19:57] : Read D:/projects/helloworld/qtc++/hhq/config/4 - 副本.wav OK
+[2021-11-19 16:19:57] : Read D:/projects/helloworld/qtc++/hhq/config/4.wav OK
+[2021-11-19 16:19:57] : Read D:/projects/helloworld/qtc++/hhq/config/78.wav OK
+[2021-11-19 16:19:57] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 16:19:57] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 16:19:57] : Read D:/projects/helloworld/qtc++/hhq/config/8112.pcm OK
+[2021-11-19 16:19:57] : Read D:/projects/helloworld/qtc++/hhq/config/locadd - 副本.wav OK
+[2021-11-19 16:19:57] : Read D:/projects/helloworld/qtc++/hhq/config/locadd.wav OK
+[2021-11-19 16:19:57] : Read config file:config\sound.ini successfully!
+[2021-11-19 16:19:57] : >>> Sytem is starting...
+[2021-11-19 16:19:57] : Sytem is started successfully
+[2021-11-19 16:19:58] : Login successfully with 
+[2021-11-19 16:20:12] : Sound file 4 - 副本.wav, alias is changed to Tone-1
+[2021-11-19 16:20:14] : Sound file 8112.pcm, alias is changed to Tone-2
+[2021-11-19 16:20:16] : Sound file locadd - 副本.wav, alias is changed to Tone-3
+[2021-11-19 16:20:19] : Sound file locadd.wav, alias is changed to Tone-4
+[2021-11-19 16:20:23] : 8112.pcm is successfully renamed to D:/projects/helloworld/qtc++/hhq/config/2.pcm
+[2021-11-19 16:20:31] : locadd - 副本.wav is successfully renamed to D:/projects/helloworld/qtc++/hhq/config/3.pcm
+[2021-11-19 16:20:37] : locadd.wav is successfully renamed to D:/projects/helloworld/qtc++/hhq/config/4.pcm
+[2021-11-19 16:20:39] : 4 - 副本.wav is successfully renamed to D:/projects/helloworld/qtc++/hhq/config/1.pcm
+[2021-11-19 16:20:46] : 4.wav is successfully renamed to D:/projects/helloworld/qtc++/hhq/config/English.wav
+[2021-11-19 16:20:50] : 78.wav is successfully renamed to D:/projects/helloworld/qtc++/hhq/config/Siren.wav
+[2021-11-19 16:21:43] : Exit by closing window
+[2021-11-19 16:22:33] : Read D:/projects/helloworld/qtc++/hhq/config/1.pcm OK
+[2021-11-19 16:22:33] : Read D:/projects/helloworld/qtc++/hhq/config/English.wav OK
+[2021-11-19 16:22:33] : Read D:/projects/helloworld/qtc++/hhq/config/Siren.wav OK
+[2021-11-19 16:22:33] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 16:22:33] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 16:22:33] : Read D:/projects/helloworld/qtc++/hhq/config/2.pcm OK
+[2021-11-19 16:22:33] : Read D:/projects/helloworld/qtc++/hhq/config/3.pcm OK
+[2021-11-19 16:22:33] : Read D:/projects/helloworld/qtc++/hhq/config/4.pcm OK
+[2021-11-19 16:22:33] : Read config file:config\sound.ini successfully!
+[2021-11-19 16:22:33] : >>> Sytem is starting...
+[2021-11-19 16:22:33] : Sytem is started successfully
+[2021-11-19 16:22:34] : Login successfully with 
+[2021-11-19 16:22:54] : Sound file 223.pcm, alias is changed to Local
+[2021-11-19 16:26:02] : Exit by closing window
+[2021-11-19 16:26:09] : Read D:/projects/helloworld/qtc++/hhq/config/1.pcm OK
+[2021-11-19 16:26:09] : Read D:/projects/helloworld/qtc++/hhq/config/English.wav OK
+[2021-11-19 16:26:09] : Read D:/projects/helloworld/qtc++/hhq/config/Siren.wav OK
+[2021-11-19 16:26:09] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 16:26:09] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 16:26:09] : Read D:/projects/helloworld/qtc++/hhq/config/2.pcm OK
+[2021-11-19 16:26:09] : Read D:/projects/helloworld/qtc++/hhq/config/3.pcm OK
+[2021-11-19 16:26:09] : Read D:/projects/helloworld/qtc++/hhq/config/4.pcm OK
+[2021-11-19 16:26:09] : Read config file:config\sound.ini successfully!
+[2021-11-19 16:26:09] : >>> Sytem is starting...
+[2021-11-19 16:26:09] : Sytem is started successfully
+[2021-11-19 16:26:11] : Login successfully with 
+[2021-11-19 16:26:24] : Exit by closing window
+[2021-11-19 16:30:14] : Read D:/projects/helloworld/qtc++/hhq/config/1.pcm OK
+[2021-11-19 16:30:15] : Read D:/projects/helloworld/qtc++/hhq/config/English.wav OK
+[2021-11-19 16:30:15] : Read D:/projects/helloworld/qtc++/hhq/config/Siren.wav OK
+[2021-11-19 16:30:15] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 16:30:15] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 16:30:15] : Read D:/projects/helloworld/qtc++/hhq/config/2.pcm OK
+[2021-11-19 16:30:15] : Read D:/projects/helloworld/qtc++/hhq/config/3.pcm OK
+[2021-11-19 16:30:15] : Read D:/projects/helloworld/qtc++/hhq/config/4.pcm OK
+[2021-11-19 16:30:15] : Read config file:config\sound.ini successfully!
+[2021-11-19 16:30:15] : >>> Sytem is starting...
+[2021-11-19 16:30:15] : Sytem is started successfully
+[2021-11-19 16:30:16] : Login successfully with 
+[2021-11-19 16:30:20] : Exit by closing window
+[2021-11-19 16:31:08] : Read D:/projects/helloworld/qtc++/hhq/config/1.pcm OK
+[2021-11-19 16:31:08] : Read D:/projects/helloworld/qtc++/hhq/config/English.wav OK
+[2021-11-19 16:31:08] : Read D:/projects/helloworld/qtc++/hhq/config/Siren.wav OK
+[2021-11-19 16:31:08] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 16:31:08] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 16:31:08] : Read D:/projects/helloworld/qtc++/hhq/config/2.pcm OK
+[2021-11-19 16:31:08] : Read D:/projects/helloworld/qtc++/hhq/config/3.pcm OK
+[2021-11-19 16:31:08] : Read D:/projects/helloworld/qtc++/hhq/config/4.pcm OK
+[2021-11-19 16:31:08] : Read config file:config\sound.ini successfully!
+[2021-11-19 16:31:08] : >>> Sytem is starting...
+[2021-11-19 16:31:08] : Sytem is started successfully
+[2021-11-19 16:31:11] : Login successfully with 
+[2021-11-19 16:35:58] : Sound file 1.pcm, alias is changed to NA
+[2021-11-19 16:35:58] : 1.pcm is set to repeat Warning
+[2021-11-19 16:41:26] : Read D:/projects/helloworld/qtc++/hhq/config/1.pcm OK
+[2021-11-19 16:41:26] : Read D:/projects/helloworld/qtc++/hhq/config/English.wav OK
+[2021-11-19 16:41:26] : Read D:/projects/helloworld/qtc++/hhq/config/Siren.wav OK
+[2021-11-19 16:41:26] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 16:41:27] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 16:41:27] : Read D:/projects/helloworld/qtc++/hhq/config/2.pcm OK
+[2021-11-19 16:41:27] : Read D:/projects/helloworld/qtc++/hhq/config/3.pcm OK
+[2021-11-19 16:41:27] : Read D:/projects/helloworld/qtc++/hhq/config/4.pcm OK
+[2021-11-19 16:41:27] : Read config file:config\sound.ini successfully!
+[2021-11-19 16:41:27] : >>> Sytem is starting...
+[2021-11-19 16:41:27] : Sytem is started successfully
+[2021-11-19 16:41:28] : Login successfully with 
+[2021-11-19 16:41:38] : Sound file 2.pcm, alias is changed to NA
+[2021-11-19 16:41:38] : 2.pcm is set to repeat Warning
+[2021-11-19 16:41:39] : Sound file 3.pcm, alias is changed to NA
+[2021-11-19 16:41:39] : 3.pcm is set to repeat Warning
+[2021-11-19 16:41:40] : Sound file 4.pcm, alias is changed to NA
+[2021-11-19 16:41:40] : 4.pcm is set to repeat Warning
+[2021-11-19 16:42:04] : Sound file 1.pcm, alias is changed to NA
+[2021-11-19 16:42:04] : 1.pcm is set to repeat Tone
+[2021-11-19 16:42:05] : Sound file Siren.wav, alias is changed to NA
+[2021-11-19 16:42:05] : Siren.wav is set to repeat Tone
+[2021-11-19 16:42:06] : Sound file English.wav, alias is changed to NA
+[2021-11-19 16:42:06] : English.wav is set to repeat Tone
+[2021-11-19 16:42:07] : Sound file 223.pcm, alias is changed to NA
+[2021-11-19 16:42:07] : 223.pcm is set to repeat Tone
+[2021-11-19 16:42:08] : Sound file 3344.wav, alias is changed to NA
+[2021-11-19 16:42:08] : 3344.wav is set to repeat Tone
+[2021-11-19 16:42:09] : Sound file 2.pcm, alias is changed to NA
+[2021-11-19 16:42:09] : 2.pcm is set to repeat Tone
+[2021-11-19 16:42:10] : Sound file 3.pcm, alias is changed to NA
+[2021-11-19 16:42:10] : 3.pcm is set to repeat Tone
+[2021-11-19 16:42:11] : Sound file 4.pcm, alias is changed to NA
+[2021-11-19 16:42:11] : 4.pcm is set to repeat Tone
+[2021-11-19 16:42:52] : Exit by closing window
+[2021-11-19 16:43:57] : Read D:/projects/helloworld/qtc++/hhq/config/1.pcm OK
+[2021-11-19 16:43:57] : Read D:/projects/helloworld/qtc++/hhq/config/English.wav OK
+[2021-11-19 16:43:57] : Read D:/projects/helloworld/qtc++/hhq/config/Siren.wav OK
+[2021-11-19 16:43:57] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 16:43:57] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 16:43:57] : Read D:/projects/helloworld/qtc++/hhq/config/2.pcm OK
+[2021-11-19 16:43:57] : Read D:/projects/helloworld/qtc++/hhq/config/3.pcm OK
+[2021-11-19 16:43:57] : Read D:/projects/helloworld/qtc++/hhq/config/4.pcm OK
+[2021-11-19 16:43:57] : Read config file:config\sound.ini successfully!
+[2021-11-19 16:43:57] : >>> Sytem is starting...
+[2021-11-19 16:43:57] : Sytem is started successfully
+[2021-11-19 16:43:59] : Login successfully with 
+[2021-11-19 16:44:07] : Sound file 1.pcm, alias is changed to NA
+[2021-11-19 16:44:07] : 1.pcm is set to repeat Warning
+[2021-11-19 16:44:07] : Sound file English.wav, alias is changed to NA
+[2021-11-19 16:44:07] : English.wav is set to repeat Warning
+[2021-11-19 16:44:08] : Sound file Siren.wav, alias is changed to NA
+[2021-11-19 16:44:08] : Siren.wav is set to repeat Warning
+[2021-11-19 16:44:09] : Sound file 223.pcm, alias is changed to NA
+[2021-11-19 16:44:09] : 223.pcm is set to repeat Warning
+[2021-11-19 16:44:10] : Sound file 3344.wav, alias is changed to NA
+[2021-11-19 16:44:10] : 3344.wav is set to repeat Warning
+[2021-11-19 16:44:11] : Sound file 2.pcm, alias is changed to NA
+[2021-11-19 16:44:11] : 2.pcm is set to repeat Warning
+[2021-11-19 16:44:12] : Sound file 3.pcm, alias is changed to NA
+[2021-11-19 16:44:12] : 3.pcm is set to repeat Warning
+[2021-11-19 16:44:15] : Sound file 4.pcm, alias is changed to NA
+[2021-11-19 16:44:15] : 4.pcm is set to repeat Warning
+[2021-11-19 16:47:52] : Read D:/projects/helloworld/qtc++/hhq/config/1.pcm OK
+[2021-11-19 16:47:52] : Read D:/projects/helloworld/qtc++/hhq/config/English.wav OK
+[2021-11-19 16:47:52] : Read D:/projects/helloworld/qtc++/hhq/config/Siren.wav OK
+[2021-11-19 16:47:52] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 16:47:52] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 16:47:52] : Read D:/projects/helloworld/qtc++/hhq/config/2.pcm OK
+[2021-11-19 16:47:52] : Read D:/projects/helloworld/qtc++/hhq/config/3.pcm OK
+[2021-11-19 16:47:52] : Read D:/projects/helloworld/qtc++/hhq/config/4.pcm OK
+[2021-11-19 16:47:52] : Read config file:config\sound.ini successfully!
+[2021-11-19 16:47:52] : >>> Sytem is starting...
+[2021-11-19 16:47:52] : Sytem is started successfully
+[2021-11-19 16:47:53] : Login successfully with 
+[2021-11-19 17:01:56] : Exit by closing window
+[2021-11-19 17:02:03] : Read D:/projects/helloworld/qtc++/hhq/config/1.pcm OK
+[2021-11-19 17:02:03] : Read D:/projects/helloworld/qtc++/hhq/config/English.wav OK
+[2021-11-19 17:02:03] : Read D:/projects/helloworld/qtc++/hhq/config/Siren.wav OK
+[2021-11-19 17:02:03] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 17:02:03] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 17:02:03] : Read D:/projects/helloworld/qtc++/hhq/config/2.pcm OK
+[2021-11-19 17:02:03] : Read D:/projects/helloworld/qtc++/hhq/config/3.pcm OK
+[2021-11-19 17:02:03] : Read D:/projects/helloworld/qtc++/hhq/config/4.pcm OK
+[2021-11-19 17:02:03] : Read config file:config\sound.ini successfully!
+[2021-11-19 17:02:03] : >>> Sytem is starting...
+[2021-11-19 17:02:03] : Sytem is started successfully
+[2021-11-19 17:02:04] : Login successfully with 
+[2021-11-19 17:02:32] : Exit by closing window
+[2021-11-19 18:26:16] : Read D:/projects/helloworld/qtc++/hhq/config/1.pcm OK
+[2021-11-19 18:26:16] : Read D:/projects/helloworld/qtc++/hhq/config/English.wav OK
+[2021-11-19 18:26:16] : Read D:/projects/helloworld/qtc++/hhq/config/Siren.wav OK
+[2021-11-19 18:26:16] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 18:26:16] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 18:26:16] : Read D:/projects/helloworld/qtc++/hhq/config/2.pcm OK
+[2021-11-19 18:26:16] : Read D:/projects/helloworld/qtc++/hhq/config/3.pcm OK
+[2021-11-19 18:26:16] : Read D:/projects/helloworld/qtc++/hhq/config/4.pcm OK
+[2021-11-19 18:26:16] : Read config file:config\sound.ini successfully!
+[2021-11-19 18:26:16] : >>> Sytem is starting...
+[2021-11-19 18:26:16] : Sytem is started successfully
+[2021-11-19 18:26:17] : Login successfully with 
+[2021-11-19 18:32:42] : Read D:/projects/helloworld/qtc++/hhq/config/1.pcm OK
+[2021-11-19 18:32:42] : Read D:/projects/helloworld/qtc++/hhq/config/English.wav OK
+[2021-11-19 18:32:42] : Read D:/projects/helloworld/qtc++/hhq/config/Siren.wav OK
+[2021-11-19 18:32:42] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 18:32:42] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 18:32:42] : Read D:/projects/helloworld/qtc++/hhq/config/2.pcm OK
+[2021-11-19 18:32:42] : Read D:/projects/helloworld/qtc++/hhq/config/3.pcm OK
+[2021-11-19 18:32:42] : Read D:/projects/helloworld/qtc++/hhq/config/4.pcm OK
+[2021-11-19 18:32:42] : Read config file:config\sound.ini successfully!
+[2021-11-19 18:32:42] : >>> Sytem is starting...
+[2021-11-19 18:32:42] : Sytem is started successfully
+[2021-11-19 18:32:44] : Login successfully with 
+[2021-11-19 18:33:03] : Sound file 1.pcm, alias is changed to NA
+[2021-11-19 18:33:03] : 1.pcm is set to repeat Tone
+[2021-11-19 18:36:25] : Read D:/projects/helloworld/qtc++/hhq/config/1.pcm OK
+[2021-11-19 18:36:25] : Read D:/projects/helloworld/qtc++/hhq/config/English.wav OK
+[2021-11-19 18:36:25] : Read D:/projects/helloworld/qtc++/hhq/config/Siren.wav OK
+[2021-11-19 18:36:25] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 18:36:25] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 18:36:25] : Read D:/projects/helloworld/qtc++/hhq/config/2.pcm OK
+[2021-11-19 18:36:25] : Read D:/projects/helloworld/qtc++/hhq/config/3.pcm OK
+[2021-11-19 18:36:25] : Read D:/projects/helloworld/qtc++/hhq/config/4.pcm OK
+[2021-11-19 18:36:25] : Read config file:config\sound.ini successfully!
+[2021-11-19 18:36:25] : >>> Sytem is starting...
+[2021-11-19 18:36:25] : Sytem is started successfully
+[2021-11-19 18:36:26] : Login successfully with 
+[2021-11-19 18:36:33] : Sound file English.wav, alias is changed to NA
+[2021-11-19 18:36:33] : English.wav is set to repeat Tone
+[2021-11-19 18:37:01] : Exit by closing window
+[2021-11-19 18:38:01] : Read D:/projects/helloworld/qtc++/hhq/config/1.pcm OK
+[2021-11-19 18:38:01] : Read D:/projects/helloworld/qtc++/hhq/config/English.wav OK
+[2021-11-19 18:38:01] : Read D:/projects/helloworld/qtc++/hhq/config/Siren.wav OK
+[2021-11-19 18:38:01] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 18:38:01] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 18:38:01] : Read D:/projects/helloworld/qtc++/hhq/config/2.pcm OK
+[2021-11-19 18:38:01] : Read D:/projects/helloworld/qtc++/hhq/config/3.pcm OK
+[2021-11-19 18:38:01] : Read D:/projects/helloworld/qtc++/hhq/config/4.pcm OK
+[2021-11-19 18:38:01] : Read config file:config\sound.ini successfully!
+[2021-11-19 18:38:01] : >>> Sytem is starting...
+[2021-11-19 18:38:01] : Sytem is started successfully
+[2021-11-19 18:38:02] : Login successfully with 
+[2021-11-19 18:38:11] : Sound file English.wav, alias is changed to NA
+[2021-11-19 18:38:11] : English.wav is set to repeat Warning
+[2021-11-19 18:39:27] : Read D:/projects/helloworld/qtc++/hhq/config/1.pcm OK
+[2021-11-19 18:39:27] : Read D:/projects/helloworld/qtc++/hhq/config/English.wav OK
+[2021-11-19 18:39:27] : Read D:/projects/helloworld/qtc++/hhq/config/Siren.wav OK
+[2021-11-19 18:39:27] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-19 18:39:27] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-19 18:39:27] : Read D:/projects/helloworld/qtc++/hhq/config/2.pcm OK
+[2021-11-19 18:39:27] : Read D:/projects/helloworld/qtc++/hhq/config/3.pcm OK
+[2021-11-19 18:39:27] : Read D:/projects/helloworld/qtc++/hhq/config/4.pcm OK
+[2021-11-19 18:39:27] : Read config file:config\sound.ini successfully!
+[2021-11-19 18:39:27] : >>> Sytem is starting...
+[2021-11-19 18:39:27] : Sytem is started successfully
+[2021-11-19 18:39:28] : Login successfully with 
+[2021-11-19 18:39:34] : Sound file Siren.wav, alias is changed to NA
+[2021-11-19 18:39:34] : Siren.wav is set to repeat Tone
+[2021-11-19 18:40:08] : Sound file 223.pcm, alias is changed to NA
+[2021-11-19 18:40:08] : 223.pcm is set to repeat Tone
+[2021-11-19 18:40:33] : Sound file 3344.wav, alias is changed to NA
+[2021-11-19 18:40:33] : 3344.wav is set to repeat Tone
+[2021-11-19 18:41:11] : Exit by closing window
+[2021-11-20 17:01:42] : Read D:/projects/helloworld/qtc++/hhq/config/1.pcm OK
+[2021-11-20 17:01:42] : Read D:/projects/helloworld/qtc++/hhq/config/English.wav OK
+[2021-11-20 17:01:42] : Read D:/projects/helloworld/qtc++/hhq/config/Siren.wav OK
+[2021-11-20 17:01:42] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-20 17:01:42] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-20 17:01:42] : Read D:/projects/helloworld/qtc++/hhq/config/2.pcm OK
+[2021-11-20 17:01:42] : Read D:/projects/helloworld/qtc++/hhq/config/3.pcm OK
+[2021-11-20 17:01:42] : Read D:/projects/helloworld/qtc++/hhq/config/4.pcm OK
+[2021-11-20 17:01:42] : Read config file:config\sound.ini successfully!
+[2021-11-20 17:01:42] : >>> Sytem is starting...
+[2021-11-20 17:01:42] : Sytem is started successfully
+[2021-11-20 17:01:43] : Login successfully with 
+[2021-11-20 17:05:48] : Exit by closing window
+[2021-11-20 17:05:54] : Read D:/projects/helloworld/qtc++/hhq/config/1.pcm OK
+[2021-11-20 17:05:54] : Read D:/projects/helloworld/qtc++/hhq/config/English.wav OK
+[2021-11-20 17:05:54] : Read D:/projects/helloworld/qtc++/hhq/config/Siren.wav OK
+[2021-11-20 17:05:54] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-20 17:05:54] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-20 17:05:54] : Read D:/projects/helloworld/qtc++/hhq/config/2.pcm OK
+[2021-11-20 17:05:54] : Read D:/projects/helloworld/qtc++/hhq/config/3.pcm OK
+[2021-11-20 17:05:54] : Read D:/projects/helloworld/qtc++/hhq/config/4.pcm OK
+[2021-11-20 17:05:54] : Read config file:config\sound.ini successfully!
+[2021-11-20 17:05:54] : >>> Sytem is starting...
+[2021-11-20 17:05:54] : Sytem is started successfully
+[2021-11-20 17:05:56] : Login successfully with 
+[2021-11-20 17:06:46] : Exit by closing window
+[2021-11-20 17:12:00] : Read D:/projects/helloworld/qtc++/hhq/config/1.pcm OK
+[2021-11-20 17:12:00] : Read D:/projects/helloworld/qtc++/hhq/config/English.wav OK
+[2021-11-20 17:12:00] : Read D:/projects/helloworld/qtc++/hhq/config/Siren.wav OK
+[2021-11-20 17:12:00] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-20 17:12:00] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-20 17:12:00] : Read D:/projects/helloworld/qtc++/hhq/config/2.pcm OK
+[2021-11-20 17:12:00] : Read D:/projects/helloworld/qtc++/hhq/config/3.pcm OK
+[2021-11-20 17:12:00] : Read D:/projects/helloworld/qtc++/hhq/config/4.pcm OK
+[2021-11-20 17:12:00] : Read config file:config\sound.ini successfully!
+[2021-11-20 17:12:00] : >>> Sytem is starting...
+[2021-11-20 17:12:00] : Sytem is started successfully
+[2021-11-20 17:12:03] : Login successfully with 
+[2021-11-20 17:12:18] : Exit by closing window
+[2021-11-20 17:12:37] : Read D:/projects/helloworld/qtc++/hhq/config/1.pcm OK
+[2021-11-20 17:12:37] : Read D:/projects/helloworld/qtc++/hhq/config/English.wav OK
+[2021-11-20 17:12:37] : Read D:/projects/helloworld/qtc++/hhq/config/Siren.wav OK
+[2021-11-20 17:12:37] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-20 17:12:37] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-20 17:12:37] : Read D:/projects/helloworld/qtc++/hhq/config/2.pcm OK
+[2021-11-20 17:12:37] : Read D:/projects/helloworld/qtc++/hhq/config/3.pcm OK
+[2021-11-20 17:12:37] : Read D:/projects/helloworld/qtc++/hhq/config/4.pcm OK
+[2021-11-20 17:12:37] : Read config file:config\sound.ini successfully!
+[2021-11-20 17:12:37] : >>> Sytem is starting...
+[2021-11-20 17:12:37] : Sytem is started successfully
+[2021-11-20 17:12:38] : Login successfully with 
+[2021-11-20 17:12:51] : Exit by closing window
+[2021-11-20 17:13:18] : Read D:/projects/helloworld/qtc++/hhq/config/1.pcm OK
+[2021-11-20 17:13:18] : Read D:/projects/helloworld/qtc++/hhq/config/English.wav OK
+[2021-11-20 17:13:18] : Read D:/projects/helloworld/qtc++/hhq/config/Siren.wav OK
+[2021-11-20 17:13:18] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-20 17:13:18] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-20 17:13:18] : Read D:/projects/helloworld/qtc++/hhq/config/2.pcm OK
+[2021-11-20 17:13:18] : Read D:/projects/helloworld/qtc++/hhq/config/3.pcm OK
+[2021-11-20 17:13:18] : Read D:/projects/helloworld/qtc++/hhq/config/4.pcm OK
+[2021-11-20 17:13:18] : Read config file:config\sound.ini successfully!
+[2021-11-20 17:13:18] : >>> Sytem is starting...
+[2021-11-20 17:13:18] : Sytem is started successfully
+[2021-11-20 17:13:19] : Login successfully with 
+[2021-11-20 17:13:27] : Sound file 1.pcm, alias is changed to Tone-1
+[2021-11-20 17:13:29] : Sound file English.wav, alias is changed to English
+[2021-11-20 17:13:31] : Sound file Siren.wav, alias is changed to Tone-2
+[2021-11-20 17:13:33] : Sound file 223.pcm, alias is changed to Tone-3
+[2021-11-20 17:13:35] : Sound file 3344.wav, alias is changed to Tone-4
+[2021-11-20 17:13:37] : Sound file 2.pcm, alias is changed to Local
+[2021-11-20 17:13:39] : Sound file 3.pcm, alias is changed to Siren
+[2021-11-20 17:16:33] : Read D:/projects/helloworld/qtc++/hhq/config/1.pcm OK
+[2021-11-20 17:16:33] : Read D:/projects/helloworld/qtc++/hhq/config/English.wav OK
+[2021-11-20 17:16:33] : Read D:/projects/helloworld/qtc++/hhq/config/Siren.wav OK
+[2021-11-20 17:16:33] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-20 17:16:33] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-20 17:16:33] : Read D:/projects/helloworld/qtc++/hhq/config/2.pcm OK
+[2021-11-20 17:16:33] : Read D:/projects/helloworld/qtc++/hhq/config/3.pcm OK
+[2021-11-20 17:16:33] : Read D:/projects/helloworld/qtc++/hhq/config/4.pcm OK
+[2021-11-20 17:16:33] : Read config file:config\sound.ini successfully!
+[2021-11-20 17:16:33] : >>> Sytem is starting...
+[2021-11-20 17:16:33] : Sytem is started successfully
+[2021-11-20 17:16:34] : Login successfully with 
+[2021-11-20 17:17:01] : Sound file Siren.wav, alias is changed to Tone-1
+[2021-11-20 17:17:03] : Sound file 1.pcm, alias is changed to Tone-2
+[2021-11-20 17:17:05] : Sound file 223.pcm, alias is changed to Tone-3
+[2021-11-20 17:17:06] : Sound file 3344.wav, alias is changed to Tone-4
+[2021-11-20 17:17:30] : Exit by closing window
+[2021-11-20 17:17:35] : Read D:/projects/helloworld/qtc++/hhq/config/1.pcm OK
+[2021-11-20 17:17:35] : Read D:/projects/helloworld/qtc++/hhq/config/English.wav OK
+[2021-11-20 17:17:35] : Read D:/projects/helloworld/qtc++/hhq/config/Siren.wav OK
+[2021-11-20 17:17:35] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-20 17:17:35] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-20 17:17:35] : Read D:/projects/helloworld/qtc++/hhq/config/2.pcm OK
+[2021-11-20 17:17:35] : Read D:/projects/helloworld/qtc++/hhq/config/3.pcm OK
+[2021-11-20 17:17:35] : Read D:/projects/helloworld/qtc++/hhq/config/4.pcm OK
+[2021-11-20 17:17:35] : Read config file:config\sound.ini successfully!
+[2021-11-20 17:17:35] : >>> Sytem is starting...
+[2021-11-20 17:17:35] : Sytem is started successfully
+[2021-11-20 17:17:36] : Login successfully with 
+[2021-11-20 17:19:00] : Read D:/projects/helloworld/qtc++/hhq/config/1.pcm OK
+[2021-11-20 17:19:00] : Read D:/projects/helloworld/qtc++/hhq/config/English.wav OK
+[2021-11-20 17:19:00] : Read D:/projects/helloworld/qtc++/hhq/config/Siren.wav OK
+[2021-11-20 17:19:00] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-20 17:19:00] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-20 17:19:00] : Read D:/projects/helloworld/qtc++/hhq/config/2.pcm OK
+[2021-11-20 17:19:00] : Read D:/projects/helloworld/qtc++/hhq/config/3.pcm OK
+[2021-11-20 17:19:00] : Read D:/projects/helloworld/qtc++/hhq/config/4.pcm OK
+[2021-11-20 17:19:00] : Read config file:config\sound.ini successfully!
+[2021-11-20 17:19:00] : >>> Sytem is starting...
+[2021-11-20 17:19:00] : Sytem is started successfully
+[2021-11-20 17:19:01] : Login successfully with 
+[2021-11-20 17:19:11] : Close-window is cancelled
+[2021-11-20 17:21:37] : Read D:/projects/helloworld/qtc++/hhq/config/1.pcm OK
+[2021-11-20 17:21:37] : Read D:/projects/helloworld/qtc++/hhq/config/English.wav OK
+[2021-11-20 17:21:37] : Read D:/projects/helloworld/qtc++/hhq/config/Siren.wav OK
+[2021-11-20 17:21:37] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-20 17:21:37] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-20 17:21:37] : Read D:/projects/helloworld/qtc++/hhq/config/2.pcm OK
+[2021-11-20 17:21:37] : Read D:/projects/helloworld/qtc++/hhq/config/3.pcm OK
+[2021-11-20 17:21:37] : Read D:/projects/helloworld/qtc++/hhq/config/4.pcm OK
+[2021-11-20 17:21:37] : Read config file:config\sound.ini successfully!
+[2021-11-20 17:21:37] : >>> Sytem is starting...
+[2021-11-20 17:21:37] : Sytem is started successfully
+[2021-11-20 17:21:38] : Login successfully with 
+[2021-11-20 17:21:47] : Exit by closing window
+[2021-11-20 17:25:10] : Read D:/projects/helloworld/qtc++/hhq/config/1.pcm OK
+[2021-11-20 17:25:10] : Read D:/projects/helloworld/qtc++/hhq/config/English.wav OK
+[2021-11-20 17:25:10] : Read D:/projects/helloworld/qtc++/hhq/config/Siren.wav OK
+[2021-11-20 17:25:10] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-20 17:25:10] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-20 17:25:10] : Read D:/projects/helloworld/qtc++/hhq/config/2.pcm OK
+[2021-11-20 17:25:10] : Read D:/projects/helloworld/qtc++/hhq/config/3.pcm OK
+[2021-11-20 17:25:10] : Read D:/projects/helloworld/qtc++/hhq/config/4.pcm OK
+[2021-11-20 17:25:10] : Read config file:config\sound.ini successfully!
+[2021-11-20 17:25:10] : >>> Sytem is starting...
+[2021-11-20 17:25:10] : Sytem is started successfully
+[2021-11-20 17:25:12] : Login successfully with 
+[2021-11-20 17:25:19] : Exit by closing window
+[2021-11-20 17:26:01] : Read D:/projects/helloworld/qtc++/hhq/config/1.pcm OK
+[2021-11-20 17:26:01] : Read D:/projects/helloworld/qtc++/hhq/config/English.wav OK
+[2021-11-20 17:26:01] : Read D:/projects/helloworld/qtc++/hhq/config/Siren.wav OK
+[2021-11-20 17:26:01] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-20 17:26:01] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-20 17:26:01] : Read D:/projects/helloworld/qtc++/hhq/config/2.pcm OK
+[2021-11-20 17:26:01] : Read D:/projects/helloworld/qtc++/hhq/config/3.pcm OK
+[2021-11-20 17:26:01] : Read D:/projects/helloworld/qtc++/hhq/config/4.pcm OK
+[2021-11-20 17:26:01] : Read config file:config\sound.ini successfully!
+[2021-11-20 17:26:01] : >>> Sytem is starting...
+[2021-11-20 17:26:01] : Sytem is started successfully
+[2021-11-20 17:26:02] : Login successfully with 
+[2021-11-20 17:28:55] : Sound file English.wav, warning alias is changed to NA
+[2021-11-20 17:59:27] : Read D:/projects/helloworld/qtc++/hhq/config/1.pcm OK
+[2021-11-20 17:59:27] : Read D:/projects/helloworld/qtc++/hhq/config/English.wav OK
+[2021-11-20 17:59:27] : Read D:/projects/helloworld/qtc++/hhq/config/Siren.wav OK
+[2021-11-20 17:59:27] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-20 17:59:27] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-20 17:59:27] : Read D:/projects/helloworld/qtc++/hhq/config/2.pcm OK
+[2021-11-20 17:59:27] : Read D:/projects/helloworld/qtc++/hhq/config/3.pcm OK
+[2021-11-20 17:59:27] : Read D:/projects/helloworld/qtc++/hhq/config/4.pcm OK
+[2021-11-20 17:59:27] : Read config file:config\sound.ini successfully!
+[2021-11-20 17:59:27] : >>> Sytem is starting...
+[2021-11-20 17:59:27] : Sytem is started successfully
+[2021-11-20 17:59:28] : Login successfully with 
+[2021-11-20 18:00:10] : Sound file 4.pcm, alias is changed to English
+[2021-11-20 18:00:57] : Sound file 4.pcm, warning alias is changed to NA
+[2021-11-20 18:01:18] : Sound file 4.pcm, alias is changed to English
+[2021-11-20 18:12:00] : Read D:/projects/helloworld/qtc++/hhq/config/1.pcm OK
+[2021-11-20 18:12:00] : Read D:/projects/helloworld/qtc++/hhq/config/English.wav OK
+[2021-11-20 18:12:00] : Read D:/projects/helloworld/qtc++/hhq/config/Siren.wav OK
+[2021-11-20 18:12:00] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-20 18:12:00] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-20 18:12:00] : Read D:/projects/helloworld/qtc++/hhq/config/2.pcm OK
+[2021-11-20 18:12:00] : Read D:/projects/helloworld/qtc++/hhq/config/3.pcm OK
+[2021-11-20 18:12:00] : Read D:/projects/helloworld/qtc++/hhq/config/4.pcm OK
+[2021-11-20 18:12:00] : Read config file:config\sound.ini successfully!
+[2021-11-20 18:12:00] : >>> Sytem is starting...
+[2021-11-20 18:12:00] : Sytem is started successfully
+[2021-11-20 18:12:01] : Login successfully with 
+[2021-11-20 18:12:27] : Sound file 1.pcm, alias is changed to Tone-1
+[2021-11-20 18:12:33] : Sound file 2.pcm, warning alias is changed to NA
+[2021-11-20 18:12:50] : Exit by closing window
+[2021-11-20 18:22:11] : Read D:/projects/helloworld/qtc++/hhq/config/1.pcm OK
+[2021-11-20 18:22:11] : Read D:/projects/helloworld/qtc++/hhq/config/English.wav OK
+[2021-11-20 18:22:11] : Read D:/projects/helloworld/qtc++/hhq/config/Siren.wav OK
+[2021-11-20 18:22:11] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-20 18:22:11] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-20 18:22:11] : Read D:/projects/helloworld/qtc++/hhq/config/2.pcm OK
+[2021-11-20 18:22:11] : Read D:/projects/helloworld/qtc++/hhq/config/3.pcm OK
+[2021-11-20 18:22:11] : Read D:/projects/helloworld/qtc++/hhq/config/4.pcm OK
+[2021-11-20 18:22:11] : Read config file:config\sound.ini successfully!
+[2021-11-20 18:22:11] : >>> Sytem is starting...
+[2021-11-20 18:22:11] : Sytem is started successfully
+[2021-11-20 18:22:12] : Login successfully with 
+[2021-11-20 18:22:28] : Sound file 3.pcm, warning alias is changed to NA
+[2021-11-20 18:22:29] : Sound file 4.pcm, warning alias is changed to NA
+[2021-11-20 18:22:47] : Sound file 2.pcm, alias is changed to NA
+[2021-11-20 18:22:47] : 2.pcm is set to repeat Tone
+[2021-11-20 18:22:49] : Sound file 4.pcm, alias is changed to NA
+[2021-11-20 18:22:49] : 4.pcm is set to repeat Tone
+[2021-11-20 18:22:50] : Sound file 3.pcm, alias is changed to NA
+[2021-11-20 18:22:50] : 3.pcm is set to repeat Tone
+[2021-11-20 18:22:52] : Sound file English.wav, alias is changed to NA
+[2021-11-20 18:22:52] : English.wav is set to repeat Tone
+[2021-11-20 18:23:14] : Sound file English.wav, alias is changed to NA
+[2021-11-20 18:23:14] : English.wav is set to repeat Warning
+[2021-11-20 18:23:27] : Sound file English.wav, alias is changed to NA
+[2021-11-20 18:23:27] : English.wav is set to repeat Tone
+[2021-11-20 18:24:05] : Exit by closing window
+[2021-11-20 18:26:10] : Read D:/projects/helloworld/qtc++/hhq/config/1.pcm OK
+[2021-11-20 18:26:10] : Read D:/projects/helloworld/qtc++/hhq/config/English.wav OK
+[2021-11-20 18:26:10] : Read D:/projects/helloworld/qtc++/hhq/config/Siren.wav OK
+[2021-11-20 18:26:10] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-20 18:26:10] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-20 18:26:10] : Read D:/projects/helloworld/qtc++/hhq/config/2.pcm OK
+[2021-11-20 18:26:10] : Read D:/projects/helloworld/qtc++/hhq/config/3.pcm OK
+[2021-11-20 18:26:10] : Read D:/projects/helloworld/qtc++/hhq/config/4.pcm OK
+[2021-11-20 18:26:10] : Read config file:config\sound.ini successfully!
+[2021-11-20 18:26:10] : >>> Sytem is starting...
+[2021-11-20 18:26:10] : Sytem is started successfully
+[2021-11-20 18:26:11] : Login successfully with 
+[2021-11-20 18:26:18] : Sound file 1.pcm, alias is changed to NA
+[2021-11-20 18:26:18] : 1.pcm is set to repeat Warning
+[2021-11-20 18:26:19] : Sound file English.wav, alias is changed to NA
+[2021-11-20 18:26:19] : English.wav is set to repeat Warning
+[2021-11-20 18:26:20] : Sound file Siren.wav, alias is changed to NA
+[2021-11-20 18:26:20] : Siren.wav is set to repeat Warning
+[2021-11-20 18:26:21] : Sound file 223.pcm, alias is changed to NA
+[2021-11-20 18:26:21] : 223.pcm is set to repeat Warning
+[2021-11-20 18:26:21] : Sound file 3344.wav, alias is changed to NA
+[2021-11-20 18:26:21] : 3344.wav is set to repeat Warning
+[2021-11-20 18:26:22] : Sound file 2.pcm, alias is changed to NA
+[2021-11-20 18:26:22] : 2.pcm is set to repeat Warning
+[2021-11-20 18:26:23] : Sound file 3.pcm, alias is changed to NA
+[2021-11-20 18:26:23] : 3.pcm is set to repeat Warning
+[2021-11-20 18:26:24] : Sound file 4.pcm, alias is changed to NA
+[2021-11-20 18:26:24] : 4.pcm is set to repeat Warning
+[2021-11-20 18:26:42] : Sound file 2.pcm, alias is changed to NA
+[2021-11-20 18:26:42] : 2.pcm is set to repeat Tone
+[2021-11-20 18:26:43] : Sound file 3.pcm, alias is changed to NA
+[2021-11-20 18:26:43] : 3.pcm is set to repeat Tone
+[2021-11-20 18:26:44] : Sound file 4.pcm, alias is changed to NA
+[2021-11-20 18:26:44] : 4.pcm is set to repeat Tone
+[2021-11-20 18:26:46] : Sound file 2.pcm, alias is changed to Tone-1
+[2021-11-20 18:26:47] : Sound file 3.pcm, alias is changed to Tone-2
+[2021-11-20 18:26:48] : Sound file 4.pcm, alias is changed to Tone-2
+[2021-11-20 18:26:49] : Sound file 3.pcm, alias is changed to NA
+[2021-11-20 18:26:51] : Sound file 3.pcm, alias is changed to Tone-3
+[2021-11-20 18:26:59] : Exit by closing window
+[2021-11-20 18:27:04] : Read D:/projects/helloworld/qtc++/hhq/config/1.pcm OK
+[2021-11-20 18:27:04] : Read D:/projects/helloworld/qtc++/hhq/config/English.wav OK
+[2021-11-20 18:27:04] : Read D:/projects/helloworld/qtc++/hhq/config/Siren.wav OK
+[2021-11-20 18:27:04] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-20 18:27:04] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-20 18:27:04] : Read D:/projects/helloworld/qtc++/hhq/config/2.pcm OK
+[2021-11-20 18:27:04] : Read D:/projects/helloworld/qtc++/hhq/config/3.pcm OK
+[2021-11-20 18:27:04] : Read D:/projects/helloworld/qtc++/hhq/config/4.pcm OK
+[2021-11-20 18:27:04] : Read config file:config\sound.ini successfully!
+[2021-11-20 18:27:04] : >>> Sytem is starting...
+[2021-11-20 18:27:04] : Sytem is started successfully
+[2021-11-20 18:27:05] : Login successfully with 
+[2021-11-20 18:33:15] : Exit by closing window
+[2021-11-20 18:33:21] : Read D:/projects/helloworld/qtc++/hhq/config/1.pcm OK
+[2021-11-20 18:33:21] : Read D:/projects/helloworld/qtc++/hhq/config/English.wav OK
+[2021-11-20 18:33:21] : Read D:/projects/helloworld/qtc++/hhq/config/Siren.wav OK
+[2021-11-20 18:33:21] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-20 18:33:21] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-20 18:33:21] : Read D:/projects/helloworld/qtc++/hhq/config/2.pcm OK
+[2021-11-20 18:33:21] : Read D:/projects/helloworld/qtc++/hhq/config/3.pcm OK
+[2021-11-20 18:33:21] : Read D:/projects/helloworld/qtc++/hhq/config/4.pcm OK
+[2021-11-20 18:33:21] : Read config file:config\sound.ini successfully!
+[2021-11-20 18:33:21] : >>> Sytem is starting...
+[2021-11-20 18:33:21] : Sytem is started successfully
+[2021-11-20 18:33:22] : Login successfully with 
+[2021-11-20 18:33:32] : Sound file 1.pcm, alias is changed to English
+[2021-11-20 18:33:33] : Sound file English.wav, alias is changed to Local
+[2021-11-20 18:33:35] : Sound file Siren.wav, alias is changed to Siren
+[2021-11-20 18:34:01] : Close-window is cancelled
+[2021-11-20 18:34:13] : Exit by closing window
+[2021-11-20 18:34:16] : Read D:/projects/helloworld/qtc++/hhq/config/1.pcm OK
+[2021-11-20 18:34:16] : Read D:/projects/helloworld/qtc++/hhq/config/English.wav OK
+[2021-11-20 18:34:16] : Read D:/projects/helloworld/qtc++/hhq/config/Siren.wav OK
+[2021-11-20 18:34:16] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-20 18:34:16] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-20 18:34:16] : Read D:/projects/helloworld/qtc++/hhq/config/2.pcm OK
+[2021-11-20 18:34:16] : Read D:/projects/helloworld/qtc++/hhq/config/3.pcm OK
+[2021-11-20 18:34:16] : Read D:/projects/helloworld/qtc++/hhq/config/4.pcm OK
+[2021-11-20 18:34:16] : Read config file:config\sound.ini successfully!
+[2021-11-20 18:34:16] : >>> Sytem is starting...
+[2021-11-20 18:34:17] : Sytem is started successfully
+[2021-11-20 18:34:17] : Login successfully with 
+[2021-11-20 19:32:17] : Skip file D:/projects/helloworld/qtc++/hhq/config/223.pcm as it's already in
+[2021-11-20 19:32:17] : Skip file D:/projects/helloworld/qtc++/hhq/config/3344.wav as it's already in
+[2021-11-20 19:32:17] : Skip file D:/projects/helloworld/qtc++/hhq/config/English.wav as it's already in
+[2021-11-20 19:32:17] : Skip file D:/projects/helloworld/qtc++/hhq/config/Siren.wav as it's already in
+[2021-11-20 19:33:15] : Read D:/projects/helloworld/qtc++/hhq/config/t1.pcm OK
+[2021-11-20 19:33:15] : Added file D:/projects/helloworld/qtc++/hhq/config/t1.pcm
+[2021-11-20 19:33:15] : Read D:/projects/helloworld/qtc++/hhq/config/t2.pcm OK
+[2021-11-20 19:33:15] : Added file D:/projects/helloworld/qtc++/hhq/config/t2.pcm
+[2021-11-20 19:33:15] : Read D:/projects/helloworld/qtc++/hhq/config/t3.pcm OK
+[2021-11-20 19:33:15] : Added file D:/projects/helloworld/qtc++/hhq/config/t3.pcm
+[2021-11-20 19:33:15] : Read D:/projects/helloworld/qtc++/hhq/config/t4.pcm OK
+[2021-11-20 19:33:15] : Added file D:/projects/helloworld/qtc++/hhq/config/t4.pcm
+[2021-11-20 19:33:15] : Read D:/projects/helloworld/qtc++/hhq/config/t5.pcm OK
+[2021-11-20 19:33:15] : Added file D:/projects/helloworld/qtc++/hhq/config/t5.pcm
+[2021-11-20 19:33:19] : Sound file 2.pcm, alias is changed to Tone-2
+[2021-11-20 19:33:21] : Sound file 4.pcm, alias is changed to NA
+[2021-11-20 19:33:41] : Sound file t1.pcm, alias is changed to NA
+[2021-11-20 19:33:41] : t1.pcm is set to repeat Tone
+[2021-11-20 19:33:42] : Sound file t2.pcm, alias is changed to NA
+[2021-11-20 19:33:42] : t2.pcm is set to repeat Tone
+[2021-11-20 19:33:43] : Sound file t3.pcm, alias is changed to NA
+[2021-11-20 19:33:43] : t3.pcm is set to repeat Tone
+[2021-11-20 19:33:44] : Sound file t4.pcm, alias is changed to NA
+[2021-11-20 19:33:44] : t4.pcm is set to repeat Tone
+[2021-11-20 19:33:45] : Sound file t5.pcm, alias is changed to NA
+[2021-11-20 19:33:45] : t5.pcm is set to repeat Tone
+[2021-11-20 19:33:55] : Sound file t1.pcm, alias is changed to Tone-1
+[2021-11-20 19:33:56] : Sound file t2.pcm, alias is changed to Tone-2
+[2021-11-20 19:33:58] : Sound file 2.pcm, alias is changed to NA
+[2021-11-20 19:33:59] : Sound file t3.pcm, alias is changed to Tone-3
+[2021-11-20 19:34:00] : Sound file 3.pcm, alias is changed to NA
+[2021-11-20 19:43:40] : Read D:/projects/helloworld/qtc++/hhq/config/1.pcm OK
+[2021-11-20 19:43:40] : Read D:/projects/helloworld/qtc++/hhq/config/English.wav OK
+[2021-11-20 19:43:40] : Read D:/projects/helloworld/qtc++/hhq/config/Siren.wav OK
+[2021-11-20 19:43:40] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-20 19:43:40] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-20 19:43:40] : Read D:/projects/helloworld/qtc++/hhq/config/2.pcm OK
+[2021-11-20 19:43:40] : Read D:/projects/helloworld/qtc++/hhq/config/3.pcm OK
+[2021-11-20 19:43:40] : Read D:/projects/helloworld/qtc++/hhq/config/4.pcm OK
+[2021-11-20 19:43:40] : Read D:/projects/helloworld/qtc++/hhq/config/t1.pcm OK
+[2021-11-20 19:43:40] : Read D:/projects/helloworld/qtc++/hhq/config/t2.pcm OK
+[2021-11-20 19:43:40] : Read D:/projects/helloworld/qtc++/hhq/config/t3.pcm OK
+[2021-11-20 19:43:40] : Read D:/projects/helloworld/qtc++/hhq/config/t4.pcm OK
+[2021-11-20 19:43:40] : Read D:/projects/helloworld/qtc++/hhq/config/t5.pcm OK
+[2021-11-20 19:43:40] : Read config file:config\sound.ini successfully!
+[2021-11-20 19:43:40] : >>> Sytem is starting...
+[2021-11-20 19:43:41] : Sytem is started successfully
+[2021-11-20 19:43:42] : Login successfully with 
+[2021-11-20 19:43:51] : Sound file t4.pcm, alias is changed to Tone-4
+[2021-11-20 19:47:41] : Read D:/projects/helloworld/qtc++/hhq/config/1.pcm OK
+[2021-11-20 19:47:41] : Read D:/projects/helloworld/qtc++/hhq/config/English.wav OK
+[2021-11-20 19:47:41] : Read D:/projects/helloworld/qtc++/hhq/config/Siren.wav OK
+[2021-11-20 19:47:41] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-20 19:47:41] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-20 19:47:41] : Read D:/projects/helloworld/qtc++/hhq/config/2.pcm OK
+[2021-11-20 19:47:41] : Read D:/projects/helloworld/qtc++/hhq/config/3.pcm OK
+[2021-11-20 19:47:41] : Read D:/projects/helloworld/qtc++/hhq/config/4.pcm OK
+[2021-11-20 19:47:41] : Read D:/projects/helloworld/qtc++/hhq/config/t1.pcm OK
+[2021-11-20 19:47:41] : Read D:/projects/helloworld/qtc++/hhq/config/t2.pcm OK
+[2021-11-20 19:47:41] : Read D:/projects/helloworld/qtc++/hhq/config/t3.pcm OK
+[2021-11-20 19:47:41] : Read D:/projects/helloworld/qtc++/hhq/config/t4.pcm OK
+[2021-11-20 19:47:41] : Read D:/projects/helloworld/qtc++/hhq/config/t5.pcm OK
+[2021-11-20 19:47:41] : Read config file:config\sound.ini successfully!
+[2021-11-20 19:47:41] : >>> Sytem is starting...
+[2021-11-20 19:47:41] : Sytem is started successfully
+[2021-11-20 19:48:00] : Login successfully with 
+[2021-11-20 19:51:07] : Read D:/projects/helloworld/qtc++/hhq/config/1.pcm OK
+[2021-11-20 19:51:07] : Read D:/projects/helloworld/qtc++/hhq/config/English.wav OK
+[2021-11-20 19:51:07] : Read D:/projects/helloworld/qtc++/hhq/config/Siren.wav OK
+[2021-11-20 19:51:07] : Read D:/projects/helloworld/qtc++/hhq/config/223.pcm OK
+[2021-11-20 19:51:07] : Read D:/projects/helloworld/qtc++/hhq/config/3344.wav OK
+[2021-11-20 19:51:07] : Read D:/projects/helloworld/qtc++/hhq/config/2.pcm OK
+[2021-11-20 19:51:07] : Read D:/projects/helloworld/qtc++/hhq/config/3.pcm OK
+[2021-11-20 19:51:07] : Read D:/projects/helloworld/qtc++/hhq/config/4.pcm OK
+[2021-11-20 19:51:07] : Read D:/projects/helloworld/qtc++/hhq/config/t1.pcm OK
+[2021-11-20 19:51:07] : Read D:/projects/helloworld/qtc++/hhq/config/t2.pcm OK
+[2021-11-20 19:51:07] : Read D:/projects/helloworld/qtc++/hhq/config/t3.pcm OK
+[2021-11-20 19:51:07] : Read D:/projects/helloworld/qtc++/hhq/config/t4.pcm OK
+[2021-11-20 19:51:07] : Read D:/projects/helloworld/qtc++/hhq/config/t5.pcm OK
+[2021-11-20 19:51:07] : Read config file:config\sound.ini successfully!
+[2021-11-20 19:51:07] : >>> Sytem is starting...
+[2021-11-20 19:51:07] : Sytem is started successfully
+[2021-11-20 19:51:08] : Login successfully with 
+[2021-11-20 19:51:15] : Sound file t5.pcm, alias is changed to Tone-5
+[2021-11-20 19:51:27] : Sound file t4.pcm, alias is changed to Tone-6
+[2021-11-20 19:51:30] : Sound file t3.pcm, alias is changed to Tone-4
+[2021-11-20 19:51:35] : Sound file t2.pcm, alias is changed to Tone-3
+[2021-11-20 19:51:36] : Sound file t1.pcm, alias is changed to Tone-2
+[2021-11-20 19:51:40] : Sound file 3344.wav, alias is changed to English
+[2021-11-20 19:51:42] : Sound file 1.pcm, alias is changed to NA
+[2021-11-20 19:52:03] : Sound file 3344.wav, alias is changed to NA
+[2021-11-20 19:52:03] : 3344.wav is set to repeat Tone
+[2021-11-20 19:52:03] : Sound file 3344.wav, alias is changed to NA
+[2021-11-20 19:52:03] : 3344.wav is set to repeat Warning
+[2021-11-20 19:52:11] : Sound file Siren.wav, alias is changed to Local
+[2021-11-20 19:52:12] : Sound file English.wav, alias is changed to NA
+[2021-11-20 19:52:16] : Sound file 1.pcm, alias is changed to English
+[2021-11-20 19:52:18] : Sound file English.wav, alias is changed to Local
+[2021-11-20 19:52:19] : Sound file Siren.wav, alias is changed to NA
+[2021-11-20 19:52:22] : Sound file Siren.wav, alias is changed to Siren
+[2021-11-20 19:52:40] : Sound file 4.pcm, alias is changed to Tone-1
+[2021-11-20 19:52:53] : 2.pcm is removed
+[2021-11-20 19:52:55] : 3.pcm is removed
+[2021-11-20 19:53:01] : t4.pcm is removed

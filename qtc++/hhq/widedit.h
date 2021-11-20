@@ -11,34 +11,7 @@
 #include <QFile>
 #include <QComboBox>
 #include "buttonedit.h"
-
-
-class FileTableWidgetItem: public QTableWidgetItem
-{
-    friend class WidEdit;
-public:
-    explicit FileTableWidgetItem(const QString &text, int type = QTableWidgetItem::UserType);
-    ~FileTableWidgetItem();
-
-    void set_soundFile(QFile *qf) {m_soundFile = qf;}
-    QFile *soundFile(){return m_soundFile;}
-    bool remove_file(){return m_soundFile->remove();}
-
-    int groupIdx(){return m_group;}
-    int aliasIdx(){return m_alias;}
-    bool isRepeat(){return m_repeat;}
-
-    void set_groupIdx(int idx){m_group = idx;}
-    void set_aliasIdx(int idx){m_alias = idx;}
-    void set_repeat(bool flag){m_repeat = flag;}
-private:
-    QFile *m_soundFile;
-
-    int m_group;
-    int m_alias;
-    bool m_repeat;
-
-};
+#include "filetablewidgetitem.h"
 
 
 class WidEdit : public QWidget
@@ -53,6 +26,8 @@ public:
     void write_config_default(){write_config(m_config_file);}
 
     const QString config_dir(){return m_config_dir;}
+
+    FileTableWidgetItemList_R read_fileTabel_List();
 
 signals:
 

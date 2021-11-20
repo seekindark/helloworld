@@ -18,5 +18,7 @@
         <file>resource/reviewplay.ico</file>
         <file>resource/reviewstop.ico</file>
         <file>resource/trash.ico</file>
+        <file>resource/tone-other.ico</file>
+        <file>resource/wav-other.ico</file>
     </qresource>
 </RCC>
