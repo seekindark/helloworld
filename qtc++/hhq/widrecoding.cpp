@@ -1,5 +1,8 @@
 #include <QtDebug>
 #include "widrecoding.h"
+#include "haudioproc.h"
+
+extern HAudioProc *g_audioProc;
 
 WidRecoding::WidRecoding(QWidget *parent) : QWidget(parent)
 {
@@ -177,7 +180,7 @@ void WidRecoding::start_recording()
                               "border-radius:3px;\n");
         m_pb_v->setGeometry(m_bt_mic->width()/2 - 5, 18 , 10, m_bt_mic->height()*1/3+2);
         m_pb_v->setTextVisible(false);
-        m_pb_v->setValue(60);
+        //m_pb_v->setValue(60);
         m_pb_v->show();
 
     }
@@ -185,6 +188,9 @@ void WidRecoding::start_recording()
     {
         m_pb_v->show();
     }
+
+    //start recording
+    g_audioProc->recording_start(m_pb_v, m_bt_mic);
 }
 
 void WidRecoding::prepare_review(E_PREPARE_type type)
@@ -210,6 +216,10 @@ void WidRecoding::prepare_review(E_PREPARE_type type)
         show_2ndPart_review();
     }
 
+    //stop recording & stop review
+    g_audioProc->recording_stop();
+    g_audioProc->review_stop();
+
 }
 void WidRecoding::start_reviewing()
 {
@@ -227,13 +237,17 @@ void WidRecoding::start_reviewing()
         m_pb_h->setStyleSheet("background-color: rgb(84, 207, 252);\n"
                               "border-radius:3px;\n");
         m_pb_h->setTextVisible(false);
-        m_pb_h->setValue(50);
+        //m_pb_h->setValue(50);
         m_pb_h->show();
     }
     else
     {
         m_pb_h->show();
     }
+
+    //start review
+    g_audioProc->review_start(m_pb_h, m_bt_mic);
+
 }
 
 void WidRecoding::show_2ndPart_record(bool show_flag)
@@ -304,8 +318,8 @@ void WidRecoding::show_2ndPart_review(bool show_flag)
             m_comBox_type->setEditable(false);
             m_comBox_type->setStyleSheet(style);
             m_comBox_type->setPlaceholderText("Warning");
-            m_comBox_type->addItems({"Warning English", "Warning Local", "Warning Siren", "N/A"});
-            m_comBox_type->setCurrentIndex(0);
+            m_comBox_type->addItems({"Warning English", "Warning Local", "Warning Siren", "NA"});
+            m_comBox_type->setCurrentIndex(3);
             qDebug() << "current comboBox =" << m_comBox_type->currentIndex();
             qDebug()<< "combo placeholder text = " << m_comBox_type->placeholderText();
 
@@ -381,6 +395,7 @@ void WidRecoding::on_bt_discard_clicked()
     else if(m_state == e_mic_reviewing)
     {
         //stop the review, i.e. stop the music playing
+        g_audioProc->recording_discard();
     }
 
     //switch back to prepar-recording, i.e. mic-off STATE
@@ -396,6 +411,7 @@ void WidRecoding::on_bt_save_clicked()
     else if(m_state == e_mic_reviewing)
     {
         //stop the review, i.e. stop the music playing
+        g_audioProc->recording_discard();
     }
 
     //check if the recording can be saved as a valid one

@@ -1,5 +1,6 @@
 QT       += core gui
-
+QT       += network
+QT       += multimedia
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 CONFIG += c++11
@@ -12,6 +13,7 @@ SOURCES += \
     btnplay.cpp \
     buttonedit.cpp \
     filetablewidgetitem.cpp \
+    haudioproc.cpp \
     hsecurity.cpp \
     loginwindow.cpp \
     main.cpp \
@@ -31,6 +33,7 @@ HEADERS += \
     btnplay.h \
     buttonedit.h \
     filetablewidgetitem.h \
+    haudioproc.h \
     hsecurity.h \
     loginwindow.h \
     mainwindow.h \

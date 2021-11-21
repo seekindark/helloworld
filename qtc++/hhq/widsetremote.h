@@ -22,7 +22,7 @@ signals:
 
 public slots:
     void on_apply_clicked();
-
+    void on_volSiliderChanged(int val);
 private:
 
     int m_id;   // 1: remote-1, 2: remote-2

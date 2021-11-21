@@ -4,6 +4,9 @@
 #include "loginwindow.h"
 #include "mylog.h"
 #include "hsecurity.h"
+#include "haudioproc.h"
+
+HAudioProc *g_audioProc = new HAudioProc();
 
 
 int main(int argc, char *argv[])

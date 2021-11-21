@@ -25,7 +25,7 @@ LoginWindow::LoginWindow(QWidget *parent) : QDialog(parent)
     //setAttribute(Qt::WA_TranslucentBackground);
 
     // Label title
-    m_lab_title = new QLabel("IHSS-UDE-800", this);
+    m_lab_title = new QLabel("IHSS.UDE-01", this);
     m_lab_title->setAlignment(Qt::AlignHCenter);
     QFont font = m_wm->font();
     font.setPointSize(26);

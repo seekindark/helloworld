@@ -32,12 +32,13 @@ WidSetRemote::WidSetRemote(int id, QWidget *parent) : QWidget(parent),m_id(id)
     m_vol_slider = new QSlider();
     QFormLayout *flayout_vol = new QFormLayout();
     m_vol_slider->setOrientation(Qt::Horizontal);
-    m_vol_slider->setMaximum(7);
-    m_vol_slider->setMinimum(1);
+    m_vol_slider->setMaximum(10);
+    m_vol_slider->setMinimum(0);
     m_vol_slider->setTickInterval(1);
     m_vol_slider->setSingleStep(1);
     m_vol_slider->setPageStep(1);
     m_vol_slider->setTickPosition(QSlider::TicksBelow);
+    connect(m_vol_slider, SIGNAL(valueChanged(int)), this, SLOT(on_volSiliderChanged(int)));
     flayout_vol->addRow("Volumn", m_vol_slider);
     flayout_vol->setSpacing(30);
 
@@ -56,7 +57,6 @@ WidSetRemote::WidSetRemote(int id, QWidget *parent) : QWidget(parent),m_id(id)
     m_powerMod2->setCheckState(Qt::Checked);
     m_powerAmp1->setCheckState(Qt::Checked);
     m_powerAmp2->setCheckState(Qt::Checked);
-
     m_vol_slider->setValue(7);
     qDebug() << __FUNCTION__ << 2;
 
@@ -145,7 +145,12 @@ void WidSetRemote::on_apply_clicked()
     qDebug() << "ip, port" << m_LE_ip->text() <<"," << m_LE_port->text();
 }
 
+void WidSetRemote::on_volSiliderChanged(int val)
+{
+    qDebug() << __FUNCTION__ << val;
+    m_vol_slider->setToolTip(QString::number(val));
 
+}
 WidSetRemote::~WidSetRemote()
 {
     qDebug() << __FUNCTION__;

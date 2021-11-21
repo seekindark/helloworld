@@ -28,7 +28,7 @@ MainWindow::MainWindow(QWidget *parent)
     QFont font = this->font();
     font.setFamily("Arial");
     setFont(font);
-    setWindowTitle("IHSS-UDE-800");
+    setWindowTitle("IHSS.UDE-01");
     setWindowIcon(QIcon(":/login/resource/dragon.ico"));
     //setIconSize(QSize(30, 30));
 
@@ -64,7 +64,7 @@ void MainWindow::construct_main()
 
     //title part
     ///
-    m_lab_title = new QLabel("      IHSS-UDE-800", this);
+    m_lab_title = new QLabel("      IHSS.UDE-01", this);
     m_lab_title->setGeometry(QRect(0, 0, width(), 50));
     m_lab_title->setStyleSheet(QString::fromUtf8("background-color: rgb(60, 60, 160);\n"
                                         "color: white;\n"));//
