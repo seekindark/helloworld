@@ -885,3 +885,8 @@ FileTableWidgetItemList_R WidEdit::read_fileTabel_List()
 
     return list;
 }
+
+void WidEdit::on_SaveRecording(const QStringList &rf)
+{
+    insert_row(m_table->rowCount(), rf);
+}

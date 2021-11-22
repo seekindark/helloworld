@@ -114,6 +114,8 @@ void MainWindow::construct_main()
     m_wid_editRecord = new WidEdit(m_tab);
     connect(m_tab, SIGNAL(tabBarClicked(int)), this, SLOT(on_tabBarClicked(int)));
     connect(m_tab, SIGNAL(currentChanged(int)), this, SLOT(on_currentChanged(int)));
+    connect(m_wid_newRecord, SIGNAL(recordingSaved(QStringList)),
+            m_wid_editRecord, SLOT(on_SaveRecording(QStringList)));
 
     m_tab->addTab(m_wid_dashboard, "DASHBOARD");
     m_tab->addTab(m_wid_livecall, "BROADCAST");
@@ -297,8 +299,8 @@ void MainWindow::on_menu_exit_clicked()
 void MainWindow::closeEvent( QCloseEvent * event )
 {
    qDebug() << "MainWindow" << __FUNCTION__;
-   int ret =  QMessageBox::information( this, tr("IHSS-UDE-800"),
-                         tr("Do you really want to quit IHSS-UDE-800?"),
+   int ret =  QMessageBox::information( this, tr("IHSS.UDE-01"),
+                         tr("Do you really want to quit IHSS.UDE-01?"),
                          tr("Yes"), tr("No"),
                          0, 1 );
     switch(ret)

@@ -31,6 +31,7 @@ public:
         e_prepare_back
     }E_PREPARE_type;
 signals:
+    void recordingSaved(const QStringList &file);
 
 public slots:
     void on_mic_clicked();
@@ -39,6 +40,9 @@ public slots:
 
 
 private:
+
+    QString m_sound_dir_default;
+
     QLabel *m_lab_recording;
     QVBoxLayout *m_layout_all;
 
@@ -78,6 +82,9 @@ private:
     void hide_2ndPart_record(){show_2ndPart_record(false);}
     void hide_2ndPart_review(){show_2ndPart_review(false);}
 
+    bool check_and_save_recording();
+    void check_default_sound_dir();
+    const QString warningAlias(int index);
 };
 
 #endif // WIDRECODING_H

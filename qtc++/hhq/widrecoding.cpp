@@ -1,6 +1,8 @@
 #include <QtDebug>
+#include <QDir>
 #include "widrecoding.h"
 #include "haudioproc.h"
+#include "mylog.h"
 
 extern HAudioProc *g_audioProc;
 
@@ -21,6 +23,7 @@ WidRecoding::WidRecoding(QWidget *parent) : QWidget(parent)
     m_lay_review_1stline = nullptr;
     m_lay_revaiew_2ndline = nullptr;
 
+    m_sound_dir_default = "sounds";
 
     QFont font;
     font.setFamily(QString::fromUtf8("Arial"));
@@ -302,6 +305,7 @@ void WidRecoding::show_2ndPart_review(bool show_flag)
             m_le_fileName->setMaximumHeight(40);
             m_le_fileName->setFont(font);
             m_le_fileName->setStyleSheet("background-color: white");
+            m_le_fileName->setPlaceholderText("*.wav");
 
             m_chk_repeat = new QCheckBox("Repeat");
             m_chk_repeat->setSizePolicy(sizePolicy);
@@ -390,7 +394,7 @@ void WidRecoding::on_bt_discard_clicked()
 
     if(m_state == e_mic_review_ready)
     {
-
+        qDebug() << "WidRecoding::" << __FUNCTION__ << "review_ready, do nothing";
     }
     else if(m_state == e_mic_reviewing)
     {
@@ -406,18 +410,117 @@ void WidRecoding::on_bt_save_clicked()
 {
     if(m_state == e_mic_review_ready)
     {
-
+        qDebug() << "WidRecoding::" << __FUNCTION__ << "review_ready, do nothing";
     }
     else if(m_state == e_mic_reviewing)
     {
         //stop the review, i.e. stop the music playing
-        g_audioProc->recording_discard();
+       g_audioProc->review_stop();
     }
 
     //check if the recording can be saved as a valid one
     // Otherwise, messageBox to prompt what to do and stop the page here.
+    // start to save the audio as a .wav file
 
-    // if it's saved OK, then
-    //switch back to prepar-recording, i.e. mic-off STATE
-    prepare_recording();
+    if(check_and_save_recording())
+    {
+        // if it's saved OK, then
+        //switch back to prepar-recording, i.e. mic-off STATE
+        prepare_recording();
+    }
+    else
+    {
+        //do nothing, stopped here to wait for user input right filename
+    }
+}
+
+bool WidRecoding::check_and_save_recording()
+{
+    Q_ASSERT(m_le_fileName != nullptr);
+    QString filename = m_le_fileName->text();
+
+    filename = filename.trimmed();
+    if(filename.length() == 0)
+    {
+        QMessageBox::warning(this,
+                             tr("Save Recording"),
+                             QString("Please input a filename (*.wav) !"),
+                             tr("Yes"));
+        return false;
+    }
+    else
+    {
+        //remove the white spaces
+        if(filename.right(4) != ".wav")
+        {
+            filename += ".wav";
+            m_le_fileName->setText(filename);
+        }
+        QString filepath = m_sound_dir_default + "/" + filename;
+        QFile fd(filepath);
+        check_default_sound_dir();
+
+        if (fd.exists())
+        {
+            QMessageBox::warning(this,
+                                 tr("Save Recording"),
+                                 QString("%1 is already existing, please change the name").arg(filename),
+                                 tr("Yes"));
+            return false;
+        }
+        else
+        {
+
+            if(g_audioProc->recording_save(filepath) > 0)
+            {
+                QMessageBox::information(this,
+                                 tr("Save Recording"),
+                                 QString("%1 is saved successfully !").arg(filename),
+                                 tr("Yes"));
+                MyLog(QString("%1 is saved successfully !").arg(filename));
+                QStringList rf;
+                rf.append(filepath);
+                rf.append("Warning");
+                rf.append(warningAlias(m_comBox_type->currentIndex()));
+                rf.append(m_chk_repeat->checkState()==Qt::Unchecked?"No":"Yes");
+                emit recordingSaved(rf);
+            }
+            else
+            {
+                QMessageBox::warning(this,
+                                 tr("Save Recording"),
+                                 QString("The recording file %1 is failed to save !").arg(filename),
+                                 tr("Yes"));
+                MyLog(QString("The recording file %1 is failed to save !").arg(filename));
+            }
+
+            //reset it for  the later
+            m_le_fileName->setText("");
+            return true;
+        }
+    }
+
+
+
+    return false;
+
+}
+
+void WidRecoding::check_default_sound_dir()
+{
+    QDir dir;
+    if(!dir.exists(m_sound_dir_default))
+    {
+        dir.mkdir(m_sound_dir_default);
+    }
+}
+
+const QString WidRecoding::warningAlias(int index)
+{
+    static  QStringList m_WarningAlias = QStringList({"English", "Local", "Siren", "NA"});
+    if(index >=0 and index < m_WarningAlias.size())
+    {
+        return m_WarningAlias[index];
+    }
+    return "NA";
 }

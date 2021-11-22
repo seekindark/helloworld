@@ -42,6 +42,7 @@ public slots:
     void on_tableCell_Clicked(int row, int column); // used for debug only !!
 
     void on_AddFile_clicked();
+    void on_SaveRecording(const QStringList &rf);
 
 private:
     QString m_config_dir;

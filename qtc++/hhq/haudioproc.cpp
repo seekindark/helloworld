@@ -134,7 +134,7 @@ void HAudioProc::recording_discard()
 }
 
 
-void HAudioProc::recording_save(const QString &filename)
+qint64 HAudioProc::recording_save(const QString &filename)
 {
     qDebug() << __FUNCTION__ << filename;
     qDebug() <<__FUNCTION__
@@ -152,6 +152,7 @@ void HAudioProc::recording_save(const QString &filename)
 
     //start to write the buffer into a .wav file
     //
+    return write_into_wav(m_bufDevice, filename);
 
 }
 void HAudioProc::review_start(QProgressBar * pb_out, QPushButton *bt_audio)
@@ -267,4 +268,51 @@ void HAudioProc::on_notify_output()
         }
 
     }
+}
+
+qint64 HAudioProc::write_into_wav(QBuffer &devBuf, const QString &filename)
+{
+    qDebug(__FUNCTION__);
+
+    T_wavHeadFmt wavhead;
+    qstrcpy(wavhead.RiffName,"RIFF");
+    qstrcpy(wavhead.WavName, "WAVE");
+    qstrcpy(wavhead.FmtName, "fmt ");
+    qstrcpy(wavhead.DATANAME,"data");
+
+    wavhead.nFmtLength = 16;
+    wavhead.nAudioFormat = 1; //pcm
+    wavhead.nChannleNumber = 1;
+    wavhead.nSampleRate = 44100;
+    // nBytesPerSample 和 nBytesPerSecond这两个值通过设置的参数计算得到;
+    // 数据块对齐单位(每个采样需要的字节数 = 通道数 × 每次采样得到的样本数据位数 / 8 )
+    wavhead.nBytesPerSample = 2;
+    // 波形数据传输速率
+    // (每秒平均字节数 = 采样频率 × 通道数 × 每次采样得到的样本数据位数 / 8  = 采样频率 × 每个采样需要的字节数 )
+    wavhead.nBytesPerSecond = 88200;
+    // 每次采样得到的样本数据位数;
+    wavhead.nBitsPerSample = 16;
+    //lenth
+    wavhead.nRiffLength = devBuf.size() + sizeof(T_wavHeadFmt) - 8;
+
+    //start to write wave file
+    if(!devBuf.open(QIODevice::ReadOnly))
+    {
+        qDebug() << __func__ <<"Failed to open devBuf";
+        return -1;
+    }
+    QFile fd(filename);
+    if( !fd.open(QIODevice::WriteOnly))
+    {
+        qDebug() << __func__ <<"Failed to open filename=" << filename;
+        return -1;
+    }
+
+    fd.write((const char *)&wavhead,sizeof(T_wavHeadFmt));
+    fd.write(devBuf.readAll());
+
+    fd.close();
+    devBuf.close();
+
+    return (wavhead.nRiffLength + 8);
 }

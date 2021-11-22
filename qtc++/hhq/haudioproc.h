@@ -24,15 +24,38 @@ public:
     explicit HAudioProc(QObject *parent = nullptr);
     ~HAudioProc();
 
+    typedef struct
+    {
+        // RIFF head
+        char RiffName[4];// 'RIFF'
+        unsigned long nRiffLength;  //FILESIZE - 8
+        // FILE TYPE
+        char WavName[4];    //'WAVE'
+        // Format block
+        char FmtName[4];    // 'fmt'
+        unsigned long nFmtLength;   //16
+        unsigned short nAudioFormat;        //audio/pcm=1
+        unsigned short nChannleNumber;      //1
+        unsigned long nSampleRate;          //44.1k
+        unsigned long nBytesPerSecond;      //88.2k
+        unsigned short nBytesPerSample;     //2
+        unsigned short nBitsPerSample;      //16
+        // block head
+        char    DATANAME[4];            //'data'
+        unsigned long   nDataLength;    //ByteRate * seconds
+    }T_wavHeadFmt;
+
+
+
     void recording_start(QProgressBar *pb_in, QPushButton *bt_audio);
     void recording_stop();
     void recording_discard();
-    void recording_save(const QString &filename);
+    qint64 recording_save(const QString &filename);
     void review_start(QProgressBar *pb_out, QPushButton *bt_audio);
     void review_stop();
-
-
     bool is_able(){return m_is_able;}
+
+
 public slots:
     void on_notify_input();
     void on_notify_output();
@@ -42,6 +65,8 @@ signals:
 
 
 private:
+    qint64 write_into_wav(QBuffer &devBuf, const QString &filename);
+
 
     QAudioInput *m_audioInput;
     QAudioOutput *m_audioOutput;
