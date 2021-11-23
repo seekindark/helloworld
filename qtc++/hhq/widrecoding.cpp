@@ -4,8 +4,6 @@
 #include "haudioproc.h"
 #include "mylog.h"
 
-extern HAudioProc *g_audioProc;
-
 WidRecoding::WidRecoding(QWidget *parent) : QWidget(parent)
 {
     qDebug() << ">> " << __FUNCTION__;
@@ -108,6 +106,30 @@ WidRecoding::WidRecoding(QWidget *parent) : QWidget(parent)
     qDebug() << "<< " << __FUNCTION__;
 }
 
+//reset to state of recording-ready
+//it's called only in case of tab switched back here
+void WidRecoding::reset()
+{
+    qDebug() <<"WidRecoding::reset" << "state = " << m_state;
+    switch (m_state)
+    {
+        case e_mic_off:
+            //do nothing
+            break;
+        case e_mic_recording:
+            prepare_review();
+            on_bt_discard_clicked();
+        break;
+        case e_mic_review_ready:
+            on_bt_discard_clicked();
+        break;
+        case e_mic_reviewing:
+            on_bt_discard_clicked();
+        break;
+        default:
+        break;
+    }
+}
 
 void WidRecoding::on_mic_clicked()
 {
@@ -394,11 +416,13 @@ void WidRecoding::on_bt_discard_clicked()
 
     if(m_state == e_mic_review_ready)
     {
-        qDebug() << "WidRecoding::" << __FUNCTION__ << "review_ready, do nothing";
+        qDebug() << "WidRecoding::" << __FUNCTION__ << "review_ready,discard it";
+        g_audioProc->recording_discard();
     }
     else if(m_state == e_mic_reviewing)
     {
         //stop the review, i.e. stop the music playing
+        qDebug() << "WidRecoding::" << __FUNCTION__ << "Review-ing, discard it";
         g_audioProc->recording_discard();
     }
 

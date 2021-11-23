@@ -1,5 +1,6 @@
 #include <QDebug>
 #include "widbroadcast.h"
+#include "haudioproc.h"
 
 WidBroadCast::WidBroadCast(QWidget *parent) : QWidget(parent)
 {
@@ -102,6 +103,8 @@ void WidBroadCast::on_mic_clicked()
         {
             m_pb_v->hide();
         }
+
+        g_audioProc->broadcast_stop();
     }
     else
     {
@@ -147,6 +150,10 @@ void WidBroadCast::on_mic_clicked()
         {
             m_pb_v->show();
         }
+
+        //start mic broadcasting
+        g_audioProc->broadcast_start(m_bt_mic, m_pb_v, m_pb_h);
+
     }
 }
 

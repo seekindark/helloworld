@@ -1,5 +1,6 @@
 #include <QPushButton>
 #include "buttonedit.h"
+#include "haudioproc.h"
 
 ButtonEdit::ButtonEdit(Edit_type type, QWidget *parent) :
     QPushButton(parent)
@@ -45,6 +46,10 @@ void ButtonEdit::on_clicked()
 {
     if(m_type == e_edit_delete)
     {
+        //stop the orignnal
+        g_audioProc->ed_review_stop();
+
+        //signal to parent table, to remove the row!
         emit bt_delete_clicked(m_FileItem);
     }
     else if(m_type == e_edit_play)
@@ -58,26 +63,38 @@ void ButtonEdit::on_clicked()
             stop();
         }
 
-        emit bt_play_clicked(m_FileItem, m_is_playing);
     }
 }
 
 void ButtonEdit::start()
 {
+    qDebug() << "ButtonEdit::" << __FUNCTION__;
     setIcon(QIcon(":/main/resource/reviewstop.ico"));
     setIconSize(QSize(32,32));
     m_pb->show();
-    m_pb->setValue(10);
     m_is_playing = true;
+
+    HAudioProc::E_PlayOutResult ret =  g_audioProc->ed_review_start(this, m_pb);
+    if(ret == HAudioProc::e_playout_fileNotExist ||
+       ret == HAudioProc::e_playout_noFileName)
+    {
+        QMessageBox::information(this,
+                             tr("Edit Recording"),
+                             QString("The sound file is not existing on the disk \n"
+                                     "or removed after it's inserted here !"),
+                             tr("Yes"));
+    }
 }
 
 void ButtonEdit::stop()
 {
+    qDebug() << "ButtonEdit::" << __FUNCTION__;
     setIcon(QIcon(":/main/resource/reviewplay.ico"));
     setIconSize(QSize(32,32));
-    m_pb->setValue(0);
     m_pb->hide();
     m_is_playing = false;
+
+    g_audioProc->ed_review_stop();
 }
 
  void ButtonEdit::set_progress(int val)
@@ -90,4 +107,34 @@ void ButtonEdit::stop()
             stop();
         }
     }
+ }
+
+ void ButtonEdit::set_pb_valaule(int val)
+ {
+     if(m_pb != nullptr)
+     {
+        m_pb->setValue(val);
+     }
+ }
+ void ButtonEdit::set_pb_range(int min, int max)
+ {
+     if(m_pb != nullptr)
+     {
+         m_pb->setRange(min, max);
+     }
+ }
+
+int ButtonEdit::pb_value()
+{
+    if(m_pb != nullptr)
+    {
+        return m_pb->value();
+    }
+    return 0;
+}
+
+ FileTableWidgetItem * ButtonEdit::fileWidItem_wr()
+ {
+     const FileTableWidgetItem *fileItem = dynamic_cast<const FileTableWidgetItem *>(m_FileItem);
+     return const_cast<FileTableWidgetItem *>(fileItem);
  }

@@ -46,6 +46,8 @@ public:
     void clear_soundFileNA();
     void setTips_soundFileNA();
 
+    const FileTableWidgetItem *fileWidItem_r();
+
 signals:
     void played(BtnPlay *obj);
     void stopped(BtnPlay *obj);

@@ -11,6 +11,7 @@
 #include "mainwindow.h"
 #include "mylog.h"
 #include "filetablewidgetitem.h"
+#include "haudioproc.h"
 
 
 MainWindow::MainWindow(QWidget *parent)
@@ -182,7 +183,14 @@ void MainWindow::on_tabBarClicked(int index)
 void MainWindow:: on_currentChanged(int index)
 {
     qDebug() << "MainWindow::on_currentChanged, indx=" << index << m_tab->tabText(index);
-    if(index == 0)
+
+    //for each tab page switch, we need stop th audioProc
+
+    //
+    g_audioProc->reset();
+    m_wid_newRecord->reset();
+
+    if(index == 0) // dashboard
     {
         //switch to Dashboard
         //load the sound files for each short-cut buttons
@@ -193,6 +201,7 @@ void MainWindow:: on_currentChanged(int index)
         m_wid_dashboard->load_fileList(fileList);
 
     }
+
 }
 
 

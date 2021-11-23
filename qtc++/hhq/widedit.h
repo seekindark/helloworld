@@ -33,7 +33,7 @@ signals:
 
 public slots:
     void on_bt_delete_clicked(const QTableWidgetItem *item);
-    void on_bt_play_clicked(const QTableWidgetItem *item, bool is_playing);
+    void on_bt_play_clicked(const QTableWidgetItem *item, bool is_playing);//not used !
     //void on_itemChanged(QTreeWidgetItem * treeItem, int column);
     void on_RepeatStateChanged(int flag);
     void on_GroupChanged(int index);
@@ -46,6 +46,7 @@ public slots:
 
 private:
     QString m_config_dir;
+    QString m_sound_dir;
     QString m_config_file;
     QStringList m_headline;
     int m_columnCount;
@@ -62,8 +63,8 @@ private:
     QVBoxLayout *m_layout_all;
     QMenu *m_menu;
 
-    //playing mutex
-    QTableWidgetItem *m_itemPlaying;
+    //playing mutex.
+    QTableWidgetItem *m_itemPlaying;    //not used !
 
 
     int warningAlias_Index(const QString &str);
@@ -96,7 +97,7 @@ private:
     const QString & default_repeat(){return m_repeatTypes[1];}
 
     //playing mutex
-    void update_playingItem(QTableWidgetItem *item);
+    void update_playingItem(QTableWidgetItem *item);//not used !
     inline FileTableWidgetItem * fileWidItem(const QTableWidgetItem *item);
     inline QComboBox *comBox_WR (const QWidget *tabWid);
 

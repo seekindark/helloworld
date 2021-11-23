@@ -16,6 +16,8 @@ class WidRecoding : public QWidget
     Q_OBJECT
 public:
     explicit WidRecoding(QWidget *parent = nullptr);
+    void reset();
+
 
     typedef enum
     {

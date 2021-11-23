@@ -6,6 +6,7 @@
 #include <QPushButton>
 #include <QProgressBar>
 #include <QTableWidgetItem>
+#include "filetablewidgetitem.h"
 
 typedef enum{
     e_edit_play,
@@ -20,6 +21,11 @@ public:
     ~ButtonEdit();
 
     void set_fileItem(const QTableWidgetItem *item) {m_FileItem = item;}
+    FileTableWidgetItem * fileWidItem_wr();
+
+    inline void set_pb_valaule(int val);
+    inline void set_pb_range(int min, int max);
+    inline int pb_value();
     void set_progress(int val);
 
     void start();

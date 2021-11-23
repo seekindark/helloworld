@@ -2,6 +2,7 @@
 #include <QHBoxLayout>
 #include <QVBoxLayout>
 #include "btnplay.h"
+#include "haudioproc.h"
 
 
 BtnPlay::BtnPlay(const QString &text, BT_type type, QWidget *parent) :
@@ -15,6 +16,10 @@ BtnPlay::BtnPlay(const QString &text, BT_type type, QWidget *parent) :
                                        "color: rgb(60, 60, 160);\n");
     m_style_SoundNotSet= QString::fromUtf8("background-color:rgb(84, 207, 252) ;\n"
                                            "color: rgb(220, 220, 220);\n");
+
+    m_NAfileBox = nullptr;
+    m_text_lable = nullptr;
+
 
     static QFont font;
     font.setFamily(QString::fromUtf8("Arial"));
@@ -107,21 +112,37 @@ void BtnPlay::on_clicked()
         m_pb->setAttribute(Qt::WA_TranslucentBackground);
         m_pb->setGeometry(0,this->height()-5,this->width()-1, 5);
         m_pb->setTextVisible(false);
-        m_pb->setValue(50);
+        m_pb->setValue(0);
         m_pb->show();
     }
     if (!m_is_played)
     {
         m_is_played = true;
         m_pb->show();
-        m_pb->setValue(50);
-        emit played(this);
+
+        HAudioProc::E_PlayOutResult ret = g_audioProc->start_play2remote(this, m_pb);
+        if(ret == HAudioProc::e_playout_fileNotExist ||
+           ret == HAudioProc::e_playout_noFileName)
+        {
+            m_is_played = false;
+            m_pb->hide();
+            setStyleSheet(m_style_normal);
+            QMessageBox::information(this,
+                                 tr("Dashboard"),
+                                 QString("The short-cut of this sound file is not set \n"
+                                         "or removed by other means after it's set here !"),
+                                 tr("Yes"));
+            setStyleSheet(m_style_SoundNotSet);
+        }
     }
     else
     {
         m_is_played = false;
         m_pb->hide();
-        emit stopped(this);
+
+        g_audioProc->stop_play2remote();
+
+        //emit stopped(this);
     }
 }
 
@@ -204,9 +225,32 @@ void BtnPlay::setTips_soundFileNA()
     }
 }
 
+
 void BtnPlay::on_NAFileBox_IndexChanged(int index)
 {
     qDebug() << __func__ << index;
     setTips_soundFileNA();
 
+}
+
+
+const FileTableWidgetItem * BtnPlay::fileWidItem_r()
+{
+    if(is_warningNA() || is_toneNA())
+    {
+        Q_ASSERT(m_NAfileBox != nullptr);
+        int idx = m_NAfileBox->currentIndex();
+
+        if(idx >=0 && idx < m_NAfileList.size())
+        {
+            const FileTableWidgetItem *fitem = (const FileTableWidgetItem *)m_NAfileList[idx];
+            return fitem;
+        }
+    }
+    else
+    {
+        return (m_soundFile);
+    }
+
+    return nullptr;
 }

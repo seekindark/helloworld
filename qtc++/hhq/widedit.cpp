@@ -20,6 +20,7 @@ WidEdit::WidEdit(QWidget *parent) : QWidget(parent)
     qDebug() << __FUNCTION__;
 
     m_config_dir = "config";
+    m_sound_dir = "sounds";
     m_config_file = m_config_dir + "\\" + QString::fromUtf8("sound.ini");
     m_WarningAlias = QStringList({"English", "Local", "Siren", "NA"});
     m_soundGroup = QStringList({"Warning", "Tone"});
@@ -464,6 +465,7 @@ void WidEdit::write_config(const QString &config)
 
 void WidEdit::on_bt_delete_clicked(const QTableWidgetItem * item)
 {
+    qDebug() << "WidEdit::" <<__FUNCTION__;
     int row = m_table->row(item);
 
     int ret =  QMessageBox::information( this, tr("Edit Recording"),
@@ -478,12 +480,6 @@ void WidEdit::on_bt_delete_clicked(const QTableWidgetItem * item)
         fileItem_wr->remove_file();
         m_table->removeRow(row);
 
-        if(m_itemPlaying == item)
-        {
-            //if the row to be deleted is playing, we should update the playingItem as null.
-            qDebug("set the playingItem to be null as it's deleted");
-            update_playingItem(nullptr);
-        }
         qDebug("%s deleted row %d", __FUNCTION__, row);
 
         write_config_default();
@@ -497,6 +493,7 @@ void WidEdit::on_bt_delete_clicked(const QTableWidgetItem * item)
 }
 void WidEdit::on_bt_play_clicked(const QTableWidgetItem *item, bool is_playing)
 {
+    qDebug() << "WidEdit::" << __FUNCTION__;
     int row = m_table->row(item);
     //set selected the row
     m_table->selectRow(row);
@@ -518,6 +515,7 @@ void WidEdit::on_bt_play_clicked(const QTableWidgetItem *item, bool is_playing)
 
 void WidEdit::update_playingItem(QTableWidgetItem *item)
 {
+    qDebug() << "WidEdit::" << __FUNCTION__;
     if(m_itemPlaying != nullptr && item != nullptr)
     {
         //stop current playing
@@ -634,6 +632,7 @@ void WidEdit::on_SoundAliasChanged(int index)
     // save change to sound.ini
     write_config_default();
 }
+
 
 void WidEdit::changeGroupItems_comboxAliasIndx_wo_signal(FileTableWidgetItem *fileItem_wr,
                                                       QComboBox *comboxAlias)
@@ -797,7 +796,7 @@ void WidEdit::on_tableCell_Clicked(int row, int column)
 void WidEdit::on_AddFile_clicked()
 {
     QStringList fileList = QFileDialog::getOpenFileNames(this, "Add sound files",
-                                                        m_config_dir,
+                                                        m_sound_dir,
                                                          "*.wav *.pcm");
     qDebug() << __FUNCTION__ << fileList;
 
@@ -821,6 +820,12 @@ void WidEdit::on_AddFile_clicked()
 
     write_config_default();
 
+}
+
+void WidEdit::on_SaveRecording(const QStringList &rf)
+{
+    insert_row(m_table->rowCount(), rf);
+    write_config_default();
 }
 
 QStringList WidEdit::make_a_sound_w_defult_param(const QString &filepath)
@@ -886,7 +891,4 @@ FileTableWidgetItemList_R WidEdit::read_fileTabel_List()
     return list;
 }
 
-void WidEdit::on_SaveRecording(const QStringList &rf)
-{
-    insert_row(m_table->rowCount(), rf);
-}
+
