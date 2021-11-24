@@ -412,7 +412,7 @@ bool HAudioProc::is_default_wav_file(QFile *sf)
 }
 
 HAudioProc::E_PlayOutResult
-HAudioProc::start_play2remote(BtnPlay *bt_play2remote, QProgressBar *pb_out)
+HAudioProc::play2remote_start(BtnPlay *bt_play2remote, QProgressBar *pb_out)
 {
     qDebug(__FUNCTION__);
     Q_ASSERT(bt_play2remote != nullptr);
@@ -482,7 +482,7 @@ HAudioProc::start_play2remote(BtnPlay *bt_play2remote, QProgressBar *pb_out)
 
     return e_playout_OK;
 }
-void HAudioProc::stop_play2remote()
+void HAudioProc::play2remote_stop()
 {
     qDebug() << __FUNCTION__;
     m_audioOutput->stop();
@@ -573,4 +573,8 @@ void HAudioProc::reset()
         m_bt_play2remote->click();
     }
 
+    if(m_bt_broadcast != nullptr)
+    {
+        m_bt_broadcast->click();
+    }
 }

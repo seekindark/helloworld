@@ -18,11 +18,12 @@ public:
     ~WidSetRemote();
 
 signals:
-
+    void remoteChanged(int id);
 
 public slots:
     void on_apply_clicked();
     void on_volSiliderChanged(int val);
+
 private:
 
     int m_id;   // 1: remote-1, 2: remote-2
@@ -32,6 +33,7 @@ private:
     QLineEdit *m_LE_port;
 
     // configuration
+    QGroupBox *m_groupBox_cfg;
     QCheckBox *m_powerMod1;
     QCheckBox *m_powerMod2;
     QCheckBox *m_powerAmp1;

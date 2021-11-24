@@ -72,8 +72,8 @@ public:
     void ed_review_stop();
 
     //intefaces for "dashboard" page
-    E_PlayOutResult start_play2remote(BtnPlay *bt_play2remote, QProgressBar *pb_out);
-    void stop_play2remote();
+    E_PlayOutResult play2remote_start(BtnPlay *bt_play2remote, QProgressBar *pb_out);
+    void play2remote_stop();
 
     //intefaces for "broadcast" page
     void broadcast_start(QPushButton *bt_mic, QProgressBar *pb_in, QProgressBar *pb_out);

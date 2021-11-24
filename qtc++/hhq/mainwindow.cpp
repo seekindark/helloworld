@@ -187,8 +187,7 @@ void MainWindow:: on_currentChanged(int index)
     //for each tab page switch, we need stop th audioProc
 
     //
-    g_audioProc->reset();
-    m_wid_newRecord->reset();
+
 
     if(index == 0) // dashboard
     {
@@ -202,6 +201,17 @@ void MainWindow:: on_currentChanged(int index)
 
     }
 
+}
+
+void MainWindow::audioProc_reset()
+{
+    qDebug()<< __FUNCTION__;
+
+    g_audioProc->reset();
+    if(m_wid_newRecord)
+    {
+        m_wid_newRecord->reset();
+    }
 }
 
 
@@ -242,6 +252,9 @@ void MainWindow::construct_system_menu()
 void MainWindow::on_menu_logout_clicked()
 {
     MyLog("Logout");
+
+    audioProc_reset();
+
     hide_main_window();
 
     if(m_wid_setting != nullptr)
@@ -250,10 +263,14 @@ void MainWindow::on_menu_logout_clicked()
     m_loginWind->show();
 
 
+
 }
 void MainWindow::on_menu_pwd_clicked()
 {
     qDebug() << __func__;
+
+    audioProc_reset();
+
     WidChangePwd *m_wid_chgpwd = new WidChangePwd(this);
     int ret = m_wid_chgpwd->exec();
     if(ret == QDialog::Accepted)
@@ -286,6 +303,9 @@ void MainWindow::on_menu_logs_clicked()
 {
     qDebug() << __func__;
     MyLog("Check Logs");
+
+    audioProc_reset();
+
     widLogs *m_wid_logs = new widLogs(this);
     m_wid_logs ->exec();
 
@@ -295,6 +315,8 @@ void MainWindow::on_menu_exit_clicked()
 {
     MyLog("Exit");
     //qApp->closeAllWindows();
+
+    audioProc_reset();
 
     if(m_wid_setting != nullptr)
     {

@@ -25,6 +25,7 @@ public:
     void log(const QString &msg);
     void closeEvent( QCloseEvent * event );
 
+    void audioProc_reset();
 
 public slots:
     void on_login_closed();

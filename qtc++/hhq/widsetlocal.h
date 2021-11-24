@@ -19,6 +19,7 @@ public:
     ~WidSetLocal();
 
 signals:
+    void localAddr_changed();
 
 public slots:
     void on_apply_clicked();

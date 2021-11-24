@@ -5,9 +5,12 @@
 #include "mylog.h"
 #include "hsecurity.h"
 #include "haudioproc.h"
+#include "hudpproc.h"
+#include "hsettings.h"
 
 HAudioProc *g_audioProc = new HAudioProc();
-
+HUdpProc *g_udpProc = new HUdpProc();
+HSettings *g_settings = new HSettings();
 
 int main(int argc, char *argv[])
 {

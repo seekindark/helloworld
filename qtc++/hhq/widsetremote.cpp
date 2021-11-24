@@ -2,16 +2,21 @@
 #include <QHBoxLayout>
 #include <QFormLayout>
 #include <QtDebug>
+#include <QMessageBox>
 #include "widsetremote.h"
+#include "hudpproc.h"
+#include "mylog.h"
+#include "hsettings.h"
+
 
 WidSetRemote::WidSetRemote(int id, QWidget *parent) : QWidget(parent),m_id(id)
 {
     qDebug() << __FUNCTION__;
 
     QLabel *lab_ip = new QLabel("IP", this);
-    m_LE_ip = new QLineEdit("192.168.30.1", this);
+    m_LE_ip = new QLineEdit("", this);
     QLabel *lab_port  = new QLabel("Port", this);
-    m_LE_port = new QLineEdit("20481", this);
+    m_LE_port = new QLineEdit("", this);
 
     //network address
     QGroupBox *groupBox_addr = new QGroupBox("Network Address", this);
@@ -24,7 +29,7 @@ WidSetRemote::WidSetRemote(int id, QWidget *parent) : QWidget(parent),m_id(id)
 
     //configurations
 
-    QGroupBox *groupBox_cfg = new QGroupBox("Module Enablement", this);
+    m_groupBox_cfg = new QGroupBox("Module Enablement", this);
     m_powerMod1 = new QCheckBox("Power Module 1");
     m_powerMod2 = new QCheckBox("Power Module 2");
     m_powerAmp1 = new QCheckBox("Power Amplifier 1");
@@ -50,9 +55,9 @@ WidSetRemote::WidSetRemote(int id, QWidget *parent) : QWidget(parent),m_id(id)
                        "by themselves. i.e.\n"
                        "    unchecked:  system auto-mode\n"
                        "    checked:    user manual-mode\n";
-    groupBox_cfg->setCheckable(true);
-    groupBox_cfg->setChecked(false);
-    groupBox_cfg->setToolTip(cfg_tips);
+    m_groupBox_cfg->setCheckable(true);
+    m_groupBox_cfg->setChecked(false);
+    m_groupBox_cfg->setToolTip(cfg_tips);
     m_powerMod1->setCheckState(Qt::Checked);
     m_powerMod2->setCheckState(Qt::Checked);
     m_powerAmp1->setCheckState(Qt::Checked);
@@ -66,7 +71,7 @@ WidSetRemote::WidSetRemote(int id, QWidget *parent) : QWidget(parent),m_id(id)
     flayout_cfg->addWidget(m_powerAmp1);
     flayout_cfg->addWidget(m_powerAmp2);
     flayout_cfg->addItem(flayout_vol);
-    groupBox_cfg->setLayout(flayout_cfg);
+    m_groupBox_cfg->setLayout(flayout_cfg);
 
 
     qDebug() << __FUNCTION__ << 3;
@@ -78,10 +83,39 @@ WidSetRemote::WidSetRemote(int id, QWidget *parent) : QWidget(parent),m_id(id)
     QGridLayout *gridLay = new QGridLayout(this);
 
     gridLay->addWidget(groupBox_addr, 0, 0);
-    gridLay->addWidget(groupBox_cfg, 1, 0);
+    gridLay->addWidget(m_groupBox_cfg, 1, 0);
     gridLay->addWidget(m_bt_apply_local, 2, 0);
 
     qDebug() << __FUNCTION__ << 4;
+
+    //load config
+    m_LE_ip->setText(g_settings->remote_ip(m_id));
+    m_LE_port->setText(g_settings->remote_port(m_id));
+    if(g_settings->remote_enableMode_v(m_id) ==HSettings::e_enableMode_auto)
+        m_groupBox_cfg->setChecked(false);
+    else
+        m_groupBox_cfg->setChecked(true);
+    if(g_settings->remote_powerMod1_v(m_id) == HSettings::e_module_enabled)
+        m_powerMod1->setCheckState(Qt::Checked);
+    else
+        m_powerMod1->setCheckState(Qt::Unchecked);
+
+    if(g_settings->remote_powerMod2_v(m_id) == HSettings::e_module_enabled)
+        m_powerMod2->setCheckState(Qt::Checked);
+    else
+        m_powerMod2->setCheckState(Qt::Unchecked);
+
+    if(g_settings->remote_powerAmp1_v(m_id) == HSettings::e_module_enabled)
+        m_powerAmp1->setCheckState(Qt::Checked);
+    else
+        m_powerAmp1->setCheckState(Qt::Unchecked);
+
+    if(g_settings->remote_powerAmp2_v(m_id) == HSettings::e_module_enabled)
+        m_powerAmp2->setCheckState(Qt::Checked);
+    else
+        m_powerAmp2->setCheckState(Qt::Unchecked);
+
+    m_vol_slider->setValue(g_settings->remote_volumn(m_id));
 
     //
     //  status
@@ -93,7 +127,6 @@ WidSetRemote::WidSetRemote(int id, QWidget *parent) : QWidget(parent),m_id(id)
     flayout_status->addRow("Emitter-Bay\nTemprature", m_sts_emitter_temp);
     flayout_status->addRow("Electronic-Bay\nInsulation Resistence", m_sts_elec_insulation);
     flayout_status->setFormAlignment(Qt::AlignCenter);
-
 
     qDebug() << __FUNCTION__ << 5;
 
@@ -134,6 +167,10 @@ WidSetRemote::WidSetRemote(int id, QWidget *parent) : QWidget(parent),m_id(id)
     groupBox_workStatus->setDisabled(true);
     groupBox_outputAvgVolt->setDisabled(true);
 
+
+    connect(this, SIGNAL(remoteChanged(int)),
+            g_udpProc, SLOT(on_remoteChanged(int)));
+
     qDebug() << __FUNCTION__ << 7;
 
 }
@@ -141,8 +178,71 @@ WidSetRemote::WidSetRemote(int id, QWidget *parent) : QWidget(parent),m_id(id)
 
 void WidSetRemote::on_apply_clicked()
 {
-    qDebug() << __FUNCTION__;
-    qDebug() << "ip, port" << m_LE_ip->text() <<"," << m_LE_port->text();
+    qDebug()<< "WidSetRemote::"<< __FUNCTION__<< "ip, port" << m_LE_ip->text() <<"," << m_LE_port->text();
+
+    QHostAddress addr(m_LE_ip->text().trimmed());
+    if(addr.isNull())
+    {
+        QMessageBox::information(this,
+                                 "Remote Network Address",
+                                 "The input IPv4 Address is invalid !");
+        m_LE_ip->setText(g_settings->remote_ip(m_id));
+
+        return;
+    }
+    int port = m_LE_port->text().toInt();
+    if(port > 65000 || port < 1024)
+    {
+        QMessageBox::information(this,
+                                 "Remote Network Address",
+                                 "The input port is invalid !\n"
+                                 "The valid range is 1024 ~ 65000");
+        m_LE_port->setText(g_settings->remote_port(m_id));
+        return;
+    }
+
+    //save config
+    g_settings->set_remote_ip(m_id, addr.toString());
+    g_settings->set_remote_port(m_id, port);
+    QString val;
+    if(m_groupBox_cfg->isChecked())
+        val = g_settings->val2Str_enableMode(HSettings::e_enableMode_manual);
+    else
+        val = g_settings->val2Str_enableMode(HSettings::e_enableMode_auto);
+    g_settings->set_remote_enableMode(m_id, val);
+
+    if(m_powerMod1->isChecked())
+        val = g_settings->val2Str_enableValue(HSettings::e_module_enabled);
+    else
+        val = g_settings->val2Str_enableValue(HSettings::e_module_disabled);
+    g_settings->set_remote_powerMod1(m_id, val);
+
+    if(m_powerMod2->isChecked())
+        val = g_settings->val2Str_enableValue(HSettings::e_module_enabled);
+    else
+        val = g_settings->val2Str_enableValue(HSettings::e_module_disabled);
+    g_settings->set_remote_powerMod2(m_id, val);
+
+
+    if(m_powerAmp1->isChecked())
+        val = g_settings->val2Str_enableValue(HSettings::e_module_enabled);
+    else
+        val = g_settings->val2Str_enableValue(HSettings::e_module_disabled);
+    g_settings->set_remote_powerAmp1(m_id, val);
+
+
+    if(m_powerAmp2->isChecked())
+        val = g_settings->val2Str_enableValue(HSettings::e_module_enabled);
+    else
+        val = g_settings->val2Str_enableValue(HSettings::e_module_disabled);
+    g_settings->set_remote_powerAmp2(m_id, val);
+
+    g_settings->set_remote_volumn(m_id, m_vol_slider->value());
+
+    g_settings->save();
+
+    emit remoteChanged(m_id);
+
 }
 
 void WidSetRemote::on_volSiliderChanged(int val)

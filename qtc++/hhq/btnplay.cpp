@@ -120,7 +120,7 @@ void BtnPlay::on_clicked()
         m_is_played = true;
         m_pb->show();
 
-        HAudioProc::E_PlayOutResult ret = g_audioProc->start_play2remote(this, m_pb);
+        HAudioProc::E_PlayOutResult ret = g_audioProc->play2remote_start(this, m_pb);
         if(ret == HAudioProc::e_playout_fileNotExist ||
            ret == HAudioProc::e_playout_noFileName)
         {
@@ -140,7 +140,7 @@ void BtnPlay::on_clicked()
         m_is_played = false;
         m_pb->hide();
 
-        g_audioProc->stop_play2remote();
+        g_audioProc->play2remote_stop();
 
         //emit stopped(this);
     }

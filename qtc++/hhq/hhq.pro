@@ -15,6 +15,8 @@ SOURCES += \
     filetablewidgetitem.cpp \
     haudioproc.cpp \
     hsecurity.cpp \
+    hsettings.cpp \
+    hudpproc.cpp \
     loginwindow.cpp \
     main.cpp \
     mainwindow.cpp \
@@ -35,6 +37,8 @@ HEADERS += \
     filetablewidgetitem.h \
     haudioproc.h \
     hsecurity.h \
+    hsettings.h \
+    hudpproc.h \
     loginwindow.h \
     mainwindow.h \
     mylog.h \
