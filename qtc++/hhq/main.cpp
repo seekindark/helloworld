@@ -8,9 +8,10 @@
 #include "hudpproc.h"
 #include "hsettings.h"
 
+HSettings *g_settings = new HSettings();
 HAudioProc *g_audioProc = new HAudioProc();
 HUdpProc *g_udpProc = new HUdpProc();
-HSettings *g_settings = new HSettings();
+
 
 int main(int argc, char *argv[])
 {
