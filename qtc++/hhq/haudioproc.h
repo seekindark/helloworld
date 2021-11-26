@@ -78,12 +78,13 @@ public:
     //intefaces for "broadcast" page
     void broadcast_start(QPushButton *bt_mic, QProgressBar *pb_in, QProgressBar *pb_out);
     void broadcast_stop();
+    void broadcast_play();
 
 
 public slots:
     void on_notify_input();
     void on_notify_output();
-
+    void on_sndTimerout();
 
 signals:
 
@@ -106,7 +107,6 @@ private:
     QByteArray      m_voiceData;
     QBuffer         m_bufDevice;
 
-    qint64          m_read_pos;
     QProgressBar *  m_pb_out;       //out play progress
     QProgressBar *  m_pb_in;        //input progress,
 
@@ -114,8 +114,6 @@ private:
     //page: New recording
     //
     QPushButton *m_bt_audio;
-
-
 
     //
     //page: Edit recording
@@ -125,10 +123,13 @@ private:
     // Page: Dashboard
     //
     BtnPlay *m_bt_play2remote;
+    QTimer  m_sndTimer;         //shared with broadcast page
     //
     //page: broadcast
     //
     QPushButton *m_bt_broadcast;
+    int m_broadcastBufIntervals;    // buffer a while before sending out voice
+    qint64 m_read_pos;
 
 };
 

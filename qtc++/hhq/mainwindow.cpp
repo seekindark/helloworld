@@ -186,7 +186,7 @@ void MainWindow:: on_currentChanged(int index)
 
     //for each tab page switch, we need stop th audioProc
 
-    //
+    audioProc_reset();
 
 
     if(index == 0) // dashboard

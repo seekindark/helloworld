@@ -71,7 +71,10 @@ public:
     QString remoteKey(int id, const QString &key)const
         {return QString("Remote-%1/").arg(id) + key;}
     QString remote_ip(int id) const
-        {return m_settings->value(remoteKey(id, "ip"), "192.168.30.115").toString();}
+        {if(id == 1) return m_settings->value(remoteKey(id, "ip"), "192.168.30.115").toString();
+         else if(id == 2) return m_settings->value(remoteKey(id, "ip"), "192.168.30.116").toString();
+         else return "";
+        }
     QString remote_port(int id) const
         {return m_settings->value(remoteKey(id, "port"), 20481).toString();}
     QString remote_enableMode(int id) const
@@ -84,8 +87,8 @@ public:
         {return m_settings->value(remoteKey(id, "powerAmp1"), "enabled").toString();}
     QString remote_powerAmp2(int id) const
         {return m_settings->value(remoteKey(id, "powerAmp2"), "enabled").toString();}
-    int remote_volumn(int id)const
-        {return m_settings->value(remoteKey(id, "volumn"), 7).toInt();}
+    int remote_volume(int id)const
+        {return m_settings->value(remoteKey(id, "volume"), 7).toInt();}
 
     //
     //str to val
@@ -123,8 +126,8 @@ public:
         {m_settings->setValue(remoteKey(id, "powerAmp1"), val);}
     void set_remote_powerAmp2(int id, const QString &val)
         {m_settings->setValue(remoteKey(id, "powerAmp2"), val);}
-    void set_remote_volumn(int id, int val) const
-        {m_settings->setValue(remoteKey(id, "volumn"), val);}
+    void set_remote_volume(int id, int val) const
+        {m_settings->setValue(remoteKey(id, "volume"), val);}
 
 
 

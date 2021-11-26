@@ -27,6 +27,9 @@ int main(int argc, char *argv[])
 
     MyLog("Sytem is started successfully");
 
+    //after system is booted UP, then start to bind network
+    g_udpProc->bind_localAddr();
+
     int ret = a.exec();
 
     delete sec;

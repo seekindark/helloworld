@@ -20,6 +20,8 @@ public:
     explicit WidSetting(QWidget *parent = nullptr);
     ~WidSetting();
     void setCurrentIndex(int index){m_tab->setCurrentIndex(index);}
+    void showEvent(QShowEvent *event);
+
 signals:
 public slots:
     void on_tabBarClicked(int);

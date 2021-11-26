@@ -3,6 +3,9 @@
 #include "haudioproc.h"
 #include "mylog.h"
 #include "filetablewidgetitem.h"
+#include "hudpproc.h"
+#include "hmessage.h"
+#include "hsettings.h"
 
 HAudioProc::HAudioProc(QObject *parent):QObject(parent),
     m_audioFormat()
@@ -71,10 +74,13 @@ HAudioProc::HAudioProc(QObject *parent):QObject(parent),
     // for dashboard
     //
     m_bt_play2remote = nullptr;
+    connect(&m_sndTimer, SIGNAL(timeout()), this, SLOT(on_sndTimerout()));
     //
     // for broadcast
     //
     m_bt_broadcast = nullptr;
+    m_broadcastBufIntervals = 1;
+    m_read_pos = 0;
 }
 
 HAudioProc::~HAudioProc()
@@ -238,10 +244,22 @@ void HAudioProc::on_notify_input()
         m_pb_in->setValue(val);
     }
 
+    if(m_bt_broadcast != nullptr && m_broadcastBufIntervals > 0)
+    {
+        m_broadcastBufIntervals -= 1;
+        if(m_broadcastBufIntervals == 0)
+        {
+            //start a timer for sending voice periodically
+            m_sndTimer.start(70);
+
+            broadcast_play();
+        }
+    }
+
 }
 void HAudioProc::on_notify_output()
 {
-
+/*
     qDebug() <<__FUNCTION__
          << "\nbuffersize, bytesFree, periodSize, processedUSecs, elapsedUSecs, bufDevSize, voiceSize, pos\n"
           << m_audioOutput->bufferSize()
@@ -252,51 +270,76 @@ void HAudioProc::on_notify_output()
           << m_bufDevice.size()
           << m_voiceData.size()
           << m_bufDevice.pos();
-
+*/
     if(m_pb_out != nullptr)
     {
+        //it's played over once, check if it's stopped or repeated again.
         if(m_pb_out->value() == int(m_bufDevice.size()))
         {
-            // page: recording
+            // page: recording reviw
             if(m_bt_audio != nullptr)
             {
-
                 //if it's played over, then stop it by clicking the button
                 m_bt_audio->click();
             }
-            //page: edit
+            //page: edit review
             if(m_bt_editReview !=nullptr)
             {
+                //review done, stop it
                 m_bt_editReview->stop();
             }
+        }
+        else
+        {
+            // continue to play
+            m_pb_out->setValue(int(m_bufDevice.pos()));
+        }
+    }
 
-            //page: dashboard
-            if(m_bt_play2remote != nullptr)
+}
+
+void HAudioProc::on_sndTimerout()
+{
+    qDebug(__FUNCTION__);
+
+    //page: dashboard
+    if(m_bt_play2remote != nullptr)
+    {
+        //it's played over once, check if it's stopped or repeated again.
+        if(m_pb_out->value() == int(m_bufDevice.size()))
+        {
+            const FileTableWidgetItem * fitem = m_bt_play2remote->fileWidItem_r();
+            if(fitem->isRepeat())
             {
-                const FileTableWidgetItem * fitem = m_bt_play2remote->fileWidItem_r();
-                if(fitem->isRepeat())
-                {
-                    //reset to the beginning and play it once again
-                    qDebug() <<__FUNCTION__ << "palyed2remote once again !";
+                //reset to the beginning and play it once again
+                qDebug() <<__FUNCTION__ << "palyed2remote once again !";
 
-                    //replay it
-                    m_bufDevice.seek(0);
-                    m_pb_out->setValue(0);
-                    play2remote();
-                }
-                else
-                {
-                    //stop it
-                    m_bt_play2remote->click();
-                }
+                //replay it
+                m_bufDevice.seek(0);
+                m_pb_out->setValue(0);
+
+                play2remote();
             }
-
+            else
+            {
+                //stop it
+                m_bt_play2remote->click();
+            }
         }
         else
         {
             m_pb_out->setValue(int(m_bufDevice.pos()));
+
+            //continue to send out voice data
+            //when it's playing to remote, the audiooutput is NOT in "state" mode, thus it can not send out automatically
+            play2remote();
         }
 
+    }
+    //page: broadcast
+    else if(m_bt_broadcast != nullptr)
+    {
+        broadcast_play();
     }
 }
 
@@ -464,6 +507,8 @@ HAudioProc::play2remote_start(BtnPlay *bt_play2remote, QProgressBar *pb_out)
         m_pb_out->setRange(0, int(m_bufDevice.size()));
         m_pb_out->setValue(0);
 
+        //start a timer and send out first one
+        m_sndTimer.start(70);
         play2remote();
 
         qDebug() << __FUNCTION__ << (is_wavFormat?"WAV":"PCM")
@@ -486,27 +531,93 @@ void HAudioProc::play2remote_stop()
 {
     qDebug() << __FUNCTION__;
     m_audioOutput->stop();
+    m_sndTimer.stop();  // the timer must be stopped here!!
     m_bufDevice.close();
+    m_voiceData.clear();
     m_bt_play2remote = nullptr;
     m_pb_out = nullptr;
 }
 
 void HAudioProc::play2remote()
 {
-    m_audioOutput->start(&m_bufDevice);
+    HMsgRequest msg;
+    int len = m_bufDevice.read(msg.data(), msg.maxDashboradDataSize());
+    msg.setDataLen(len);
+    g_udpProc->sendHMsgReq(msg);
+
+    qDebug() << __FUNCTION__ << "send out msgSize=" << len;
 }
 
 void HAudioProc::broadcast_start(QPushButton *bt_mic, QProgressBar *pb_in, QProgressBar *pb_out)
 {
     qDebug() <<__FUNCTION__;
 
+    m_bufDevice.open( QIODevice::WriteOnly | QIODevice::Truncate);
+    m_pb_in = pb_in;
+    m_pb_out = pb_out;
+    m_bt_broadcast = bt_mic;
+
+    //for broadcasting, pb_in is alwasy in 1~10, i.e. max is 1 sec
+    m_pb_in->setRange(0,10);
+    m_pb_in->setValue(0);
+    // pb_out is also expressed as 1 sec in bytes unit, the max is 8820*10 i.e. 1 sec sampling bits
+    m_pb_out->setRange(0, 88200);
+    m_pb_out->setValue(0);
+
+    //start recording and collect audio bits
+    m_audioInput->start(&m_bufDevice);
+    m_broadcastBufIntervals = 3;
+    m_read_pos = 0;
+
 
 }
 void HAudioProc::broadcast_stop()
 {
     qDebug() <<__FUNCTION__;
-}
 
+    m_audioInput->stop();
+    m_audioOutput->stop();
+    m_sndTimer.stop();
+    m_bufDevice.close();
+    m_voiceData.clear();
+
+    m_pb_in->setValue(0);
+    m_pb_out->setValue(0);
+    m_pb_in = nullptr;
+    m_pb_out = nullptr;
+    m_bt_broadcast = nullptr;
+
+}
+void HAudioProc::broadcast_play()
+{
+    HMsgRequest msg;
+    qint64 in_pos = m_bufDevice.pos();
+    qint64 available_bytes = in_pos - m_read_pos;
+    if(available_bytes > 0)
+    {
+        int voice_data_len = msg.maxBoradCastDataSize();
+        if(available_bytes <= voice_data_len)
+        {
+            voice_data_len = int(available_bytes);
+        }
+        msg.setData(m_bufDevice.data().data() + m_read_pos, voice_data_len);
+        m_read_pos += voice_data_len;   // move read_pos !!
+
+        g_udpProc->sendHMsgReq(msg);
+
+        //update pb-out
+        int val = m_pb_out->value() + voice_data_len;
+        if(val > m_pb_out->maximum())
+            val -= m_pb_out->maximum();
+        m_pb_out->setValue(val);
+
+        qDebug() << __FUNCTION__ << "send out msgSize=" << voice_data_len << "left bytes=" << available_bytes - voice_data_len;
+    }
+    else
+    {
+        qDebug() << __FUNCTION__ << "!!===No data to send===, available_bytes = " << available_bytes;
+    }
+}
 
 qint64 HAudioProc::write_into_wav(QBuffer &devBuf, const QString &filename)
 {

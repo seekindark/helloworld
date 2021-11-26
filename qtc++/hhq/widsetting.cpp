@@ -13,7 +13,7 @@ WidSetting::WidSetting(QWidget *parent) : QWidget(parent)
     setWindowTitle("Setting");
     setWindowIcon(QIcon(":/login/resource/setting.ico"));
     //no background color setting looks better.  87, 165, 186
-    setStyleSheet(QString::fromUtf8("background-color: rgb(84, 207, 252 );font:12pt 'Arial';\n")); //(43, 153, 240)
+    setStyleSheet(QString::fromUtf8("background-color: rgb(84, 207, 252);font:12pt 'Arial';\n")); //(84, 207, 252)rgb(43, 153, 240)
     resize(700, 500);
 
     QFont font = this->font();
@@ -54,14 +54,25 @@ void WidSetting::on_tabBarClicked(int index)
     qDebug() << __FUNCTION__;
     if(index == 0)
     {
-        resize(300, 200);
+        //resize(300, 200);
 
     }
     else
     {
-        resize(700, 500);
+        //resize(700, 500);
     }
 }
+
+void WidSetting::showEvent(QShowEvent *event)
+{
+    qDebug() << "WidSetting::" <<__FUNCTION__;
+
+    m_widLocal->load_config();
+    m_widRemote1->load_config();
+    m_widRemote2->load_config();
+
+}
+
 WidSetting::~WidSetting()
 {
     qDebug() << __FUNCTION__;

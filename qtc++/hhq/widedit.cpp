@@ -477,7 +477,7 @@ void WidEdit::on_bt_delete_clicked(const QTableWidgetItem * item)
         FileTableWidgetItem *fileItem_wr = fileWidItem(item);
         MyLog(QString("%1 is removed").arg(fileItem_wr->text()));
 
-        fileItem_wr->remove_file();
+        //fileItem_wr->remove_file(); // just remove it from table !! to avoid further trouble!
         m_table->removeRow(row);
 
         qDebug("%s deleted row %d", __FUNCTION__, row);

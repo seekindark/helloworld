@@ -16,6 +16,7 @@ class WidSetRemote : public QWidget
 public:
     explicit WidSetRemote(int id, QWidget *parent = nullptr);
     ~WidSetRemote();
+    void load_config();
 
 signals:
     void remoteChanged(int id);
@@ -23,8 +24,13 @@ signals:
 public slots:
     void on_apply_clicked();
     void on_volSiliderChanged(int val);
+    void on_statusTimerout();
 
 private:
+
+    bool is_validRemote();
+    void clear_status();
+
 
     int m_id;   // 1: remote-1, 2: remote-2
 
@@ -52,9 +58,16 @@ private:
     QLineEdit *m_outputAvgVolt_pa3;
     QLineEdit *m_outputAvgVolt_pa4;
 
-
     QPushButton *m_bt_apply_local;
 
+    //network status
+    QLineEdit *m_LE_packetRx;
+    QLineEdit *m_LE_packetTx;
+    QLineEdit *m_LE_byteRx;
+    QLineEdit *m_LE_byteTx;
+
+
+    QTimer *m_timer;
 };
 
 #endif // WIDSETREMOTE_H

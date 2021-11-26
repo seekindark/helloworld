@@ -14,6 +14,7 @@ SOURCES += \
     buttonedit.cpp \
     filetablewidgetitem.cpp \
     haudioproc.cpp \
+    hmessage.cpp \
     hsecurity.cpp \
     hsettings.cpp \
     hudpproc.cpp \
@@ -36,6 +37,7 @@ HEADERS += \
     buttonedit.h \
     filetablewidgetitem.h \
     haudioproc.h \
+    hmessage.h \
     hsecurity.h \
     hsettings.h \
     hudpproc.h \
