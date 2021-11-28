@@ -271,7 +271,7 @@ const QString HUdpProc::socketStatus()
     return "Error";
 }
 
-const QString HUdpProc::powerModState2Str(int val)
+const QString HUdpProc::powerModState2Str(int id, int val)
 {
     /*
      *  每位表示电源模块的一种故障状态，0-正常；1-故障：
@@ -279,6 +279,12 @@ const QString HUdpProc::powerModState2Str(int val)
         bit1=1：输入异常；
         bit2=1：输出异常
     */
+
+    if(RMpacketRx(id) <= 0)
+    {
+        return "N/A";
+    }
+
     QString str;
     if(val==0)            //CF: 后三位BIT全 0 表示正常
     {
@@ -288,14 +294,16 @@ const QString HUdpProc::powerModState2Str(int val)
     {
         if(val & 0x01)
         {
-            str += "Power-Standby ";
+            str += "Standby ";
         }
         if(val & 0x02)
         {
+            if(str.length() > 0) str += ", ";
             str += "Input-Exception ";
         }
         if(val & 0x04)
         {
+            if(str.length() > 0) str += ", ";
             str += "Output-Exception ";
         }
     }
@@ -303,7 +311,7 @@ const QString HUdpProc::powerModState2Str(int val)
     return str;
 }
 
-const QString HUdpProc::powerAmpState2Str(int val)
+const QString HUdpProc::powerAmpState2Str(int id, int val)
 {
     /*
     每位表示1个功放的一种故障状态，1-正常；0-故障：
@@ -312,7 +320,12 @@ const QString HUdpProc::powerAmpState2Str(int val)
     bit2=0：功放故障
     */
 
-    QString str;
+    if(RMpacketRx(id) <= 0)
+    {
+        return "N/A";
+    }
+
+    QString str = QString::number(val);
      if(val==0x7)    //CF: 后三位BIT全 1 表示正常
      {
          str = "Normal";
@@ -325,10 +338,12 @@ const QString HUdpProc::powerAmpState2Str(int val)
          }
          if((val & 0x02)==0)    //bit-1 = 0
          {
+             if(str.length() > 0) str += ", ";
              str +=" Clipping/Overheating ";
          }
          if((val & 0x04)==0)    //bit-2 = 0
          {
+             if(str.length() > 0) str += ", ";
              str += "Failure ";
          }
      }
@@ -338,15 +353,20 @@ const QString HUdpProc::powerAmpState2Str(int val)
 
 const QString HUdpProc::emitter_temp_str(int id)
 {
-    int val = emitter_temp(id);
-    if(val >=-55 && val <=175)
+    if(RMpacketRx(id) > 0)
     {
-        QString::number(val);
+        int val = emitter_temp(id);
+        if(val >=-55 && val <=175)
+        {
+            return QString::number(val);
+        }
+        else
+        {
+            return "Error";
+        }
     }
     else
     {
         return "N/A";
     }
-
-    return "Error";
 }

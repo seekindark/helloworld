@@ -94,18 +94,18 @@ public:
     int emitter_temp(int id){return m_rmtStatus[id-1].emitter_temp;}
     const QString emitter_temp_str(int id);
     int insulation_resistance(int id){return m_rmtStatus[id-1].insulation_resistance;}
-    QString powerMod1(int id){return powerModState2Str(m_rmtStatus[id-1].powerMod1);}
-    QString powerMod2(int id){return powerModState2Str(m_rmtStatus[id-1].powerMod2);}
-    QString powerAmp1(int id){return powerAmpState2Str(m_rmtStatus[id-1].powerAmp1);}
-    QString powerAmp2(int id){return powerAmpState2Str(m_rmtStatus[id-1].powerAmp2);}
+    QString powerMod1(int id){return powerModState2Str(id, m_rmtStatus[id-1].powerMod1);}
+    QString powerMod2(int id){return powerModState2Str(id, m_rmtStatus[id-1].powerMod2);}
+    QString powerAmp1(int id){return powerAmpState2Str(id, m_rmtStatus[id-1].powerAmp1);}
+    QString powerAmp2(int id){return powerAmpState2Str(id, m_rmtStatus[id-1].powerAmp2);}
 
     int avgOutVoltag_amp1(int id){return m_rmtStatus[id-1].avgOutVoltag_amp1;}
     int avgOutVoltag_amp2(int id){return m_rmtStatus[id-1].avgOutVoltag_amp2;}
     int avgOutVoltag_amp3(int id){return m_rmtStatus[id-1].avgOutVoltag_amp3;}
     int avgOutVoltag_amp4(int id){return m_rmtStatus[id-1].avgOutVoltag_amp4;}
 
-    const QString powerModState2Str(int val);
-    const QString powerAmpState2Str(int val);
+    const QString powerModState2Str(int id, int val);
+    const QString powerAmpState2Str(int id, int val);
 
 
 signals:

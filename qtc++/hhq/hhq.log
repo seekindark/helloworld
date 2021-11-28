@@ -12275,3 +12275,231 @@
 [2021-11-26 17:15:45] : Sytem is started successfully
 [2021-11-26 17:15:46] : Login successfully with 
 [2021-11-26 17:16:05] : Exit by closing window
+[2021-11-26 17:17:36] : Read D:/projects/helloworld/qtc++/hhq/sounds/dddd.wav OK
+[2021-11-26 17:17:36] : Read D:/projects/helloworld/qtc++/hhq/sounds/recording/JUNSHI禁区，严禁闯入.pcm OK
+[2021-11-26 17:17:36] : Read D:/projects/helloworld/qtc++/hhq/sounds/recording/安全警戒区域，请离开.pcm OK
+[2021-11-26 17:17:36] : Read D:/projects/helloworld/qtc++/hhq/sounds/recording/安全警戒区域，请上浮.pcm OK
+[2021-11-26 17:17:36] : Read D:/projects/helloworld/qtc++/hhq/sounds/recording/发射WQ倒计时5、4、3….pcm OK
+[2021-11-26 17:17:36] : Read D:/projects/helloworld/qtc++/hhq/sounds/recording/高举毛泽东思想伟大旗帜.pcm OK
+[2021-11-26 17:17:36] : Read D:/projects/helloworld/qtc++/hhq/sounds/recording/禁止靠近码头.pcm OK
+[2021-11-26 17:17:36] : Read D:/projects/helloworld/qtc++/hhq/sounds/recording/警告！立即离开.pcm OK
+[2021-11-26 17:17:36] : Read D:/projects/helloworld/qtc++/hhq/sounds/recording/前方危险，请勿靠近.pcm OK
+[2021-11-26 17:17:36] : Read D:/projects/helloworld/qtc++/hhq/sounds/11.wav OK
+[2021-11-26 17:17:36] : Read D:/projects/helloworld/qtc++/hhq/sounds/1122.wav OK
+[2021-11-26 17:17:36] : Read D:/projects/helloworld/qtc++/hhq/sounds/nihao.wav OK
+[2021-11-26 17:17:36] : Read D:/projects/helloworld/qtc++/hhq/sounds/66666.wav OK
+[2021-11-26 17:17:36] : Read D:/projects/helloworld/qtc++/hhq/sounds/leave.wav OK
+[2021-11-26 17:17:36] : Read D:/projects/helloworld/qtc++/hhq/sounds/tone/temp820.pcm OK
+[2021-11-26 17:17:36] : Read D:/projects/helloworld/qtc++/hhq/sounds/tone/temp1000.pcm OK
+[2021-11-26 17:17:36] : Read D:/projects/helloworld/qtc++/hhq/sounds/tone/temp2000.pcm OK
+[2021-11-26 17:17:36] : Read D:/projects/helloworld/qtc++/hhq/sounds/tone/temp4000.pcm OK
+[2021-11-26 17:17:36] : Read D:/projects/helloworld/qtc++/hhq/sounds/tone/temp5500.pcm OK
+[2021-11-26 17:17:36] : Read D:/projects/helloworld/qtc++/hhq/sounds/test.wav OK
+[2021-11-26 17:17:36] : Read D:/projects/helloworld/qtc++/hhq/sounds/0.wav OK
+[2021-11-26 17:17:36] : Read D:/projects/helloworld/qtc++/hhq/sounds/1.wav OK
+[2021-11-26 17:17:36] : Read D:/projects/helloworld/qtc++/hhq/sounds/2.wav OK
+[2021-11-26 17:17:36] : Read D:/projects/helloworld/qtc++/hhq/sounds/3.wav OK
+[2021-11-26 17:17:36] : Read D:/projects/helloworld/qtc++/hhq/sounds/5.wav OK
+[2021-11-26 17:17:37] : Read D:/projects/helloworld/qtc++/hhq/sounds/88.wav OK
+[2021-11-26 17:17:37] : Read D:/projects/helloworld/qtc++/hhq/sounds/aa.wav OK
+[2021-11-26 17:17:37] : Read D:/projects/helloworld/qtc++/hhq/sounds/tt.wav OK
+[2021-11-26 17:17:37] : Read config file:config\sound.ini successfully!
+[2021-11-26 17:17:37] : >>> Sytem is starting...
+[2021-11-26 17:17:37] : Sytem is started successfully
+[2021-11-26 17:17:38] : Login successfully with 
+[2021-11-26 17:17:47] : Exit by closing window
+[2021-11-28 13:31:57] : Read D:/projects/helloworld/qtc++/hhq/sounds/dddd.wav OK
+[2021-11-28 13:31:57] : Read D:/projects/helloworld/qtc++/hhq/sounds/recording/JUNSHI禁区，严禁闯入.pcm OK
+[2021-11-28 13:31:57] : Read D:/projects/helloworld/qtc++/hhq/sounds/recording/安全警戒区域，请离开.pcm OK
+[2021-11-28 13:31:57] : Read D:/projects/helloworld/qtc++/hhq/sounds/recording/安全警戒区域，请上浮.pcm OK
+[2021-11-28 13:31:57] : Read D:/projects/helloworld/qtc++/hhq/sounds/recording/发射WQ倒计时5、4、3….pcm OK
+[2021-11-28 13:31:57] : Read D:/projects/helloworld/qtc++/hhq/sounds/recording/高举毛泽东思想伟大旗帜.pcm OK
+[2021-11-28 13:31:57] : Read D:/projects/helloworld/qtc++/hhq/sounds/recording/禁止靠近码头.pcm OK
+[2021-11-28 13:31:57] : Read D:/projects/helloworld/qtc++/hhq/sounds/recording/警告！立即离开.pcm OK
+[2021-11-28 13:31:57] : Read D:/projects/helloworld/qtc++/hhq/sounds/recording/前方危险，请勿靠近.pcm OK
+[2021-11-28 13:31:57] : Read D:/projects/helloworld/qtc++/hhq/sounds/11.wav OK
+[2021-11-28 13:31:57] : Read D:/projects/helloworld/qtc++/hhq/sounds/1122.wav OK
+[2021-11-28 13:31:57] : Read D:/projects/helloworld/qtc++/hhq/sounds/nihao.wav OK
+[2021-11-28 13:31:57] : Read D:/projects/helloworld/qtc++/hhq/sounds/66666.wav OK
+[2021-11-28 13:31:57] : Read D:/projects/helloworld/qtc++/hhq/sounds/leave.wav OK
+[2021-11-28 13:31:57] : Read D:/projects/helloworld/qtc++/hhq/sounds/tone/temp820.pcm OK
+[2021-11-28 13:31:57] : Read D:/projects/helloworld/qtc++/hhq/sounds/tone/temp1000.pcm OK
+[2021-11-28 13:31:57] : Read D:/projects/helloworld/qtc++/hhq/sounds/tone/temp2000.pcm OK
+[2021-11-28 13:31:57] : Read D:/projects/helloworld/qtc++/hhq/sounds/tone/temp4000.pcm OK
+[2021-11-28 13:31:57] : Read D:/projects/helloworld/qtc++/hhq/sounds/tone/temp5500.pcm OK
+[2021-11-28 13:31:58] : Read D:/projects/helloworld/qtc++/hhq/sounds/test.wav OK
+[2021-11-28 13:31:58] : Read D:/projects/helloworld/qtc++/hhq/sounds/0.wav OK
+[2021-11-28 13:31:58] : Read D:/projects/helloworld/qtc++/hhq/sounds/1.wav OK
+[2021-11-28 13:31:58] : Read D:/projects/helloworld/qtc++/hhq/sounds/2.wav OK
+[2021-11-28 13:31:58] : Read D:/projects/helloworld/qtc++/hhq/sounds/3.wav OK
+[2021-11-28 13:31:58] : Read D:/projects/helloworld/qtc++/hhq/sounds/5.wav OK
+[2021-11-28 13:31:58] : Read D:/projects/helloworld/qtc++/hhq/sounds/88.wav OK
+[2021-11-28 13:31:58] : Read D:/projects/helloworld/qtc++/hhq/sounds/aa.wav OK
+[2021-11-28 13:31:58] : Read D:/projects/helloworld/qtc++/hhq/sounds/tt.wav OK
+[2021-11-28 13:31:58] : Read config file:config\sound.ini successfully!
+[2021-11-28 13:31:58] : >>> Sytem is starting...
+[2021-11-28 13:31:58] : Sytem is started successfully
+[2021-11-28 13:31:59] : Login successfully with 
+[2021-11-28 13:36:23] : Close-window is cancelled
+[2021-11-28 13:37:25] : 安全警戒区域，请离开.pcm is set to repeat True
+[2021-11-28 13:45:36] : Read D:/projects/helloworld/qtc++/hhq/sounds/dddd.wav OK
+[2021-11-28 13:45:36] : Read D:/projects/helloworld/qtc++/hhq/sounds/recording/JUNSHI禁区，严禁闯入.pcm OK
+[2021-11-28 13:45:36] : Read D:/projects/helloworld/qtc++/hhq/sounds/recording/安全警戒区域，请离开.pcm OK
+[2021-11-28 13:45:36] : Read D:/projects/helloworld/qtc++/hhq/sounds/recording/安全警戒区域，请上浮.pcm OK
+[2021-11-28 13:45:36] : Read D:/projects/helloworld/qtc++/hhq/sounds/recording/发射WQ倒计时5、4、3….pcm OK
+[2021-11-28 13:45:36] : Read D:/projects/helloworld/qtc++/hhq/sounds/recording/高举毛泽东思想伟大旗帜.pcm OK
+[2021-11-28 13:45:36] : Read D:/projects/helloworld/qtc++/hhq/sounds/recording/禁止靠近码头.pcm OK
+[2021-11-28 13:45:36] : Read D:/projects/helloworld/qtc++/hhq/sounds/recording/警告！立即离开.pcm OK
+[2021-11-28 13:45:36] : Read D:/projects/helloworld/qtc++/hhq/sounds/recording/前方危险，请勿靠近.pcm OK
+[2021-11-28 13:45:36] : Read D:/projects/helloworld/qtc++/hhq/sounds/11.wav OK
+[2021-11-28 13:45:36] : Read D:/projects/helloworld/qtc++/hhq/sounds/1122.wav OK
+[2021-11-28 13:45:36] : Read D:/projects/helloworld/qtc++/hhq/sounds/nihao.wav OK
+[2021-11-28 13:45:36] : Read D:/projects/helloworld/qtc++/hhq/sounds/66666.wav OK
+[2021-11-28 13:45:36] : Read D:/projects/helloworld/qtc++/hhq/sounds/leave.wav OK
+[2021-11-28 13:45:36] : Read D:/projects/helloworld/qtc++/hhq/sounds/tone/temp820.pcm OK
+[2021-11-28 13:45:36] : Read D:/projects/helloworld/qtc++/hhq/sounds/tone/temp1000.pcm OK
+[2021-11-28 13:45:36] : Read D:/projects/helloworld/qtc++/hhq/sounds/tone/temp2000.pcm OK
+[2021-11-28 13:45:36] : Read D:/projects/helloworld/qtc++/hhq/sounds/tone/temp4000.pcm OK
+[2021-11-28 13:45:36] : Read D:/projects/helloworld/qtc++/hhq/sounds/tone/temp5500.pcm OK
+[2021-11-28 13:45:36] : Read D:/projects/helloworld/qtc++/hhq/sounds/test.wav OK
+[2021-11-28 13:45:36] : Read D:/projects/helloworld/qtc++/hhq/sounds/0.wav OK
+[2021-11-28 13:45:36] : Read D:/projects/helloworld/qtc++/hhq/sounds/1.wav OK
+[2021-11-28 13:45:36] : Read D:/projects/helloworld/qtc++/hhq/sounds/2.wav OK
+[2021-11-28 13:45:36] : Read D:/projects/helloworld/qtc++/hhq/sounds/3.wav OK
+[2021-11-28 13:45:36] : Read D:/projects/helloworld/qtc++/hhq/sounds/5.wav OK
+[2021-11-28 13:45:36] : Read D:/projects/helloworld/qtc++/hhq/sounds/88.wav OK
+[2021-11-28 13:45:36] : Read D:/projects/helloworld/qtc++/hhq/sounds/aa.wav OK
+[2021-11-28 13:45:36] : Read D:/projects/helloworld/qtc++/hhq/sounds/tt.wav OK
+[2021-11-28 13:45:36] : Read config file:config\sound.ini successfully!
+[2021-11-28 13:45:36] : >>> Sytem is starting...
+[2021-11-28 13:45:36] : Sytem is started successfully
+[2021-11-28 13:45:37] : Login successfully with 
+[2021-11-28 13:46:46] : Read D:/projects/helloworld/qtc++/hhq/sounds/dddd.wav OK
+[2021-11-28 13:46:46] : Read D:/projects/helloworld/qtc++/hhq/sounds/recording/JUNSHI禁区，严禁闯入.pcm OK
+[2021-11-28 13:46:46] : Read D:/projects/helloworld/qtc++/hhq/sounds/recording/安全警戒区域，请离开.pcm OK
+[2021-11-28 13:46:46] : Read D:/projects/helloworld/qtc++/hhq/sounds/recording/安全警戒区域，请上浮.pcm OK
+[2021-11-28 13:46:46] : Read D:/projects/helloworld/qtc++/hhq/sounds/recording/发射WQ倒计时5、4、3….pcm OK
+[2021-11-28 13:46:46] : Read D:/projects/helloworld/qtc++/hhq/sounds/recording/高举毛泽东思想伟大旗帜.pcm OK
+[2021-11-28 13:46:46] : Read D:/projects/helloworld/qtc++/hhq/sounds/recording/禁止靠近码头.pcm OK
+[2021-11-28 13:46:46] : Read D:/projects/helloworld/qtc++/hhq/sounds/recording/警告！立即离开.pcm OK
+[2021-11-28 13:46:46] : Read D:/projects/helloworld/qtc++/hhq/sounds/recording/前方危险，请勿靠近.pcm OK
+[2021-11-28 13:46:46] : Read D:/projects/helloworld/qtc++/hhq/sounds/11.wav OK
+[2021-11-28 13:46:46] : Read D:/projects/helloworld/qtc++/hhq/sounds/1122.wav OK
+[2021-11-28 13:46:46] : Read D:/projects/helloworld/qtc++/hhq/sounds/nihao.wav OK
+[2021-11-28 13:46:46] : Read D:/projects/helloworld/qtc++/hhq/sounds/66666.wav OK
+[2021-11-28 13:46:46] : Read D:/projects/helloworld/qtc++/hhq/sounds/leave.wav OK
+[2021-11-28 13:46:46] : Read D:/projects/helloworld/qtc++/hhq/sounds/tone/temp820.pcm OK
+[2021-11-28 13:46:46] : Read D:/projects/helloworld/qtc++/hhq/sounds/tone/temp1000.pcm OK
+[2021-11-28 13:46:46] : Read D:/projects/helloworld/qtc++/hhq/sounds/tone/temp2000.pcm OK
+[2021-11-28 13:46:46] : Read D:/projects/helloworld/qtc++/hhq/sounds/tone/temp4000.pcm OK
+[2021-11-28 13:46:46] : Read D:/projects/helloworld/qtc++/hhq/sounds/tone/temp5500.pcm OK
+[2021-11-28 13:46:46] : Read D:/projects/helloworld/qtc++/hhq/sounds/test.wav OK
+[2021-11-28 13:46:46] : Read D:/projects/helloworld/qtc++/hhq/sounds/0.wav OK
+[2021-11-28 13:46:46] : Read D:/projects/helloworld/qtc++/hhq/sounds/1.wav OK
+[2021-11-28 13:46:46] : Read D:/projects/helloworld/qtc++/hhq/sounds/2.wav OK
+[2021-11-28 13:46:46] : Read D:/projects/helloworld/qtc++/hhq/sounds/3.wav OK
+[2021-11-28 13:46:46] : Read D:/projects/helloworld/qtc++/hhq/sounds/5.wav OK
+[2021-11-28 13:46:46] : Read D:/projects/helloworld/qtc++/hhq/sounds/88.wav OK
+[2021-11-28 13:46:46] : Read D:/projects/helloworld/qtc++/hhq/sounds/aa.wav OK
+[2021-11-28 13:46:46] : Read D:/projects/helloworld/qtc++/hhq/sounds/tt.wav OK
+[2021-11-28 13:46:46] : Read config file:config\sound.ini successfully!
+[2021-11-28 13:46:46] : >>> Sytem is starting...
+[2021-11-28 13:46:46] : Sytem is started successfully
+[2021-11-28 13:46:47] : Login successfully with 
+[2021-11-28 14:07:25] : Read D:/projects/helloworld/qtc++/hhq/sounds/dddd.wav OK
+[2021-11-28 14:07:25] : Read D:/projects/helloworld/qtc++/hhq/sounds/recording/JUNSHI禁区，严禁闯入.pcm OK
+[2021-11-28 14:07:25] : Read D:/projects/helloworld/qtc++/hhq/sounds/recording/安全警戒区域，请离开.pcm OK
+[2021-11-28 14:07:25] : Read D:/projects/helloworld/qtc++/hhq/sounds/recording/安全警戒区域，请上浮.pcm OK
+[2021-11-28 14:07:25] : Read D:/projects/helloworld/qtc++/hhq/sounds/recording/发射WQ倒计时5、4、3….pcm OK
+[2021-11-28 14:07:25] : Read D:/projects/helloworld/qtc++/hhq/sounds/recording/高举毛泽东思想伟大旗帜.pcm OK
+[2021-11-28 14:07:25] : Read D:/projects/helloworld/qtc++/hhq/sounds/recording/禁止靠近码头.pcm OK
+[2021-11-28 14:07:25] : Read D:/projects/helloworld/qtc++/hhq/sounds/recording/警告！立即离开.pcm OK
+[2021-11-28 14:07:25] : Read D:/projects/helloworld/qtc++/hhq/sounds/recording/前方危险，请勿靠近.pcm OK
+[2021-11-28 14:07:25] : Read D:/projects/helloworld/qtc++/hhq/sounds/11.wav OK
+[2021-11-28 14:07:25] : Read D:/projects/helloworld/qtc++/hhq/sounds/1122.wav OK
+[2021-11-28 14:07:25] : Read D:/projects/helloworld/qtc++/hhq/sounds/nihao.wav OK
+[2021-11-28 14:07:25] : Read D:/projects/helloworld/qtc++/hhq/sounds/66666.wav OK
+[2021-11-28 14:07:25] : Read D:/projects/helloworld/qtc++/hhq/sounds/leave.wav OK
+[2021-11-28 14:07:25] : Read D:/projects/helloworld/qtc++/hhq/sounds/tone/temp820.pcm OK
+[2021-11-28 14:07:25] : Read D:/projects/helloworld/qtc++/hhq/sounds/tone/temp1000.pcm OK
+[2021-11-28 14:07:25] : Read D:/projects/helloworld/qtc++/hhq/sounds/tone/temp2000.pcm OK
+[2021-11-28 14:07:25] : Read D:/projects/helloworld/qtc++/hhq/sounds/tone/temp4000.pcm OK
+[2021-11-28 14:07:25] : Read D:/projects/helloworld/qtc++/hhq/sounds/tone/temp5500.pcm OK
+[2021-11-28 14:07:25] : Read D:/projects/helloworld/qtc++/hhq/sounds/test.wav OK
+[2021-11-28 14:07:25] : Read D:/projects/helloworld/qtc++/hhq/sounds/0.wav OK
+[2021-11-28 14:07:25] : Read D:/projects/helloworld/qtc++/hhq/sounds/1.wav OK
+[2021-11-28 14:07:25] : Read D:/projects/helloworld/qtc++/hhq/sounds/2.wav OK
+[2021-11-28 14:07:25] : Read D:/projects/helloworld/qtc++/hhq/sounds/3.wav OK
+[2021-11-28 14:07:25] : Read D:/projects/helloworld/qtc++/hhq/sounds/5.wav OK
+[2021-11-28 14:07:25] : Read D:/projects/helloworld/qtc++/hhq/sounds/88.wav OK
+[2021-11-28 14:07:25] : Read D:/projects/helloworld/qtc++/hhq/sounds/aa.wav OK
+[2021-11-28 14:07:25] : Read D:/projects/helloworld/qtc++/hhq/sounds/tt.wav OK
+[2021-11-28 14:07:25] : Read config file:config\sound.ini successfully!
+[2021-11-28 14:07:25] : >>> Sytem is starting...
+[2021-11-28 14:07:25] : Sytem is started successfully
+[2021-11-28 14:07:26] : Login successfully with 
+[2021-11-28 14:18:40] : Read D:/projects/helloworld/qtc++/hhq/sounds/dddd.wav OK
+[2021-11-28 14:18:40] : Read D:/projects/helloworld/qtc++/hhq/sounds/recording/JUNSHI禁区，严禁闯入.pcm OK
+[2021-11-28 14:18:40] : Read D:/projects/helloworld/qtc++/hhq/sounds/recording/安全警戒区域，请离开.pcm OK
+[2021-11-28 14:18:40] : Read D:/projects/helloworld/qtc++/hhq/sounds/recording/安全警戒区域，请上浮.pcm OK
+[2021-11-28 14:18:40] : Read D:/projects/helloworld/qtc++/hhq/sounds/recording/发射WQ倒计时5、4、3….pcm OK
+[2021-11-28 14:18:40] : Read D:/projects/helloworld/qtc++/hhq/sounds/recording/高举毛泽东思想伟大旗帜.pcm OK
+[2021-11-28 14:18:40] : Read D:/projects/helloworld/qtc++/hhq/sounds/recording/禁止靠近码头.pcm OK
+[2021-11-28 14:18:40] : Read D:/projects/helloworld/qtc++/hhq/sounds/recording/警告！立即离开.pcm OK
+[2021-11-28 14:18:40] : Read D:/projects/helloworld/qtc++/hhq/sounds/recording/前方危险，请勿靠近.pcm OK
+[2021-11-28 14:18:40] : Read D:/projects/helloworld/qtc++/hhq/sounds/11.wav OK
+[2021-11-28 14:18:40] : Read D:/projects/helloworld/qtc++/hhq/sounds/1122.wav OK
+[2021-11-28 14:18:40] : Read D:/projects/helloworld/qtc++/hhq/sounds/nihao.wav OK
+[2021-11-28 14:18:40] : Read D:/projects/helloworld/qtc++/hhq/sounds/66666.wav OK
+[2021-11-28 14:18:40] : Read D:/projects/helloworld/qtc++/hhq/sounds/leave.wav OK
+[2021-11-28 14:18:40] : Read D:/projects/helloworld/qtc++/hhq/sounds/tone/temp820.pcm OK
+[2021-11-28 14:18:40] : Read D:/projects/helloworld/qtc++/hhq/sounds/tone/temp1000.pcm OK
+[2021-11-28 14:18:40] : Read D:/projects/helloworld/qtc++/hhq/sounds/tone/temp2000.pcm OK
+[2021-11-28 14:18:40] : Read D:/projects/helloworld/qtc++/hhq/sounds/tone/temp4000.pcm OK
+[2021-11-28 14:18:40] : Read D:/projects/helloworld/qtc++/hhq/sounds/tone/temp5500.pcm OK
+[2021-11-28 14:18:40] : Read D:/projects/helloworld/qtc++/hhq/sounds/test.wav OK
+[2021-11-28 14:18:40] : Read D:/projects/helloworld/qtc++/hhq/sounds/0.wav OK
+[2021-11-28 14:18:40] : Read D:/projects/helloworld/qtc++/hhq/sounds/1.wav OK
+[2021-11-28 14:18:40] : Read D:/projects/helloworld/qtc++/hhq/sounds/2.wav OK
+[2021-11-28 14:18:40] : Read D:/projects/helloworld/qtc++/hhq/sounds/3.wav OK
+[2021-11-28 14:18:40] : Read D:/projects/helloworld/qtc++/hhq/sounds/5.wav OK
+[2021-11-28 14:18:40] : Read D:/projects/helloworld/qtc++/hhq/sounds/88.wav OK
+[2021-11-28 14:18:40] : Read D:/projects/helloworld/qtc++/hhq/sounds/aa.wav OK
+[2021-11-28 14:18:40] : Read D:/projects/helloworld/qtc++/hhq/sounds/tt.wav OK
+[2021-11-28 14:18:40] : Read config file:config\sound.ini successfully!
+[2021-11-28 14:18:40] : >>> Sytem is starting...
+[2021-11-28 14:18:40] : Sytem is started successfully
+[2021-11-28 14:18:41] : Login successfully with 
+[2021-11-28 14:25:07] : Read D:/projects/helloworld/qtc++/hhq/sounds/dddd.wav OK
+[2021-11-28 14:25:07] : Read D:/projects/helloworld/qtc++/hhq/sounds/recording/JUNSHI禁区，严禁闯入.pcm OK
+[2021-11-28 14:25:07] : Read D:/projects/helloworld/qtc++/hhq/sounds/recording/安全警戒区域，请离开.pcm OK
+[2021-11-28 14:25:07] : Read D:/projects/helloworld/qtc++/hhq/sounds/recording/安全警戒区域，请上浮.pcm OK
+[2021-11-28 14:25:07] : Read D:/projects/helloworld/qtc++/hhq/sounds/recording/发射WQ倒计时5、4、3….pcm OK
+[2021-11-28 14:25:07] : Read D:/projects/helloworld/qtc++/hhq/sounds/recording/高举毛泽东思想伟大旗帜.pcm OK
+[2021-11-28 14:25:07] : Read D:/projects/helloworld/qtc++/hhq/sounds/recording/禁止靠近码头.pcm OK
+[2021-11-28 14:25:07] : Read D:/projects/helloworld/qtc++/hhq/sounds/recording/警告！立即离开.pcm OK
+[2021-11-28 14:25:07] : Read D:/projects/helloworld/qtc++/hhq/sounds/recording/前方危险，请勿靠近.pcm OK
+[2021-11-28 14:25:07] : Read D:/projects/helloworld/qtc++/hhq/sounds/11.wav OK
+[2021-11-28 14:25:07] : Read D:/projects/helloworld/qtc++/hhq/sounds/1122.wav OK
+[2021-11-28 14:25:07] : Read D:/projects/helloworld/qtc++/hhq/sounds/nihao.wav OK
+[2021-11-28 14:25:07] : Read D:/projects/helloworld/qtc++/hhq/sounds/66666.wav OK
+[2021-11-28 14:25:07] : Read D:/projects/helloworld/qtc++/hhq/sounds/leave.wav OK
+[2021-11-28 14:25:07] : Read D:/projects/helloworld/qtc++/hhq/sounds/tone/temp820.pcm OK
+[2021-11-28 14:25:07] : Read D:/projects/helloworld/qtc++/hhq/sounds/tone/temp1000.pcm OK
+[2021-11-28 14:25:07] : Read D:/projects/helloworld/qtc++/hhq/sounds/tone/temp2000.pcm OK
+[2021-11-28 14:25:07] : Read D:/projects/helloworld/qtc++/hhq/sounds/tone/temp4000.pcm OK
+[2021-11-28 14:25:07] : Read D:/projects/helloworld/qtc++/hhq/sounds/tone/temp5500.pcm OK
+[2021-11-28 14:25:07] : Read D:/projects/helloworld/qtc++/hhq/sounds/test.wav OK
+[2021-11-28 14:25:07] : Read D:/projects/helloworld/qtc++/hhq/sounds/0.wav OK
+[2021-11-28 14:25:07] : Read D:/projects/helloworld/qtc++/hhq/sounds/1.wav OK
+[2021-11-28 14:25:07] : Read D:/projects/helloworld/qtc++/hhq/sounds/2.wav OK
+[2021-11-28 14:25:07] : Read D:/projects/helloworld/qtc++/hhq/sounds/3.wav OK
+[2021-11-28 14:25:07] : Read D:/projects/helloworld/qtc++/hhq/sounds/5.wav OK
+[2021-11-28 14:25:07] : Read D:/projects/helloworld/qtc++/hhq/sounds/88.wav OK
+[2021-11-28 14:25:07] : Read D:/projects/helloworld/qtc++/hhq/sounds/aa.wav OK
+[2021-11-28 14:25:07] : Read D:/projects/helloworld/qtc++/hhq/sounds/tt.wav OK
+[2021-11-28 14:25:07] : Read config file:config\sound.ini successfully!
+[2021-11-28 14:25:07] : >>> Sytem is starting...
+[2021-11-28 14:25:07] : Sytem is started successfully
+[2021-11-28 14:25:08] : Login successfully with 
+[2021-11-28 14:31:24] : Check Logs
