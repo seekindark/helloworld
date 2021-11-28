@@ -5,3 +5,4 @@ dist
 *.stackdump
 *.[oa]
 *.code-workspace
+*hhq*/

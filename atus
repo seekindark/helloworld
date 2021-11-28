@@ -1,0 +1,295 @@
+[33mcommit 0b21d8b98b415ed78d9ab8136dc945b09cc6bf63[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: seekindark <fei_n_chen@163.com>
+Date:   Sat Nov 20 19:53:32 2021 +0800
+
+    hhq-gui-03
+
+[33mcommit 94f89b2b3ad862b92e2d60b99cfcc9b35134ff15[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: seekindark <fei_n_chen@163.com>
+Date:   Fri Nov 19 08:46:30 2021 +0800
+
+    hhq gui-02
+
+[33mcommit a9aefa13cbd28fdbd39dac7487398c48609694db[m
+Author: seekindark <fei_n_chen@163.com>
+Date:   Wed Nov 17 08:42:40 2021 +0800
+
+    1st GUI draft
+
+[33mcommit 246918ff39f428b1d7175c99fbe65fedcb7e5c67[m
+Author: seekindark <fei_n_chen@163.com>
+Date:   Fri Nov 12 22:19:22 2021 +0800
+
+    store hhq codes temporay
+
+[33mcommit 9bb9440c3740cb5bced04c7abb483f37e7585562[m
+Author: seekindark <fei_n_chen@163.com>
+Date:   Tue Nov 9 19:58:53 2021 +0800
+
+    test code
+
+[33mcommit 213820a238ccf568436365e1fa6c6a20467fdfbf[m
+Author: seekindark <fei_n_chen@163.com>
+Date:   Tue Nov 9 19:57:59 2021 +0800
+
+    hhq coding started
+
+[33mcommit 7a7f3b1f5e2bb62a0d852476a4bbcaab33f02d37[m
+Merge: 3fcd518 eb46194
+Author: seekindark <fei_n_chen@163.com>
+Date:   Fri Nov 5 12:02:45 2021 +0800
+
+    Merge branch 'master' of github.com:seekindark/helloworld
+
+[33mcommit 3fcd518070f16159b4c7ebbf9e5c4bed700fb7c1[m
+Author: seekindark <fei_n_chen@163.com>
+Date:   Fri Nov 5 12:02:12 2021 +0800
+
+    update some py-qt exercies
+
+[33mcommit eb46194cea36ec3a6dac89ddbfcad6be337b4308[m
+Author: seekindark <fei_n_chen@163.com>
+Date:   Mon Aug 16 20:09:28 2021 +0800
+
+    checkin all exercises files left in this PC since Jan 2021
+
+[33mcommit dd2955c4a85473e2fdf152e6ca77961c70ae0701[m
+Author: seekindark <fei_n_chen@163.com>
+Date:   Wed Jan 13 17:02:23 2021 +0800
+
+    bar and stacked-bar in matplot
+
+[33mcommit f12d1e202d2b6e3118b6d2d3307234b393156c5f[m
+Author: seekindark <fei_n_chen@163.com>
+Date:   Sun Jan 10 18:52:02 2021 +0800
+
+    exercise @home
+
+[33mcommit 08002ed0221bd611cbe99f94737cd65ca9a5a274[m
+Author: seekindark <fei_n_chen@163.com>
+Date:   Sun Jan 10 10:06:58 2021 +0800
+
+    Qt exercises 3
+
+[33mcommit 1f8e338e65c487aabeb9bfa2ff9cf5b0532b0607[m
+Author: seekindark <fei_n_chen@163.com>
+Date:   Wed Jan 6 21:31:40 2021 +0800
+
+    Exercise:pyQT5: QDockWidget, QTreeWidget, QMdiArea
+
+[33mcommit b3444463fa07c7005251c8e767e3c9d7a02abef6[m
+Author: seekindark <fei_n_chen@163.com>
+Date:   Thu Dec 31 14:59:36 2020 +0800
+
+    tree——tabWidget
+
+[33mcommit 19e0ce1fbeb2b27346823f5c30d556ea6ac76bc2[m
+Author: seekindark <fei_n_chen@163.com>
+Date:   Thu Dec 31 10:58:01 2020 +0800
+
+    sync
+
+[33mcommit 82c4880d2b90f6900007d8a56f63e88494aeadc3[m
+Author: seekindark <fei_n_chen@163.com>
+Date:   Wed Dec 30 12:45:57 2020 +0800
+
+    pyQT exercises
+
+[33mcommit fb63ec2bbd7c643707a1431b5d2ab94d7fe6ec4a[m
+Author: seekindark <fei_n_chen@163.com>
+Date:   Sat Dec 26 10:30:09 2020 +0800
+
+    pyQT MID and signal
+
+[33mcommit 7510b879b1b6d1114e74a4b45021e65c43fa188d[m
+Author: seekindark <fei_n_chen@163.com>
+Date:   Sat Nov 21 20:10:42 2020 +0800
+
+    added 13_QTPlot_dynamic-2.py and QTPlot_Ui_Realtimer_Plot.py - a great example of dynamic plot in QT
+
+[33mcommit 71b6b41d53bfc6e6273741b6c83694766b126edc[m
+Author: seekindark <fei_n_chen@163.com>
+Date:   Sat Nov 21 12:09:27 2020 +0800
+
+    exercises for QT5+Matplotlib
+
+[33mcommit 97769feb206708b8be68a95c48df1287adcbb3e3[m
+Author: seekindark <fei_n_chen@163.com>
+Date:   Tue Nov 17 07:54:47 2020 +0800
+
+    remove .exe, and .stackdump files
+
+[33mcommit 712146c7742c6feecf91faccdf2c36c6607d467e[m
+Author: seekindark <fei_n_chen@163.com>
+Date:   Mon Nov 16 16:30:41 2020 +0800
+
+    Update README.md
+
+[33mcommit 448482c2d552b4eb0518f4e4ce1f041a2daef37a[m
+Author: seekindark <fei_n_chen@163.com>
+Date:   Mon Nov 16 16:29:55 2020 +0800
+
+    move out readme.md and license to the root dir
+
+[33mcommit 27471ddbf82ca8cc2146d60dabe9b0954ab2bb58[m
+Author: seekindark <fei_n_chen@163.com>
+Date:   Mon Nov 16 16:27:26 2020 +0800
+
+    add more test files for differnet lanuage
+
+[33mcommit 34f267cdabc7c78489e9a2a234726dddc066c879[m
+Author: seekindark <fei_n_chen@163.com>
+Date:   Mon Nov 16 15:53:04 2020 +0800
+
+    create a dir c-test to put all c test files
+
+[33mcommit 07d01e82e3005d76dab74e926644adc0cc875838[m
+Author: seekindark <fei_n_chen@163.com>
+Date:   Mon Nov 16 15:33:53 2020 +0800
+
+    Modified a little of readme.md with corrected username and email
+
+[33mcommit 3e72ad4c183aa1d727510f3651bd056d67ae9075[m
+Author: seekindark <fei_n_chen@163.com>
+Date:   Wed Apr 8 18:56:23 2020 +0800
+
+    Update hw.c
+    
+    add a testline
+
+[33mcommit b81f195617253e2015cbdf7519518536f3205844[m
+Merge: 533ca60 4273d10
+Author: seekindark <fred3chen@126.com>
+Date:   Fri Sep 27 16:19:15 2019 +0800
+
+    Merge branch 'master' of github.com:seekindark/helloworld
+    
+    BfI would like to merge it
+
+[33mcommit 533ca60d6ec635499f1182cfdca2c8dd3c143afd[m
+Merge: a23179b 123ef83
+Author: seekindark <fred3chen@126.com>
+Date:   Fri Sep 27 16:18:10 2019 +0800
+
+    merged confliction
+
+[33mcommit 123ef8353e3ba8d981c6ccd29823f79ed627a46b[m
+Author: seekindark <fred3chen@126.com>
+Date:   Fri Sep 27 16:12:34 2019 +0800
+
+    updated hw.c
+
+[33mcommit 4273d1077edc058880755baa033a75c0a5c482cf[m
+Merge: 4080533 a23179b
+Author: seekindark <fei_n_chen@163.com>
+Date:   Fri Sep 27 16:07:00 2019 +0800
+
+    Merge pull request #5 from seekindark/f3
+    
+    added feature f3
+
+[33mcommit a23179b4cb024b0f38e49d15807ae36324046073[m
+Author: seekindark <fred3chen@126.com>
+Date:   Fri Sep 27 16:05:28 2019 +0800
+
+    added feature f3
+
+[33mcommit 4080533dedb63b4906ea3b30eff736f77060a0fc[m
+Author: fred3chen <fred3chen@126.com>
+Date:   Fri Sep 27 10:45:25 2019 +0800
+
+    add a new feature 2.1 based on hw2
+
+[33mcommit c48f70a289532cadbdae9bb268a6cf4d8741f899[m
+Author: seekindark <fei_n_chen@163.com>
+Date:   Mon Jun 24 21:45:00 2019 +0800
+
+    add a new file hw2.c
+
+[33mcommit d27408fbda01b195829c14ab444da928f2a9f0f2[m
+Author: seekindark <fei_n_chen@163.com>
+Date:   Mon Jun 24 21:14:46 2019 +0800
+
+    add a words at the end
+
+[33mcommit 4a5c8593957d038f772c94e4ca95b37ab81ab336[m
+Merge: 343d342 cc45c34
+Author: seekindark <fei_n_chen@163.com>
+Date:   Mon Jun 24 21:00:30 2019 +0800
+
+    Merge pull request #4 from seekindark/feature_hw
+    
+    inserted a new line
+
+[33mcommit cc45c3499063aa2dfd092b006a32e3344f6322c9[m
+Author: seekindark <fei_n_chen@163.com>
+Date:   Mon Jun 24 20:52:04 2019 +0800
+
+    inserted a new line
+
+[33mcommit 343d342e84a29a40908ba9496ce4052c590d4d17[m
+Merge: e33f69a 2f2299a
+Author: seekindark <fei_n_chen@163.com>
+Date:   Mon Jun 24 09:39:14 2019 +0800
+
+    Merge pull request #3 from seekindark/feature_hw
+    
+    2nd time delivery of the feature HW
+
+[33mcommit 2f2299aad30e5c0062cd5d6c363bdaa9556921b0[m
+Merge: b286efe e33f69a
+Author: seekindark <fei_n_chen@163.com>
+Date:   Mon Jun 24 09:38:18 2019 +0800
+
+    Merge branch 'master' into feature_hw
+
+[33mcommit b286efec731b71e584d94390c4e2a60a0c843c28[m
+Author: seekindark <fei_n_chen@163.com>
+Date:   Mon Jun 24 09:33:10 2019 +0800
+
+    Update hw.c
+
+[33mcommit d84af6139f9467d0993c24ba97628dc5d2861d5a[m
+Author: seekindark <fei_n_chen@163.com>
+Date:   Mon Jun 24 09:32:47 2019 +0800
+
+    Updated to Beijing
+
+[33mcommit e33f69a96538676aa0bfea88beb267f8b5a4b7c6[m
+Author: seekindark <fei_n_chen@163.com>
+Date:   Mon Jun 24 09:30:24 2019 +0800
+
+    update hw.c from master directly
+    
+    added a missing '\n'
+
+[33mcommit e10072d13c0da58cf4a6df499a331a957b452d59[m
+Merge: 32c2c22 3ec560d
+Author: seekindark <fei_n_chen@163.com>
+Date:   Mon Jun 24 09:28:39 2019 +0800
+
+    Merge pull request #2 from seekindark/feature_hw
+    
+    delivered Feature hw
+
+[33mcommit 3ec560dc00d894097bc0fb9bd263109afa303ebd[m
+Author: seekindark <fei_n_chen@163.com>
+Date:   Mon Jun 24 09:23:41 2019 +0800
+
+    Modified hw.c
+    
+    chagned to shanghai
+
+[33mcommit bb950ef746d761aaa59a49d3bbedf3c7f9e83a22[m
+Author: seekindark <fei_n_chen@163.com>
+Date:   Mon Jun 24 09:22:03 2019 +0800
+
+    create hw.c
+    
+    try to create a file
+
+[33mcommit 32c2c22a36925c62caf8d30838673eea9c312897[m
+Author: seekindark <fei_n_chen@163.com>
+Date:   Mon Jun 24 08:31:59 2019 +0800
+
+    Initial commit

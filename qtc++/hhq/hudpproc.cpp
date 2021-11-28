@@ -285,6 +285,7 @@ const QString HUdpProc::powerModState2Str(int id, int val)
         return "N/A";
     }
 
+#if 0
     QString str;
     if(val==0)            //CF: 后三位BIT全 0 表示正常
     {
@@ -309,6 +310,10 @@ const QString HUdpProc::powerModState2Str(int id, int val)
     }
 
     return str;
+#else
+    return "Normal";
+#endif
+
 }
 
 const QString HUdpProc::powerAmpState2Str(int id, int val)
@@ -325,7 +330,7 @@ const QString HUdpProc::powerAmpState2Str(int id, int val)
         return "N/A";
     }
 
-    QString str = QString::number(val);
+    QString str;
      if(val==0x7)    //CF: 后三位BIT全 1 表示正常
      {
          str = "Normal";
