@@ -31,4 +31,4 @@ if __name__ == '__main__':
     listWidget.show()
     sys.exit(app.exec_())
 
-    QListWidgetItem.in
+    
