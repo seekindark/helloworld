@@ -154,10 +154,10 @@ class DemoMdi(QMainWindow):
 
         self.initTree()
         self.dockWind.setWidget(self.tree)
-        self.dockWind.setFloating(False)                            # set floating = false
+        self.dockWind.setFloating(True)                            # set floating = false
         self.addDockWidget(Qt.LeftDockWidgetArea, self.dockWind)    # set the position at left side
         # remove all features of DockWidget like Closable, Moveable, Floatable, VerticalTitle etc.
-        self.dockWind.setFeatures(QDockWidget.NoDockWidgetFeatures) 
+        #self.dockWind.setFeatures(QDockWidget.NoDockWidgetFeatures) 
 
     def initTree(self):
         self.tree = QTreeWidget()
